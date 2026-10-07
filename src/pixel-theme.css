@@ -1,0 +1,15 @@
+.pixel-snow-container{position:fixed;inset:0;z-index:1;overflow:hidden;pointer-events:none;contain:strict;opacity:.42}
+.pixel-snow-container canvas{display:block;width:100%;height:100%;image-rendering:pixelated;pointer-events:none}
+/* Only backgrounds receive snow. Paper, artwork and text sit above the layer. */
+main>section>:is(.section-heading,.about-paper,.collection-intro,.category-panel-transition,.work-note,.skills-grid,.tool-line,.contact-sheet){position:relative;z-index:2}
+.hero-copy,.hero-art.hero-file-art,.hero-topline,.hero-bottom,.contact footer{z-index:2}
+.ribbon{position:relative;z-index:2}
+.pixel-star{display:inline-block;width:1em;height:1em;vertical-align:-.12em;overflow:visible}
+.pixel-arrow{width:17px;height:17px;flex:none}
+.hero-stack-pagination>button{display:grid;place-items:center}
+.hero-stack-dots button>span{border-radius:1px;width:6px;height:6px}
+.hero-stack-dots button.active>span{border-radius:1px}
+.folder-dot{border-radius:1px}
+.skill-top small{border-radius:4px;box-shadow:2px 2px 0 #a9bfff}
+.nav nav a.active:after{height:3px;background:repeating-linear-gradient(90deg,var(--pink) 0 4px,transparent 4px 6px)}
+@media(prefers-reduced-motion:reduce){.pixel-snow-container{display:none}}

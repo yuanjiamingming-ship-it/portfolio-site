@@ -1,0 +1,108 @@
+[
+  {
+    "id": "1-1",
+    "title": "咩咩幻想曲",
+    "src": "covers/series-1-1.webp",
+    "width": 1800,
+    "height": 1008,
+    "category": "风格图库"
+  },
+  {
+    "id": "1-2",
+    "title": "幽夜派对",
+    "src": "covers/series-1-2.webp",
+    "width": 1800,
+    "height": 1004,
+    "category": "风格图库"
+  },
+  {
+    "id": "1-3",
+    "title": "山野奇遇",
+    "src": "covers/series-1-3.webp",
+    "width": 1800,
+    "height": 1282,
+    "category": "风格图库"
+  },
+  {
+    "id": "1-4",
+    "title": "粉色漫游",
+    "src": "covers/series-1-4.webp",
+    "width": 1800,
+    "height": 1273,
+    "category": "风格图库"
+  },
+  {
+    "id": "1-5",
+    "title": "星辰汇",
+    "src": "covers/series-1-5.webp",
+    "width": 1800,
+    "height": 1295,
+    "category": "风格图库"
+  },
+  {
+    "id": "2-1",
+    "title": "米奇系列",
+    "category": "数字藏品头像",
+    "width": 3,
+    "height": 2,
+    "avatars": [
+      {
+        "src": "collection/2-1-001-thumb.webp",
+        "label": "小丑女"
+      },
+      {
+        "src": "collection/2-1-002-thumb.webp",
+        "label": "小丑男"
+      },
+      {
+        "src": "collection/2-1-003-thumb.webp",
+        "label": "拼图玩偶女"
+      },
+      {
+        "src": "collection/2-1-004-thumb.webp",
+        "label": "拼图玩偶男--监修中"
+      },
+      {
+        "src": "collection/2-1-005-thumb.webp",
+        "label": "毛线女"
+      },
+      {
+        "src": "collection/2-1-006-thumb.webp",
+        "label": "毛线男"
+      }
+    ]
+  },
+  {
+    "id": "2-2",
+    "title": "库洛米系列",
+    "category": "数字藏品头像",
+    "width": 3,
+    "height": 2,
+    "avatars": [
+      {
+        "src": "collection/2-2-001-thumb.webp",
+        "label": "女拿着香槟"
+      },
+      {
+        "src": "collection/2-2-002-thumb.webp",
+        "label": "女潮流"
+      },
+      {
+        "src": "collection/2-2-003-thumb.webp",
+        "label": "女红头发拿饮料"
+      },
+      {
+        "src": "collection/2-2-004-thumb.webp",
+        "label": "女耳机"
+      },
+      {
+        "src": "collection/2-2-005-thumb.webp",
+        "label": "女西瓜泳装"
+      },
+      {
+        "src": "collection/2-2-006-thumb.webp",
+        "label": "女隐藏"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3371 @@
+[
+  {
+    "id": "1-1",
+    "categoryId": "1",
+    "category": "风格图库",
+    "title": "咩咩幻想曲",
+    "code": "1",
+    "folderName": "1咩咩幻想曲",
+    "cover": "collection/1-1-017.webp",
+    "groups": [
+      "主题视觉",
+      "角色图案",
+      "字体设计",
+      "pattern设计"
+    ],
+    "images": [
+      {
+        "id": "1-1-017",
+        "src": "collection/1-1-017.webp",
+        "thumb": "collection/1-1-017-theme-thumb.webp",
+        "filename": "封面.png",
+        "label": "咩咩幻想曲 · 主题插画",
+        "group": "主题视觉",
+        "sourcePath": "1风格图库/1咩咩幻想曲/封面.png",
+        "width": 3867,
+        "height": 2165
+      },
+      {
+        "id": "1-1-019",
+        "src": "collection/1-1-019.webp",
+        "thumb": "collection/1-1-019-thumb.webp",
+        "filename": "羊年做梦(1).png",
+        "label": "星月绵羊梦环",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/1咩咩幻想曲/角色图案/羊年做梦(1).png",
+        "width": 1000,
+        "height": 1000,
+        "bounds": [
+          38,
+          48,
+          889,
+          935
+        ]
+      },
+      {
+        "id": "1-1-020",
+        "src": "collection/1-1-020.webp",
+        "thumb": "collection/1-1-020-thumb.webp",
+        "filename": "资源 16@4x.png",
+        "label": "云端抱抱",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/1咩咩幻想曲/角色图案/资源 16@4x.png",
+        "width": 1508,
+        "height": 1508,
+        "bounds": [
+          38,
+          153,
+          1460,
+          1133
+        ]
+      },
+      {
+        "id": "1-1-021",
+        "src": "collection/1-1-021.webp",
+        "thumb": "collection/1-1-021-thumb.webp",
+        "filename": "资源 17@4x.png",
+        "label": "绵羊的小疑问",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/1咩咩幻想曲/角色图案/资源 17@4x.png",
+        "width": 1949,
+        "height": 1462,
+        "bounds": [
+          110,
+          217,
+          1459,
+          1169
+        ]
+      },
+      {
+        "id": "1-1-022",
+        "src": "collection/1-1-022.webp",
+        "thumb": "collection/1-1-022-thumb.webp",
+        "filename": "资源 18@4x.png",
+        "label": "围巾与绵羊",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/1咩咩幻想曲/角色图案/资源 18@4x.png",
+        "width": 1630,
+        "height": 1630,
+        "bounds": [
+          173,
+          204,
+          1270,
+          1175
+        ]
+      },
+      {
+        "id": "1-1-023",
+        "src": "collection/1-1-023.webp",
+        "thumb": "collection/1-1-023-thumb.webp",
+        "filename": "资源 19@4x.png",
+        "label": "奶油云朵罐",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/1咩咩幻想曲/角色图案/资源 19@4x.png",
+        "width": 1396,
+        "height": 1396,
+        "bounds": [
+          95,
+          33,
+          1166,
+          1274
+        ]
+      },
+      {
+        "id": "1-1-024",
+        "src": "collection/1-1-024.webp",
+        "thumb": "collection/1-1-024-thumb.webp",
+        "filename": "资源 20@4x.png",
+        "label": "草莓漂流瓶",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/1咩咩幻想曲/角色图案/资源 20@4x.png",
+        "width": 1497,
+        "height": 1498,
+        "bounds": [
+          116,
+          24,
+          1281,
+          1438
+        ]
+      },
+      {
+        "id": "1-1-013",
+        "src": "collection/1-1-013.webp",
+        "thumb": "collection/1-1-013-thumb.webp",
+        "filename": "资源 4@4x.png",
+        "label": "星月泡泡字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/1咩咩幻想曲/字体设计/资源 4@4x.png",
+        "width": 1173,
+        "height": 735,
+        "bounds": [
+          0,
+          0,
+          1173,
+          735
+        ]
+      },
+      {
+        "id": "1-1-014",
+        "src": "collection/1-1-014.webp",
+        "thumb": "collection/1-1-014-thumb.webp",
+        "filename": "资源 5@4x.png",
+        "label": "草莓绵羊字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/1咩咩幻想曲/字体设计/资源 5@4x.png",
+        "width": 1419,
+        "height": 1108,
+        "bounds": [
+          188,
+          271,
+          1111,
+          553
+        ]
+      },
+      {
+        "id": "1-1-015",
+        "src": "collection/1-1-015.webp",
+        "thumb": "collection/1-1-015-thumb.webp",
+        "filename": "资源 6@4x.png",
+        "label": "奶油云朵字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/1咩咩幻想曲/字体设计/资源 6@4x.png",
+        "width": 1154,
+        "height": 742,
+        "bounds": [
+          6,
+          8,
+          1127,
+          730
+        ]
+      },
+      {
+        "id": "1-1-016",
+        "src": "collection/1-1-016.webp",
+        "thumb": "collection/1-1-016-thumb.webp",
+        "filename": "资源 7@4x.png",
+        "label": "星光花体字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/1咩咩幻想曲/字体设计/资源 7@4x.png",
+        "width": 1516,
+        "height": 1137,
+        "bounds": [
+          109,
+          160,
+          1302,
+          636
+        ]
+      },
+      {
+        "id": "1-1-001",
+        "src": "collection/1-1-001.webp",
+        "thumb": "collection/1-1-001-thumb.webp",
+        "filename": "资源 21@4x.png",
+        "label": "绵羊梦环散点纹样",
+        "group": "pattern设计",
+        "sourcePath": "1风格图库/1咩咩幻想曲/pattern设计/资源 21@4x.png",
+        "width": 2442,
+        "height": 2442
+      },
+      {
+        "id": "1-1-002",
+        "src": "collection/1-1-002.webp",
+        "thumb": "collection/1-1-002-thumb.webp",
+        "filename": "资源 22@4x.png",
+        "label": "蓝色梦境格纹",
+        "group": "pattern设计",
+        "sourcePath": "1风格图库/1咩咩幻想曲/pattern设计/资源 22@4x.png",
+        "width": 2441,
+        "height": 2443
+      },
+      {
+        "id": "1-1-003",
+        "src": "collection/1-1-003.webp",
+        "thumb": "collection/1-1-003-thumb.webp",
+        "filename": "资源 23@4x.png",
+        "label": "绵羊与云朵条纹",
+        "group": "pattern设计",
+        "sourcePath": "1风格图库/1咩咩幻想曲/pattern设计/资源 23@4x.png",
+        "width": 2441,
+        "height": 2443
+      },
+      {
+        "id": "1-1-004",
+        "src": "collection/1-1-004.webp",
+        "thumb": "collection/1-1-004-thumb.webp",
+        "filename": "资源 24@4x.png",
+        "label": "星月绵羊底纹",
+        "group": "pattern设计",
+        "sourcePath": "1风格图库/1咩咩幻想曲/pattern设计/资源 24@4x.png",
+        "width": 2467,
+        "height": 2466
+      }
+    ]
+  },
+  {
+    "id": "1-2",
+    "categoryId": "1",
+    "category": "风格图库",
+    "title": "幽夜派对",
+    "code": "2",
+    "folderName": "2幽夜派对",
+    "cover": "collection/1-2-034.webp",
+    "groups": [
+      "主题视觉",
+      "角色图案",
+      "字体设计",
+      "pattern设计"
+    ],
+    "images": [
+      {
+        "id": "1-2-034",
+        "src": "collection/1-2-034.webp",
+        "thumb": "collection/1-2-034-theme-thumb.webp",
+        "filename": "封面.png",
+        "label": "幽夜派对 · 主题插画",
+        "group": "主题视觉",
+        "sourcePath": "1风格图库/2幽夜派对/封面.png",
+        "width": 5377,
+        "height": 3000
+      },
+      {
+        "id": "1-2-036",
+        "src": "collection/1-2-036.webp",
+        "thumb": "collection/1-2-036-thumb.webp",
+        "filename": "资源 37@4x.png",
+        "label": "南瓜小魔法师",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/2幽夜派对/角色图案/资源 37@4x.png",
+        "width": 1985,
+        "height": 1985,
+        "bounds": [
+          103,
+          43,
+          1858,
+          1865
+        ]
+      },
+      {
+        "id": "1-2-037",
+        "src": "collection/1-2-037.webp",
+        "thumb": "collection/1-2-037-thumb.webp",
+        "filename": "资源 38@4x.png",
+        "label": "古堡吸血王子",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/2幽夜派对/角色图案/资源 38@4x.png",
+        "width": 1994,
+        "height": 1994,
+        "bounds": [
+          0,
+          240,
+          1767,
+          1650
+        ]
+      },
+      {
+        "id": "1-2-038",
+        "src": "collection/1-2-038.webp",
+        "thumb": "collection/1-2-038-thumb.webp",
+        "filename": "资源 39@4x.png",
+        "label": "月夜绷带少年",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/2幽夜派对/角色图案/资源 39@4x.png",
+        "width": 1918,
+        "height": 1918,
+        "bounds": [
+          48,
+          0,
+          1870,
+          1840
+        ]
+      },
+      {
+        "id": "1-2-039",
+        "src": "collection/1-2-039.webp",
+        "thumb": "collection/1-2-039-thumb.webp",
+        "filename": "资源 40@4x.png",
+        "label": "幽焰红帽法师",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/2幽夜派对/角色图案/资源 40@4x.png",
+        "width": 2061,
+        "height": 2061,
+        "bounds": [
+          71,
+          118,
+          1983,
+          1722
+        ]
+      },
+      {
+        "id": "1-2-029",
+        "src": "collection/1-2-029.webp",
+        "thumb": "collection/1-2-029-thumb.webp",
+        "filename": "资源 1@4x.png",
+        "label": "月夜藤蔓字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/2幽夜派对/字体设计/资源 1@4x.png",
+        "width": 1817,
+        "height": 861,
+        "bounds": [
+          11,
+          42,
+          1718,
+          736
+        ]
+      },
+      {
+        "id": "1-2-030",
+        "src": "collection/1-2-030.webp",
+        "thumb": "collection/1-2-030-thumb.webp",
+        "filename": "资源 2@4x.png",
+        "label": "蛛网涂鸦字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/2幽夜派对/字体设计/资源 2@4x.png",
+        "width": 1346,
+        "height": 1180,
+        "bounds": [
+          0,
+          7,
+          1334,
+          1165
+        ]
+      },
+      {
+        "id": "1-2-031",
+        "src": "collection/1-2-031.webp",
+        "thumb": "collection/1-2-031-thumb.webp",
+        "filename": "资源 3@4x.png",
+        "label": "荧光派对字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/2幽夜派对/字体设计/资源 3@4x.png",
+        "width": 785,
+        "height": 332,
+        "bounds": [
+          0,
+          0,
+          785,
+          332
+        ]
+      },
+      {
+        "id": "1-2-032",
+        "src": "collection/1-2-032.webp",
+        "thumb": "collection/1-2-032-thumb.webp",
+        "filename": "资源 4@4x.png",
+        "label": "蝙蝠满月字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/2幽夜派对/字体设计/资源 4@4x.png",
+        "width": 1113,
+        "height": 817,
+        "bounds": [
+          0,
+          0,
+          1113,
+          817
+        ]
+      },
+      {
+        "id": "1-2-033",
+        "src": "collection/1-2-033.webp",
+        "thumb": "collection/1-2-033-thumb.webp",
+        "filename": "资源 5@4x.png",
+        "label": "幽夜中文花体",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/2幽夜派对/字体设计/资源 5@4x.png",
+        "width": 1533,
+        "height": 741,
+        "bounds": [
+          1,
+          10,
+          1517,
+          705
+        ]
+      },
+      {
+        "id": "1-2-001",
+        "src": "collection/1-2-001.webp",
+        "thumb": "collection/1-2-001-thumb.webp",
+        "filename": "资源 35@4x.png",
+        "label": "紫夜魔法纹样",
+        "group": "pattern设计",
+        "sourcePath": "1风格图库/2幽夜派对/pattern设计/资源 35@4x.png",
+        "width": 742,
+        "height": 742
+      },
+      {
+        "id": "1-2-002",
+        "src": "collection/1-2-002.webp",
+        "thumb": "collection/1-2-002-thumb.webp",
+        "filename": "资源 36@4x.png",
+        "label": "荧光波浪纹样",
+        "group": "pattern设计",
+        "sourcePath": "1风格图库/2幽夜派对/pattern设计/资源 36@4x.png",
+        "width": 749,
+        "height": 749
+      },
+      {
+        "id": "1-2-003",
+        "src": "collection/1-2-003.webp",
+        "thumb": "collection/1-2-003-thumb.webp",
+        "filename": "资源 41@4x.png",
+        "label": "古堡角色散点纹样",
+        "group": "pattern设计",
+        "sourcePath": "1风格图库/2幽夜派对/pattern设计/资源 41@4x.png",
+        "width": 1409,
+        "height": 1409
+      },
+      {
+        "id": "1-2-004",
+        "src": "collection/1-2-004.webp",
+        "thumb": "collection/1-2-004-thumb.webp",
+        "filename": "资源 42@4x.png",
+        "label": "南瓜幽灵菱格纹",
+        "group": "pattern设计",
+        "sourcePath": "1风格图库/2幽夜派对/pattern设计/资源 42@4x.png",
+        "width": 1498,
+        "height": 1498
+      }
+    ]
+  },
+  {
+    "id": "1-3",
+    "categoryId": "1",
+    "category": "风格图库",
+    "title": "山野奇遇",
+    "code": "3",
+    "folderName": "3山野奇遇",
+    "cover": "collection/1-3-033.webp",
+    "groups": [
+      "主题视觉",
+      "角色图案",
+      "字体设计",
+      "pattern设计"
+    ],
+    "images": [
+      {
+        "id": "1-3-033",
+        "src": "collection/1-3-033.webp",
+        "thumb": "collection/1-3-033-theme-thumb.webp",
+        "filename": "封面.png",
+        "label": "山野奇遇 · 主题插画",
+        "group": "主题视觉",
+        "sourcePath": "1风格图库/3山野奇遇/封面.png",
+        "width": 3367,
+        "height": 2398
+      },
+      {
+        "id": "1-3-035",
+        "src": "collection/1-3-035.webp",
+        "thumb": "collection/1-3-035-thumb.webp",
+        "filename": "资源 25@4x.png",
+        "label": "野营小憩",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/3山野奇遇/角色图案/资源 25@4x.png",
+        "width": 1031,
+        "height": 1031,
+        "bounds": [
+          188,
+          89,
+          747,
+          767
+        ]
+      },
+      {
+        "id": "1-3-036",
+        "src": "collection/1-3-036.webp",
+        "thumb": "collection/1-3-036-thumb.webp",
+        "filename": "资源 26@4x.png",
+        "label": "林间垂钓",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/3山野奇遇/角色图案/资源 26@4x.png",
+        "width": 1156,
+        "height": 1142,
+        "bounds": [
+          236,
+          87,
+          698,
+          963
+        ]
+      },
+      {
+        "id": "1-3-037",
+        "src": "collection/1-3-037.webp",
+        "thumb": "collection/1-3-037-thumb.webp",
+        "filename": "资源 27@4x.png",
+        "label": "兔兔与花环",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/3山野奇遇/角色图案/资源 27@4x.png",
+        "width": 1821,
+        "height": 1416,
+        "bounds": [
+          322,
+          175,
+          1134,
+          1035
+        ]
+      },
+      {
+        "id": "1-3-038",
+        "src": "collection/1-3-038.webp",
+        "thumb": "collection/1-3-038-thumb.webp",
+        "filename": "资源 28@4x.png",
+        "label": "林间帽子戏法",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/3山野奇遇/角色图案/资源 28@4x.png",
+        "width": 1168,
+        "height": 1300,
+        "bounds": [
+          27,
+          74,
+          1087,
+          1069
+        ]
+      },
+      {
+        "id": "1-3-039",
+        "src": "collection/1-3-039.webp",
+        "thumb": "collection/1-3-039-thumb.webp",
+        "filename": "资源 43@4x.png",
+        "label": "森林露营",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/3山野奇遇/角色图案/资源 43@4x.png",
+        "width": 1199,
+        "height": 1091,
+        "bounds": [
+          0,
+          0,
+          1199,
+          1091
+        ]
+      },
+      {
+        "id": "1-3-040",
+        "src": "collection/1-3-040.webp",
+        "thumb": "collection/1-3-040-thumb.webp",
+        "filename": "资源 44@4x.png",
+        "label": "花束与兔兔",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/3山野奇遇/角色图案/资源 44@4x.png",
+        "width": 1683,
+        "height": 1683,
+        "bounds": [
+          195,
+          324,
+          1147,
+          1011
+        ]
+      },
+      {
+        "id": "1-3-041",
+        "src": "collection/1-3-041.webp",
+        "thumb": "collection/1-3-041-thumb.webp",
+        "filename": "资源 45@4x.png",
+        "label": "自然观察日记",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/3山野奇遇/角色图案/资源 45@4x.png",
+        "width": 1400,
+        "height": 1320,
+        "bounds": [
+          0,
+          32,
+          1400,
+          1288
+        ]
+      },
+      {
+        "id": "1-3-042",
+        "src": "collection/1-3-042.webp",
+        "thumb": "collection/1-3-042-thumb.webp",
+        "filename": "资源 46@4x.png",
+        "label": "山野旅行相框",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/3山野奇遇/角色图案/资源 46@4x.png",
+        "width": 1287,
+        "height": 1313,
+        "bounds": [
+          101,
+          46,
+          1153,
+          1150
+        ]
+      },
+      {
+        "id": "1-3-043",
+        "src": "collection/1-3-043.webp",
+        "thumb": "collection/1-3-043-thumb.webp",
+        "filename": "资源 47@4x.png",
+        "label": "路牌下的冒险",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/3山野奇遇/角色图案/资源 47@4x.png",
+        "width": 1506,
+        "height": 1318,
+        "bounds": [
+          0,
+          22,
+          1506,
+          1225
+        ]
+      },
+      {
+        "id": "1-3-044",
+        "src": "collection/1-3-044.webp",
+        "thumb": "collection/1-3-044-thumb.webp",
+        "filename": "资源 48@4x.png",
+        "label": "帐篷里的好时光",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/3山野奇遇/角色图案/资源 48@4x.png",
+        "width": 1314,
+        "height": 1108,
+        "bounds": [
+          0,
+          0,
+          1314,
+          1108
+        ]
+      },
+      {
+        "id": "1-3-029",
+        "src": "collection/1-3-029.webp",
+        "thumb": "collection/1-3-029-thumb.webp",
+        "filename": "资源 2@4x.png",
+        "label": "山野贴纸字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/3山野奇遇/字体设计/资源 2@4x.png",
+        "width": 951,
+        "height": 359,
+        "bounds": [
+          0,
+          0,
+          951,
+          359
+        ]
+      },
+      {
+        "id": "1-3-030",
+        "src": "collection/1-3-030.webp",
+        "thumb": "collection/1-3-030-thumb.webp",
+        "filename": "资源 3@4x.png",
+        "label": "山野手绘字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/3山野奇遇/字体设计/资源 3@4x.png",
+        "width": 744,
+        "height": 550,
+        "bounds": [
+          0,
+          0,
+          744,
+          550
+        ]
+      },
+      {
+        "id": "1-3-031",
+        "src": "collection/1-3-031.webp",
+        "thumb": "collection/1-3-031-thumb.webp",
+        "filename": "资源 4@4x.png",
+        "label": "露营花体字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/3山野奇遇/字体设计/资源 4@4x.png",
+        "width": 1251,
+        "height": 287,
+        "bounds": [
+          0,
+          0,
+          1251,
+          287
+        ]
+      },
+      {
+        "id": "1-3-032",
+        "src": "collection/1-3-032.webp",
+        "thumb": "collection/1-3-032-thumb.webp",
+        "filename": "资源 5@4x.png",
+        "label": "森林拼贴字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/3山野奇遇/字体设计/资源 5@4x.png",
+        "width": 1027,
+        "height": 460,
+        "bounds": [
+          0,
+          0,
+          1027,
+          460
+        ]
+      },
+      {
+        "id": "1-3-001",
+        "src": "collection/1-3-001.webp",
+        "thumb": "collection/1-3-001-thumb.webp",
+        "filename": "资源 49@4x.png",
+        "label": "兔兔森林散点纹样",
+        "group": "pattern设计",
+        "sourcePath": "1风格图库/3山野奇遇/pattern设计/资源 49@4x.png",
+        "width": 1146,
+        "height": 1161
+      },
+      {
+        "id": "1-3-002",
+        "src": "collection/1-3-002.webp",
+        "thumb": "collection/1-3-002-thumb.webp",
+        "filename": "资源 50@4x.png",
+        "label": "露营装备底纹",
+        "group": "pattern设计",
+        "sourcePath": "1风格图库/3山野奇遇/pattern设计/资源 50@4x.png",
+        "width": 1147,
+        "height": 1162
+      },
+      {
+        "id": "1-3-003",
+        "src": "collection/1-3-003.webp",
+        "thumb": "collection/1-3-003-thumb.webp",
+        "filename": "资源 51@4x.png",
+        "label": "山野日记条纹",
+        "group": "pattern设计",
+        "sourcePath": "1风格图库/3山野奇遇/pattern设计/资源 51@4x.png",
+        "width": 1160,
+        "height": 1157
+      },
+      {
+        "id": "1-3-004",
+        "src": "collection/1-3-004.webp",
+        "thumb": "collection/1-3-004-thumb.webp",
+        "filename": "资源 52@4x.png",
+        "label": "绿色营地拼贴纹样",
+        "group": "pattern设计",
+        "sourcePath": "1风格图库/3山野奇遇/pattern设计/资源 52@4x.png",
+        "width": 1147,
+        "height": 1147
+      }
+    ]
+  },
+  {
+    "id": "1-4",
+    "categoryId": "1",
+    "category": "风格图库",
+    "title": "粉色漫游",
+    "code": "4",
+    "folderName": "4粉色漫游",
+    "cover": "collection/1-4-006.webp",
+    "groups": [
+      "主题视觉",
+      "角色图案",
+      "字体设计"
+    ],
+    "images": [
+      {
+        "id": "1-4-006",
+        "src": "collection/1-4-006.webp",
+        "thumb": "collection/1-4-006-theme-thumb.webp",
+        "filename": "封面.png",
+        "label": "粉色漫游 · 主题插画",
+        "group": "主题视觉",
+        "sourcePath": "1风格图库/4粉色漫游/封面.png",
+        "width": 3368,
+        "height": 2382
+      },
+      {
+        "id": "1-4-008",
+        "src": "collection/1-4-008.webp",
+        "thumb": "collection/1-4-008-thumb.webp",
+        "filename": "资源 9@4x.png",
+        "label": "粉色招呼手势",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 9@4x.png",
+        "width": 714,
+        "height": 900,
+        "bounds": [
+          0,
+          0,
+          714,
+          900
+        ]
+      },
+      {
+        "id": "1-4-009",
+        "src": "collection/1-4-009.webp",
+        "thumb": "collection/1-4-009-thumb.webp",
+        "filename": "资源 10@4x.png",
+        "label": "粉色闪耀手势",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 10@4x.png",
+        "width": 789,
+        "height": 681,
+        "bounds": [
+          0,
+          0,
+          789,
+          681
+        ]
+      },
+      {
+        "id": "1-4-010",
+        "src": "collection/1-4-010.webp",
+        "thumb": "collection/1-4-010-thumb.webp",
+        "filename": "资源 11@4x.png",
+        "label": "薄荷挑眉",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 11@4x.png",
+        "width": 528,
+        "height": 506,
+        "bounds": [
+          0,
+          0,
+          528,
+          506
+        ]
+      },
+      {
+        "id": "1-4-011",
+        "src": "collection/1-4-011.webp",
+        "thumb": "collection/1-4-011-thumb.webp",
+        "filename": "资源 12@4x.png",
+        "label": "俏皮眨眼",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 12@4x.png",
+        "width": 525,
+        "height": 509,
+        "bounds": [
+          0,
+          0,
+          525,
+          509
+        ]
+      },
+      {
+        "id": "1-4-012",
+        "src": "collection/1-4-012.webp",
+        "thumb": "collection/1-4-012-thumb.webp",
+        "filename": "资源 13@4x.png",
+        "label": "微醺脸颊",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 13@4x.png",
+        "width": 525,
+        "height": 509,
+        "bounds": [
+          0,
+          0,
+          525,
+          509
+        ]
+      },
+      {
+        "id": "1-4-013",
+        "src": "collection/1-4-013.webp",
+        "thumb": "collection/1-4-013-thumb.webp",
+        "filename": "资源 14@4x.png",
+        "label": "咖啡时刻",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 14@4x.png",
+        "width": 530,
+        "height": 601,
+        "bounds": [
+          0,
+          0,
+          530,
+          601
+        ]
+      },
+      {
+        "id": "1-4-014",
+        "src": "collection/1-4-014.webp",
+        "thumb": "collection/1-4-014-thumb.webp",
+        "filename": "资源 15@4x.png",
+        "label": "粉色绅士",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 15@4x.png",
+        "width": 829,
+        "height": 1510,
+        "bounds": [
+          0,
+          0,
+          829,
+          1510
+        ]
+      },
+      {
+        "id": "1-4-015",
+        "src": "collection/1-4-015.webp",
+        "thumb": "collection/1-4-015-thumb.webp",
+        "filename": "资源 16@4x.png",
+        "label": "经典粉色西装",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 16@4x.png",
+        "width": 839,
+        "height": 1491,
+        "bounds": [
+          0,
+          0,
+          839,
+          1491
+        ]
+      },
+      {
+        "id": "1-4-016",
+        "src": "collection/1-4-016.webp",
+        "thumb": "collection/1-4-016-thumb.webp",
+        "filename": "资源 17@4x.png",
+        "label": "奔跑的风",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 17@4x.png",
+        "width": 828,
+        "height": 1464,
+        "bounds": [
+          0,
+          0,
+          828,
+          1464
+        ]
+      },
+      {
+        "id": "1-4-017",
+        "src": "collection/1-4-017.webp",
+        "thumb": "collection/1-4-017-thumb.webp",
+        "filename": "资源 18@4x.png",
+        "label": "玫瑰与心意",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 18@4x.png",
+        "width": 854,
+        "height": 1384,
+        "bounds": [
+          0,
+          0,
+          854,
+          1384
+        ]
+      },
+      {
+        "id": "1-4-018",
+        "src": "collection/1-4-018.webp",
+        "thumb": "collection/1-4-018-thumb.webp",
+        "filename": "资源 19@4x.png",
+        "label": "西装问候",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 19@4x.png",
+        "width": 846,
+        "height": 1424,
+        "bounds": [
+          0,
+          0,
+          846,
+          1424
+        ]
+      },
+      {
+        "id": "1-4-019",
+        "src": "collection/1-4-019.webp",
+        "thumb": "collection/1-4-019-thumb.webp",
+        "filename": "资源 20@4x.png",
+        "label": "口袋里的玫瑰",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 20@4x.png",
+        "width": 853,
+        "height": 1461,
+        "bounds": [
+          0,
+          0,
+          853,
+          1461
+        ]
+      },
+      {
+        "id": "1-4-020",
+        "src": "collection/1-4-020.webp",
+        "thumb": "collection/1-4-020-thumb.webp",
+        "filename": "资源 21@4x.png",
+        "label": "粉色出发日",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 21@4x.png",
+        "width": 851,
+        "height": 1325,
+        "bounds": [
+          0,
+          0,
+          851,
+          1325
+        ]
+      },
+      {
+        "id": "1-4-021",
+        "src": "collection/1-4-021.webp",
+        "thumb": "collection/1-4-021-thumb.webp",
+        "filename": "资源 22@4x.png",
+        "label": "薄荷格纹小卡",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 22@4x.png",
+        "width": 941,
+        "height": 1255,
+        "bounds": [
+          0,
+          0,
+          941,
+          1255
+        ]
+      },
+      {
+        "id": "1-4-022",
+        "src": "collection/1-4-022.webp",
+        "thumb": "collection/1-4-022-thumb.webp",
+        "filename": "资源 23@4x.png",
+        "label": "玫瑰时光小卡",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 23@4x.png",
+        "width": 942,
+        "height": 1255,
+        "bounds": [
+          0,
+          0,
+          942,
+          1255
+        ]
+      },
+      {
+        "id": "1-4-023",
+        "src": "collection/1-4-023.webp",
+        "thumb": "collection/1-4-023-thumb.webp",
+        "filename": "资源 24@4x.png",
+        "label": "粉色绅士小卡",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 24@4x.png",
+        "width": 942,
+        "height": 1255,
+        "bounds": [
+          0,
+          0,
+          942,
+          1255
+        ]
+      },
+      {
+        "id": "1-4-024",
+        "src": "collection/1-4-024.webp",
+        "thumb": "collection/1-4-024-thumb.webp",
+        "filename": "资源 25@4x.png",
+        "label": "心动时刻小卡",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 25@4x.png",
+        "width": 941,
+        "height": 1255,
+        "bounds": [
+          0,
+          0,
+          941,
+          1255
+        ]
+      },
+      {
+        "id": "1-4-025",
+        "src": "collection/1-4-025.webp",
+        "thumb": "collection/1-4-025-thumb.webp",
+        "filename": "资源 26@4x.png",
+        "label": "圆形玫瑰徽章",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 26@4x.png",
+        "width": 502,
+        "height": 502,
+        "bounds": [
+          0,
+          0,
+          502,
+          502
+        ]
+      },
+      {
+        "id": "1-4-026",
+        "src": "collection/1-4-026.webp",
+        "thumb": "collection/1-4-026-thumb.webp",
+        "filename": "资源 28@4x.png",
+        "label": "巧克力格纹徽章",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 28@4x.png",
+        "width": 492,
+        "height": 491,
+        "bounds": [
+          0,
+          0,
+          492,
+          491
+        ]
+      },
+      {
+        "id": "1-4-027",
+        "src": "collection/1-4-027.webp",
+        "thumb": "collection/1-4-027-thumb.webp",
+        "filename": "资源 29@4x.png",
+        "label": "奶油玫瑰徽章",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 29@4x.png",
+        "width": 497,
+        "height": 497,
+        "bounds": [
+          0,
+          0,
+          497,
+          497
+        ]
+      },
+      {
+        "id": "1-4-028",
+        "src": "collection/1-4-028.webp",
+        "thumb": "collection/1-4-028-thumb.webp",
+        "filename": "资源 30@4x.png",
+        "label": "薄荷条纹徽章",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 30@4x.png",
+        "width": 491,
+        "height": 491,
+        "bounds": [
+          0,
+          0,
+          491,
+          491
+        ]
+      },
+      {
+        "id": "1-4-029",
+        "src": "collection/1-4-029.webp",
+        "thumb": "collection/1-4-029-thumb.webp",
+        "filename": "资源 31@4x.png",
+        "label": "粉色爱心徽章",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 31@4x.png",
+        "width": 492,
+        "height": 491,
+        "bounds": [
+          0,
+          0,
+          492,
+          491
+        ]
+      },
+      {
+        "id": "1-4-030",
+        "src": "collection/1-4-030.webp",
+        "thumb": "collection/1-4-030-thumb.webp",
+        "filename": "资源 32@4x.png",
+        "label": "奶油咖啡徽章",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 32@4x.png",
+        "width": 497,
+        "height": 497,
+        "bounds": [
+          0,
+          0,
+          497,
+          497
+        ]
+      },
+      {
+        "id": "1-4-031",
+        "src": "collection/1-4-031.webp",
+        "thumb": "collection/1-4-031-thumb.webp",
+        "filename": "资源 33@4x.png",
+        "label": "夜色西装徽章",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 33@4x.png",
+        "width": 498,
+        "height": 497,
+        "bounds": [
+          0,
+          0,
+          498,
+          497
+        ]
+      },
+      {
+        "id": "1-4-032",
+        "src": "collection/1-4-032.webp",
+        "thumb": "collection/1-4-032-thumb.webp",
+        "filename": "资源 34@4x.png",
+        "label": "粉色玫瑰徽章",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/4粉色漫游/角色图案/资源 34@4x.png",
+        "width": 497,
+        "height": 497,
+        "bounds": [
+          0,
+          0,
+          497,
+          497
+        ]
+      },
+      {
+        "id": "1-4-001",
+        "src": "collection/1-4-001.webp",
+        "thumb": "collection/1-4-001-thumb.webp",
+        "filename": "资源 4@4x.png",
+        "label": "奶油描边中文字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/4粉色漫游/字体设计/资源 4@4x.png",
+        "width": 812,
+        "height": 401,
+        "bounds": [
+          0,
+          0,
+          812,
+          401
+        ]
+      },
+      {
+        "id": "1-4-002",
+        "src": "collection/1-4-002.webp",
+        "thumb": "collection/1-4-002-thumb.webp",
+        "filename": "资源 5@4x.png",
+        "label": "巧克力立体中文字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/4粉色漫游/字体设计/资源 5@4x.png",
+        "width": 809,
+        "height": 419,
+        "bounds": [
+          0,
+          0,
+          809,
+          419
+        ]
+      },
+      {
+        "id": "1-4-003",
+        "src": "collection/1-4-003.webp",
+        "thumb": "collection/1-4-003-thumb.webp",
+        "filename": "资源 6@4x.png",
+        "label": "粉色手写花体",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/4粉色漫游/字体设计/资源 6@4x.png",
+        "width": 1177,
+        "height": 635,
+        "bounds": [
+          0,
+          0,
+          1177,
+          635
+        ]
+      },
+      {
+        "id": "1-4-004",
+        "src": "collection/1-4-004.webp",
+        "thumb": "collection/1-4-004-thumb.webp",
+        "filename": "资源 7@4x.png",
+        "label": "经典横排字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/4粉色漫游/字体设计/资源 7@4x.png",
+        "width": 1254,
+        "height": 206,
+        "bounds": [
+          0,
+          0,
+          1254,
+          206
+        ]
+      },
+      {
+        "id": "1-4-005",
+        "src": "collection/1-4-005.webp",
+        "thumb": "collection/1-4-005-thumb.webp",
+        "filename": "资源 8@4x.png",
+        "label": "经典双行字标",
+        "group": "字体设计",
+        "sourcePath": "1风格图库/4粉色漫游/字体设计/资源 8@4x.png",
+        "width": 594,
+        "height": 415,
+        "bounds": [
+          0,
+          0,
+          594,
+          415
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1-5",
+    "categoryId": "1",
+    "category": "风格图库",
+    "title": "星辰汇",
+    "code": "5",
+    "folderName": "5星辰汇",
+    "cover": "collection/1-5-017.webp",
+    "groups": [
+      "主题视觉",
+      "角色图案",
+      "pattern设计"
+    ],
+    "images": [
+      {
+        "id": "1-5-017",
+        "src": "collection/1-5-017.webp",
+        "thumb": "collection/1-5-017-theme-thumb.webp",
+        "filename": "封面.png",
+        "label": "星辰汇 · 主题插画",
+        "group": "主题视觉",
+        "sourcePath": "1风格图库/5星辰汇/封面.png",
+        "width": 3387,
+        "height": 2437
+      },
+      {
+        "id": "1-5-019",
+        "src": "collection/1-5-019.webp",
+        "thumb": "collection/1-5-019-thumb.webp",
+        "filename": "资源 4@4x.png",
+        "label": "复古摄影师",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/5星辰汇/角色图案/资源 4@4x.png",
+        "width": 1489,
+        "height": 1986,
+        "bounds": [
+          263,
+          232,
+          957,
+          1446
+        ]
+      },
+      {
+        "id": "1-5-020",
+        "src": "collection/1-5-020.webp",
+        "thumb": "collection/1-5-020-thumb.webp",
+        "filename": "资源 5@4x.png",
+        "label": "鹦鹉海盗",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/5星辰汇/角色图案/资源 5@4x.png",
+        "width": 1610,
+        "height": 1609,
+        "bounds": [
+          303,
+          103,
+          1025,
+          1311
+        ]
+      },
+      {
+        "id": "1-5-021",
+        "src": "collection/1-5-021.webp",
+        "thumb": "collection/1-5-021-thumb.webp",
+        "filename": "资源 6@4x.png",
+        "label": "森林猎手",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/5星辰汇/角色图案/资源 6@4x.png",
+        "width": 1425,
+        "height": 1399,
+        "bounds": [
+          236,
+          159,
+          1189,
+          1151
+        ]
+      },
+      {
+        "id": "1-5-022",
+        "src": "collection/1-5-022.webp",
+        "thumb": "collection/1-5-022-thumb.webp",
+        "filename": "资源 7@4x.png",
+        "label": "咖啡侦探",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/5星辰汇/角色图案/资源 7@4x.png",
+        "width": 1504,
+        "height": 1503,
+        "bounds": [
+          244,
+          109,
+          962,
+          1282
+        ]
+      },
+      {
+        "id": "1-5-023",
+        "src": "collection/1-5-023.webp",
+        "thumb": "collection/1-5-023-thumb.webp",
+        "filename": "资源 8@4x.png",
+        "label": "月夜占星师",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/5星辰汇/角色图案/资源 8@4x.png",
+        "width": 1402,
+        "height": 1402,
+        "bounds": [
+          41,
+          9,
+          1279,
+          1393
+        ]
+      },
+      {
+        "id": "1-5-024",
+        "src": "collection/1-5-024.webp",
+        "thumb": "collection/1-5-024-thumb.webp",
+        "filename": "资源 9@4x.png",
+        "label": "窗边的玫瑰少年",
+        "group": "角色图案",
+        "sourcePath": "1风格图库/5星辰汇/角色图案/资源 9@4x.png",
+        "width": 1508,
+        "height": 1508,
+        "bounds": [
+          175,
+          67,
+          1057,
+          1275
+        ]
+      },
+      {
+        "id": "1-5-001",
+        "src": "collection/1-5-001.webp",
+        "thumb": "collection/1-5-001-thumb.webp",
+        "filename": "资源 10@4x.png",
+        "label": "复古角色菱格纹",
+        "group": "pattern设计",
+        "sourcePath": "1风格图库/5星辰汇/pattern设计/资源 10@4x.png",
+        "width": 1250,
+        "height": 1250
+      },
+      {
+        "id": "1-5-002",
+        "src": "collection/1-5-002.webp",
+        "thumb": "collection/1-5-002-thumb.webp",
+        "filename": "资源 11@4x.png",
+        "label": "紫夜占星纹样",
+        "group": "pattern设计",
+        "sourcePath": "1风格图库/5星辰汇/pattern设计/资源 11@4x.png",
+        "width": 1250,
+        "height": 1250
+      }
+    ]
+  },
+  {
+    "id": "2-1",
+    "categoryId": "2",
+    "category": "数字藏品头像",
+    "title": "米奇",
+    "code": "01",
+    "folderName": "01米奇",
+    "cover": "collection/2-1-001.webp",
+    "groups": [
+      "作品"
+    ],
+    "images": [
+      {
+        "id": "2-1-001",
+        "src": "collection/2-1-001.webp",
+        "thumb": "collection/2-1-001-thumb.webp",
+        "filename": "小丑女.jpg",
+        "label": "小丑女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/01米奇/小丑女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-1-002",
+        "src": "collection/2-1-002.webp",
+        "thumb": "collection/2-1-002-thumb.webp",
+        "filename": "小丑男.jpg",
+        "label": "小丑男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/01米奇/小丑男.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-1-003",
+        "src": "collection/2-1-003.webp",
+        "thumb": "collection/2-1-003-thumb.webp",
+        "filename": "拼图玩偶女.jpg",
+        "label": "拼图玩偶女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/01米奇/拼图玩偶女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-1-004",
+        "src": "collection/2-1-004.webp",
+        "thumb": "collection/2-1-004-thumb.webp",
+        "filename": "拼图玩偶男--监修中.jpg",
+        "label": "拼图玩偶男--监修中",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/01米奇/拼图玩偶男--监修中.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-1-005",
+        "src": "collection/2-1-005.webp",
+        "thumb": "collection/2-1-005-thumb.webp",
+        "filename": "毛线女.jpg",
+        "label": "毛线女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/01米奇/毛线女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-1-006",
+        "src": "collection/2-1-006.webp",
+        "thumb": "collection/2-1-006-thumb.webp",
+        "filename": "毛线男.jpg",
+        "label": "毛线男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/01米奇/毛线男.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-1-007",
+        "src": "collection/2-1-007.webp",
+        "thumb": "collection/2-1-007-thumb.webp",
+        "filename": "胶片女.jpg",
+        "label": "胶片女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/01米奇/胶片女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-1-008",
+        "src": "collection/2-1-008.webp",
+        "thumb": "collection/2-1-008-thumb.webp",
+        "filename": "胶片男.jpg",
+        "label": "胶片男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/01米奇/胶片男.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-1-009",
+        "src": "collection/2-1-009.webp",
+        "thumb": "collection/2-1-009-thumb.webp",
+        "filename": "蘑菇女蘑菇女.jpg",
+        "label": "蘑菇女蘑菇女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/01米奇/蘑菇女蘑菇女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-1-010",
+        "src": "collection/2-1-010.webp",
+        "thumb": "collection/2-1-010-thumb.webp",
+        "filename": "蘑菇男.jpg",
+        "label": "蘑菇男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/01米奇/蘑菇男.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-1-011",
+        "src": "collection/2-1-011.webp",
+        "thumb": "collection/2-1-011-thumb.webp",
+        "filename": "野餐女.jpg",
+        "label": "野餐女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/01米奇/野餐女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-1-012",
+        "src": "collection/2-1-012.webp",
+        "thumb": "collection/2-1-012-thumb.webp",
+        "filename": "野餐男.jpg",
+        "label": "野餐男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/01米奇/野餐男.jpg",
+        "width": 1000,
+        "height": 1000
+      }
+    ]
+  },
+  {
+    "id": "2-2",
+    "categoryId": "2",
+    "category": "数字藏品头像",
+    "title": "库洛米",
+    "code": "02",
+    "folderName": "02库洛米",
+    "cover": "collection/2-2-001.webp",
+    "groups": [
+      "作品"
+    ],
+    "images": [
+      {
+        "id": "2-2-001",
+        "src": "collection/2-2-001.webp",
+        "thumb": "collection/2-2-001-thumb.webp",
+        "filename": "女拿着香槟.jpg",
+        "label": "女拿着香槟",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/女拿着香槟.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-002",
+        "src": "collection/2-2-002.webp",
+        "thumb": "collection/2-2-002-thumb.webp",
+        "filename": "女潮流.jpg",
+        "label": "女潮流",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/女潮流.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-003",
+        "src": "collection/2-2-003.webp",
+        "thumb": "collection/2-2-003-thumb.webp",
+        "filename": "女红头发拿饮料.jpg",
+        "label": "女红头发拿饮料",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/女红头发拿饮料.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-004",
+        "src": "collection/2-2-004.webp",
+        "thumb": "collection/2-2-004-thumb.webp",
+        "filename": "女耳机.jpg",
+        "label": "女耳机",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/女耳机.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-005",
+        "src": "collection/2-2-005.webp",
+        "thumb": "collection/2-2-005-thumb.webp",
+        "filename": "女西瓜泳装.jpg",
+        "label": "女西瓜泳装",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/女西瓜泳装.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-006",
+        "src": "collection/2-2-006.webp",
+        "thumb": "collection/2-2-006-thumb.webp",
+        "filename": "女隐藏.jpg",
+        "label": "女隐藏",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/女隐藏.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-007",
+        "src": "collection/2-2-007.webp",
+        "thumb": "collection/2-2-007-thumb.webp",
+        "filename": "女黄头发妹妹.jpg",
+        "label": "女黄头发妹妹",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/女黄头发妹妹.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-008",
+        "src": "collection/2-2-008.webp",
+        "thumb": "collection/2-2-008-thumb.webp",
+        "filename": "女黑头发拿手机.jpg",
+        "label": "女黑头发拿手机",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/女黑头发拿手机.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-009",
+        "src": "collection/2-2-009.webp",
+        "thumb": "collection/2-2-009-thumb.webp",
+        "filename": "男剪刀.jpg",
+        "label": "男剪刀",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/男剪刀.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-010",
+        "src": "collection/2-2-010.webp",
+        "thumb": "collection/2-2-010-thumb.webp",
+        "filename": "男吃西瓜.jpg",
+        "label": "男吃西瓜",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/男吃西瓜.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-011",
+        "src": "collection/2-2-011.webp",
+        "thumb": "collection/2-2-011-thumb.webp",
+        "filename": "男库洛米新的.jpg",
+        "label": "男库洛米新的",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/男库洛米新的.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-012",
+        "src": "collection/2-2-012.webp",
+        "thumb": "collection/2-2-012-thumb.webp",
+        "filename": "男拿音响.jpg",
+        "label": "男拿音响",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/男拿音响.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-013",
+        "src": "collection/2-2-013.webp",
+        "thumb": "collection/2-2-013-thumb.webp",
+        "filename": "男椰子汁.jpg",
+        "label": "男椰子汁",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/男椰子汁.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-014",
+        "src": "collection/2-2-014.webp",
+        "thumb": "collection/2-2-014-thumb.webp",
+        "filename": "男耳机.jpg",
+        "label": "男耳机",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/男耳机.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-015",
+        "src": "collection/2-2-015.webp",
+        "thumb": "collection/2-2-015-thumb.webp",
+        "filename": "男钓鱼.jpg",
+        "label": "男钓鱼",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/男钓鱼.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-016",
+        "src": "collection/2-2-016.webp",
+        "thumb": "collection/2-2-016-thumb.webp",
+        "filename": "男隐藏111.jpg",
+        "label": "男隐藏111",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/男隐藏111.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-017",
+        "src": "collection/2-2-017.webp",
+        "thumb": "collection/2-2-017-thumb.webp",
+        "filename": "男食人花.jpg",
+        "label": "男食人花",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/男食人花.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-2-018",
+        "src": "collection/2-2-018.webp",
+        "thumb": "collection/2-2-018-thumb.webp",
+        "filename": "男黄头发一男的.jpg",
+        "label": "男黄头发一男的",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/02库洛米/男黄头发一男的.jpg",
+        "width": 1000,
+        "height": 1000
+      }
+    ]
+  },
+  {
+    "id": "2-3",
+    "categoryId": "2",
+    "category": "数字藏品头像",
+    "title": "大耳狗",
+    "code": "03",
+    "folderName": "03大耳狗",
+    "cover": "collection/2-3-001.webp",
+    "groups": [
+      "作品"
+    ],
+    "images": [
+      {
+        "id": "2-3-001",
+        "src": "collection/2-3-001.webp",
+        "thumb": "collection/2-3-001-thumb.webp",
+        "filename": "卷1女.png.jpg",
+        "label": "卷1女.png",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/03大耳狗/卷1女.png.jpg",
+        "width": 750,
+        "height": 750
+      },
+      {
+        "id": "2-3-002",
+        "src": "collection/2-3-002.webp",
+        "thumb": "collection/2-3-002-thumb.webp",
+        "filename": "卷1男.jpg",
+        "label": "卷1男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/03大耳狗/卷1男.jpg",
+        "width": 750,
+        "height": 750
+      },
+      {
+        "id": "2-3-003",
+        "src": "collection/2-3-003.webp",
+        "thumb": "collection/2-3-003-thumb.webp",
+        "filename": "卷2女.jpg",
+        "label": "卷2女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/03大耳狗/卷2女.jpg",
+        "width": 750,
+        "height": 750
+      },
+      {
+        "id": "2-3-004",
+        "src": "collection/2-3-004.webp",
+        "thumb": "collection/2-3-004-thumb.webp",
+        "filename": "卷2男.jpg",
+        "label": "卷2男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/03大耳狗/卷2男.jpg",
+        "width": 750,
+        "height": 750
+      },
+      {
+        "id": "2-3-005",
+        "src": "collection/2-3-005.webp",
+        "thumb": "collection/2-3-005-thumb.webp",
+        "filename": "卷3女.jpg",
+        "label": "卷3女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/03大耳狗/卷3女.jpg",
+        "width": 750,
+        "height": 750
+      },
+      {
+        "id": "2-3-006",
+        "src": "collection/2-3-006.webp",
+        "thumb": "collection/2-3-006-thumb.webp",
+        "filename": "卷3男.jpg",
+        "label": "卷3男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/03大耳狗/卷3男.jpg",
+        "width": 750,
+        "height": 750
+      },
+      {
+        "id": "2-3-007",
+        "src": "collection/2-3-007.webp",
+        "thumb": "collection/2-3-007-thumb.webp",
+        "filename": "卷4女.jpg",
+        "label": "卷4女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/03大耳狗/卷4女.jpg",
+        "width": 750,
+        "height": 750
+      },
+      {
+        "id": "2-3-008",
+        "src": "collection/2-3-008.webp",
+        "thumb": "collection/2-3-008-thumb.webp",
+        "filename": "卷4男.jpg",
+        "label": "卷4男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/03大耳狗/卷4男.jpg",
+        "width": 750,
+        "height": 750
+      },
+      {
+        "id": "2-3-009",
+        "src": "collection/2-3-009.webp",
+        "thumb": "collection/2-3-009-thumb.webp",
+        "filename": "女唱歌.jpg",
+        "label": "女唱歌",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/03大耳狗/女唱歌.jpg",
+        "width": 750,
+        "height": 750
+      },
+      {
+        "id": "2-3-010",
+        "src": "collection/2-3-010.webp",
+        "thumb": "collection/2-3-010-thumb.webp",
+        "filename": "女隐藏.jpg",
+        "label": "女隐藏",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/03大耳狗/女隐藏.jpg",
+        "width": 750,
+        "height": 750
+      },
+      {
+        "id": "2-3-011",
+        "src": "collection/2-3-011.webp",
+        "thumb": "collection/2-3-011-thumb.webp",
+        "filename": "男唱歌.jpg",
+        "label": "男唱歌",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/03大耳狗/男唱歌.jpg",
+        "width": 750,
+        "height": 750
+      },
+      {
+        "id": "2-3-012",
+        "src": "collection/2-3-012.webp",
+        "thumb": "collection/2-3-012-thumb.webp",
+        "filename": "男隐藏.jpg",
+        "label": "男隐藏",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/03大耳狗/男隐藏.jpg",
+        "width": 750,
+        "height": 750
+      }
+    ]
+  },
+  {
+    "id": "2-4",
+    "categoryId": "2",
+    "category": "数字藏品头像",
+    "title": "唐老鸭",
+    "code": "04",
+    "folderName": "04唐老鸭",
+    "cover": "collection/2-4-001.webp",
+    "groups": [
+      "作品"
+    ],
+    "images": [
+      {
+        "id": "2-4-001",
+        "src": "collection/2-4-001.webp",
+        "thumb": "collection/2-4-001-thumb.webp",
+        "filename": "八音盒女.jpg",
+        "label": "八音盒女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/04唐老鸭/八音盒女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-4-002",
+        "src": "collection/2-4-002.webp",
+        "thumb": "collection/2-4-002-thumb.webp",
+        "filename": "八音盒男.jpg",
+        "label": "八音盒男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/04唐老鸭/八音盒男.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-4-003",
+        "src": "collection/2-4-003.webp",
+        "thumb": "collection/2-4-003-thumb.webp",
+        "filename": "游戏机女.jpg",
+        "label": "游戏机女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/04唐老鸭/游戏机女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-4-004",
+        "src": "collection/2-4-004.webp",
+        "thumb": "collection/2-4-004-thumb.webp",
+        "filename": "游戏机男.jpg",
+        "label": "游戏机男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/04唐老鸭/游戏机男.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-4-005",
+        "src": "collection/2-4-005.webp",
+        "thumb": "collection/2-4-005-thumb.webp",
+        "filename": "甜点女.jpg",
+        "label": "甜点女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/04唐老鸭/甜点女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-4-006",
+        "src": "collection/2-4-006.webp",
+        "thumb": "collection/2-4-006-thumb.webp",
+        "filename": "甜点男.jpg",
+        "label": "甜点男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/04唐老鸭/甜点男.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-4-007",
+        "src": "collection/2-4-007.webp",
+        "thumb": "collection/2-4-007-thumb.webp",
+        "filename": "童子军女.jpg",
+        "label": "童子军女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/04唐老鸭/童子军女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-4-008",
+        "src": "collection/2-4-008.webp",
+        "thumb": "collection/2-4-008-thumb.webp",
+        "filename": "童子军男.jpg",
+        "label": "童子军男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/04唐老鸭/童子军男.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-4-009",
+        "src": "collection/2-4-009.webp",
+        "thumb": "collection/2-4-009-thumb.webp",
+        "filename": "落日飞车女.jpg",
+        "label": "落日飞车女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/04唐老鸭/落日飞车女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-4-010",
+        "src": "collection/2-4-010.webp",
+        "thumb": "collection/2-4-010-thumb.webp",
+        "filename": "落日飞车男.jpg",
+        "label": "落日飞车男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/04唐老鸭/落日飞车男.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-4-011",
+        "src": "collection/2-4-011.webp",
+        "thumb": "collection/2-4-011-thumb.webp",
+        "filename": "赛博女.jpg",
+        "label": "赛博女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/04唐老鸭/赛博女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-4-012",
+        "src": "collection/2-4-012.webp",
+        "thumb": "collection/2-4-012-thumb.webp",
+        "filename": "赛博男.jpg",
+        "label": "赛博男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/04唐老鸭/赛博男.jpg",
+        "width": 1000,
+        "height": 1000
+      }
+    ]
+  },
+  {
+    "id": "2-5",
+    "categoryId": "2",
+    "category": "数字藏品头像",
+    "title": "情人节",
+    "code": "05",
+    "folderName": "05情人节",
+    "cover": "collection/2-5-001.webp",
+    "groups": [
+      "作品"
+    ],
+    "images": [
+      {
+        "id": "2-5-001",
+        "src": "collection/2-5-001.webp",
+        "thumb": "collection/2-5-001-thumb.webp",
+        "filename": "冰淇淋女.png.jpg",
+        "label": "冰淇淋女.png",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/05情人节/冰淇淋女.png.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-5-002",
+        "src": "collection/2-5-002.webp",
+        "thumb": "collection/2-5-002-thumb.webp",
+        "filename": "冰淇淋男.jpg",
+        "label": "冰淇淋男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/05情人节/冰淇淋男.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-5-003",
+        "src": "collection/2-5-003.webp",
+        "thumb": "collection/2-5-003-thumb.webp",
+        "filename": "照相女.jpg",
+        "label": "照相女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/05情人节/照相女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-5-004",
+        "src": "collection/2-5-004.webp",
+        "thumb": "collection/2-5-004-thumb.webp",
+        "filename": "照相男.jpg",
+        "label": "照相男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/05情人节/照相男.jpg",
+        "width": 1000,
+        "height": 1000
+      }
+    ]
+  },
+  {
+    "id": "2-6",
+    "categoryId": "2",
+    "category": "数字藏品头像",
+    "title": "七宗罪（AI 辅助）",
+    "code": "06",
+    "folderName": "06七宗罪（ai辅助）",
+    "cover": "collection/2-6-001.webp",
+    "groups": [
+      "作品"
+    ],
+    "images": [
+      {
+        "id": "2-6-001",
+        "src": "collection/2-6-001.webp",
+        "thumb": "collection/2-6-001-thumb.webp",
+        "filename": "坚韧女.jpg",
+        "label": "坚韧女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/06七宗罪（ai辅助）/坚韧女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-6-002",
+        "src": "collection/2-6-002.webp",
+        "thumb": "collection/2-6-002-thumb.webp",
+        "filename": "坚韧男.jpg",
+        "label": "坚韧男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/06七宗罪（ai辅助）/坚韧男.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-6-003",
+        "src": "collection/2-6-003.webp",
+        "thumb": "collection/2-6-003-thumb.webp",
+        "filename": "暴怒女.jpg",
+        "label": "暴怒女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/06七宗罪（ai辅助）/暴怒女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-6-004",
+        "src": "collection/2-6-004.webp",
+        "thumb": "collection/2-6-004-thumb.webp",
+        "filename": "暴怒女异色皮2.jpg",
+        "label": "暴怒女异色皮2",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/06七宗罪（ai辅助）/暴怒女异色皮2.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-6-005",
+        "src": "collection/2-6-005.webp",
+        "thumb": "collection/2-6-005-thumb.webp",
+        "filename": "暴怒男.jpg",
+        "label": "暴怒男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/06七宗罪（ai辅助）/暴怒男.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-6-006",
+        "src": "collection/2-6-006.webp",
+        "thumb": "collection/2-6-006-thumb.webp",
+        "filename": "暴怒男异色皮2.jpg",
+        "label": "暴怒男异色皮2",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/06七宗罪（ai辅助）/暴怒男异色皮2.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-6-007",
+        "src": "collection/2-6-007.webp",
+        "thumb": "collection/2-6-007-thumb.webp",
+        "filename": "暴食女.jpg",
+        "label": "暴食女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/06七宗罪（ai辅助）/暴食女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-6-008",
+        "src": "collection/2-6-008.webp",
+        "thumb": "collection/2-6-008-thumb.webp",
+        "filename": "暴食男.jpg",
+        "label": "暴食男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/06七宗罪（ai辅助）/暴食男.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-6-009",
+        "src": "collection/2-6-009.webp",
+        "thumb": "collection/2-6-009-thumb.webp",
+        "filename": "节制女.jpg",
+        "label": "节制女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/06七宗罪（ai辅助）/节制女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-6-010",
+        "src": "collection/2-6-010.webp",
+        "thumb": "collection/2-6-010-thumb.webp",
+        "filename": "节制男白手套.jpg",
+        "label": "节制男白手套",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/06七宗罪（ai辅助）/节制男白手套.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-6-011",
+        "src": "collection/2-6-011.webp",
+        "thumb": "collection/2-6-011-thumb.webp",
+        "filename": "贞洁女.jpg",
+        "label": "贞洁女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/06七宗罪（ai辅助）/贞洁女.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-6-012",
+        "src": "collection/2-6-012.webp",
+        "thumb": "collection/2-6-012-thumb.webp",
+        "filename": "贞洁男.jpg",
+        "label": "贞洁男",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/06七宗罪（ai辅助）/贞洁男.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-6-013",
+        "src": "collection/2-6-013.webp",
+        "thumb": "collection/2-6-013-thumb.webp",
+        "filename": "贪欲女.jpg",
+        "label": "贪欲女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/06七宗罪（ai辅助）/贪欲女.jpg",
+        "width": 1000,
+        "height": 1000
+      }
+    ]
+  },
+  {
+    "id": "2-7",
+    "categoryId": "2",
+    "category": "数字藏品头像",
+    "title": "四季",
+    "code": "07",
+    "folderName": "07四季",
+    "cover": "collection/2-7-001.webp",
+    "groups": [
+      "作品"
+    ],
+    "images": [
+      {
+        "id": "2-7-001",
+        "src": "collection/2-7-001.webp",
+        "thumb": "collection/2-7-001-thumb.webp",
+        "filename": "女1.jpg",
+        "label": "奶油花边少女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/女1.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-002",
+        "src": "collection/2-7-002.webp",
+        "thumb": "collection/2-7-002-thumb.webp",
+        "filename": "女2.jpg",
+        "label": "晴日蝴蝶结少女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/女2.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-003",
+        "src": "collection/2-7-003.webp",
+        "thumb": "collection/2-7-003-thumb.webp",
+        "filename": "女3.jpg",
+        "label": "草莓花簪少女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/女3.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-004",
+        "src": "collection/2-7-004.webp",
+        "thumb": "collection/2-7-004-thumb.webp",
+        "filename": "女4.jpg",
+        "label": "春花礼物少女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/女4.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-005",
+        "src": "collection/2-7-005.webp",
+        "thumb": "collection/2-7-005-thumb.webp",
+        "filename": "女5.jpg",
+        "label": "玫瑰心意少女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/女5.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-006",
+        "src": "collection/2-7-006.webp",
+        "thumb": "collection/2-7-006-thumb.webp",
+        "filename": "女6.jpg",
+        "label": "薄荷格纹少女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/女6.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-007",
+        "src": "collection/2-7-007.webp",
+        "thumb": "collection/2-7-007-thumb.webp",
+        "filename": "女7.jpg",
+        "label": "初春花束少女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/女7.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-008",
+        "src": "collection/2-7-008.webp",
+        "thumb": "collection/2-7-008-thumb.webp",
+        "filename": "女9.jpg",
+        "label": "雏菊花环少女",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/女9.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-009",
+        "src": "collection/2-7-009.webp",
+        "thumb": "collection/2-7-009-thumb.webp",
+        "filename": "女隐藏.jpg",
+        "label": "蝶翼花冠精灵",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/女隐藏.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-010",
+        "src": "collection/2-7-010.webp",
+        "thumb": "collection/2-7-010-thumb.webp",
+        "filename": "男1.jpg",
+        "label": "柑橘夏日少年",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/男1.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-011",
+        "src": "collection/2-7-011.webp",
+        "thumb": "collection/2-7-011-thumb.webp",
+        "filename": "男3.jpg",
+        "label": "午后耳机少年",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/男3.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-012",
+        "src": "collection/2-7-012.webp",
+        "thumb": "collection/2-7-012-thumb.webp",
+        "filename": "男4.jpg",
+        "label": "花间微风少年",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/男4.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-013",
+        "src": "collection/2-7-013.webp",
+        "thumb": "collection/2-7-013-thumb.webp",
+        "filename": "男5.jpg",
+        "label": "草莓甜点少年",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/男5.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-014",
+        "src": "collection/2-7-014.webp",
+        "thumb": "collection/2-7-014-thumb.webp",
+        "filename": "男6.jpg",
+        "label": "银发花格少年",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/男6.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-015",
+        "src": "collection/2-7-015.webp",
+        "thumb": "collection/2-7-015-thumb.webp",
+        "filename": "男7.jpg",
+        "label": "春日野餐少年",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/男7.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-016",
+        "src": "collection/2-7-016.webp",
+        "thumb": "collection/2-7-016-thumb.webp",
+        "filename": "男8.jpg",
+        "label": "蓝花眼镜少年",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/男8.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "2-7-017",
+        "src": "collection/2-7-017.webp",
+        "thumb": "collection/2-7-017-thumb.webp",
+        "filename": "男隐藏.jpg",
+        "label": "金发蝶翼精灵",
+        "group": "作品",
+        "sourcePath": "2数字藏品头像/07四季/男隐藏.jpg",
+        "width": 1000,
+        "height": 1000
+      }
+    ]
+  },
+  {
+    "id": "3-1",
+    "categoryId": "3",
+    "category": "产品设计",
+    "title": "盲盒设计：了不起的先生们",
+    "code": "1",
+    "folderName": "1盲盒设计：了不起的先生们",
+    "cover": "collection/3-1-001.webp",
+    "groups": [
+      "作品"
+    ],
+    "images": [
+      {
+        "id": "3-1-001",
+        "src": "collection/3-1-001.webp",
+        "thumb": "collection/3-1-001-thumb.webp",
+        "filename": "占星师.png",
+        "label": "占星师",
+        "group": "作品",
+        "sourcePath": "3产品设计/1盲盒设计：了不起的先生们/占星师.png",
+        "width": 608,
+        "height": 1043,
+        "bounds": [
+          0,
+          0,
+          608,
+          1043
+        ],
+        "description": "抬头观星，低头将世界的规律落在纸上",
+        "descriptionSource": "provided"
+      },
+      {
+        "id": "3-1-002",
+        "src": "collection/3-1-002.webp",
+        "thumb": "collection/3-1-002-thumb.webp",
+        "filename": "发明家.png",
+        "label": "发明家",
+        "group": "作品",
+        "sourcePath": "3产品设计/1盲盒设计：了不起的先生们/发明家.png",
+        "width": 632,
+        "height": 916,
+        "bounds": [
+          0,
+          0,
+          632,
+          916
+        ],
+        "description": "上好发条，试试这双翅膀能抵达何处",
+        "descriptionSource": "provided"
+      },
+      {
+        "id": "3-1-003",
+        "src": "collection/3-1-003.webp",
+        "thumb": "collection/3-1-003-thumb.webp",
+        "filename": "帽匠.png",
+        "label": "帽匠",
+        "group": "作品",
+        "sourcePath": "3产品设计/1盲盒设计：了不起的先生们/帽匠.png",
+        "width": 785,
+        "height": 954,
+        "bounds": [
+          0,
+          0,
+          785,
+          954
+        ],
+        "description": "手执金剪，为来客定制合意的礼帽。",
+        "descriptionSource": "provided"
+      },
+      {
+        "id": "3-1-004",
+        "src": "collection/3-1-004.webp",
+        "thumb": "collection/3-1-004-thumb.webp",
+        "filename": "摄影师.png",
+        "label": "摄影师",
+        "group": "作品",
+        "sourcePath": "3产品设计/1盲盒设计：了不起的先生们/摄影师.png",
+        "width": 688,
+        "height": 1037,
+        "bounds": [
+          0,
+          0,
+          688,
+          1017
+        ],
+        "description": "按下快门，把擦肩而过的光影留在这一刻。",
+        "descriptionSource": "authored"
+      },
+      {
+        "id": "3-1-005",
+        "src": "collection/3-1-005.webp",
+        "thumb": "collection/3-1-005-thumb.webp",
+        "filename": "斗牛士.png",
+        "label": "斗牛士",
+        "group": "作品",
+        "sourcePath": "3产品设计/1盲盒设计：了不起的先生们/斗牛士.png",
+        "width": 673,
+        "height": 877,
+        "bounds": [
+          0,
+          0,
+          673,
+          877
+        ],
+        "description": "红布扬起，脚步站稳，迎接一场漂亮的谢幕。",
+        "descriptionSource": "provided"
+      },
+      {
+        "id": "3-1-006",
+        "src": "collection/3-1-006.webp",
+        "thumb": "collection/3-1-006-thumb.webp",
+        "filename": "海盗.png",
+        "label": "海盗",
+        "group": "作品",
+        "sourcePath": "3产品设计/1盲盒设计：了不起的先生们/海盗.png",
+        "width": 822,
+        "height": 923,
+        "bounds": [
+          0,
+          0,
+          822,
+          923
+        ],
+        "description": "扬起船帆，循着旧海图去寻找海风藏起的宝藏。",
+        "descriptionSource": "authored"
+      },
+      {
+        "id": "3-1-007",
+        "src": "collection/3-1-007.webp",
+        "thumb": "collection/3-1-007-thumb.webp",
+        "filename": "猎人.png",
+        "label": "猎人",
+        "group": "作品",
+        "sourcePath": "3产品设计/1盲盒设计：了不起的先生们/猎人.png",
+        "width": 653,
+        "height": 1124,
+        "bounds": [
+          0,
+          79,
+          642,
+          1045
+        ],
+        "description": "猎枪靠在肩后，仍听见密林深处的脚步声",
+        "descriptionSource": "provided"
+      },
+      {
+        "id": "3-1-008",
+        "src": "collection/3-1-008.webp",
+        "thumb": "collection/3-1-008-thumb.webp",
+        "filename": "私家侦探.png",
+        "label": "私家侦探",
+        "group": "作品",
+        "sourcePath": "3产品设计/1盲盒设计：了不起的先生们/私家侦探.png",
+        "width": 1179,
+        "height": 1061,
+        "bounds": [
+          342,
+          43,
+          752,
+          1008
+        ],
+        "description": "举起放大镜，从酒渍中问出被藏起的真相。",
+        "descriptionSource": "provided"
+      },
+      {
+        "id": "3-1-009",
+        "src": "collection/3-1-009.webp",
+        "thumb": "collection/3-1-009-thumb.webp",
+        "filename": "管家.png",
+        "label": "管家",
+        "group": "作品",
+        "sourcePath": "3产品设计/1盲盒设计：了不起的先生们/管家.png",
+        "width": 594,
+        "height": 1006,
+        "bounds": [
+          0,
+          0,
+          594,
+          1006
+        ],
+        "description": "整理好领结，将每一份妥帖藏进从容的日常。",
+        "descriptionSource": "authored"
+      },
+      {
+        "id": "3-1-010",
+        "src": "collection/3-1-010.webp",
+        "thumb": "collection/3-1-010-thumb.webp",
+        "filename": "邮差.png",
+        "label": "邮差",
+        "group": "作品",
+        "sourcePath": "3产品设计/1盲盒设计：了不起的先生们/邮差.png",
+        "width": 812,
+        "height": 975,
+        "bounds": [
+          39,
+          0,
+          773,
+          964
+        ],
+        "description": "穿过街巷，把远方的问候送到等候的人手上。",
+        "descriptionSource": "authored"
+      },
+      {
+        "id": "3-1-011",
+        "src": "collection/3-1-011.webp",
+        "thumb": "collection/3-1-011-thumb.webp",
+        "filename": "铁匠.png",
+        "label": "铁匠",
+        "group": "作品",
+        "sourcePath": "3产品设计/1盲盒设计：了不起的先生们/铁匠.png",
+        "width": 974,
+        "height": 1038,
+        "bounds": [
+          194,
+          31,
+          553,
+          1007
+        ],
+        "description": "举起铁锤，让炉火中的灵感慢慢有了形状。",
+        "descriptionSource": "authored"
+      },
+      {
+        "id": "3-1-012",
+        "src": "collection/3-1-012.webp",
+        "thumb": "collection/3-1-012-thumb.webp",
+        "filename": "雾都探长.png",
+        "label": "雾都探长",
+        "group": "作品",
+        "sourcePath": "3产品设计/1盲盒设计：了不起的先生们/雾都探长.png",
+        "width": 646,
+        "height": 1059,
+        "bounds": [
+          0,
+          0,
+          646,
+          1059
+        ],
+        "description": "拨开街头的薄雾，让沉默的线索指向答案。",
+        "descriptionSource": "authored"
+      },
+      {
+        "id": "3-1-013",
+        "src": "collection/3-1-013.webp",
+        "thumb": "collection/3-1-013-thumb.webp",
+        "filename": "音乐魔术师.png",
+        "label": "音乐魔术师",
+        "group": "作品",
+        "sourcePath": "3产品设计/1盲盒设计：了不起的先生们/音乐魔术师.png",
+        "width": 897,
+        "height": 978,
+        "bounds": [
+          0,
+          0,
+          897,
+          978
+        ],
+        "description": "轻敲鼓点，让一段旋律变成出人意料的魔法。",
+        "descriptionSource": "authored"
+      },
+      {
+        "id": "3-1-014",
+        "src": "collection/3-1-014.webp",
+        "thumb": "collection/3-1-014-thumb.webp",
+        "filename": "鸟嘴医生.png",
+        "label": "鸟嘴医生",
+        "group": "作品",
+        "sourcePath": "3产品设计/1盲盒设计：了不起的先生们/鸟嘴医生.png",
+        "width": 760,
+        "height": 994,
+        "bounds": [
+          0,
+          0,
+          760,
+          994
+        ],
+        "description": "鸟嘴遮住表情，也隔开冰冷的疫雾",
+        "descriptionSource": "provided"
+      }
+    ]
+  },
+  {
+    "id": "3-2",
+    "categoryId": "3",
+    "category": "产品设计",
+    "title": "大娃设计：未来奇遇",
+    "code": "2",
+    "folderName": "2大娃设计：未来奇遇",
+    "cover": "collection/3-2-001.webp",
+    "groups": [
+      "作品"
+    ],
+    "images": [
+      {
+        "id": "3-2-001",
+        "src": "collection/3-2-001.webp",
+        "thumb": "collection/3-2-001-thumb.webp",
+        "filename": "冒险.png",
+        "label": "冒险",
+        "group": "作品",
+        "sourcePath": "3产品设计/2大娃设计：未来奇遇/冒险.png",
+        "width": 574,
+        "height": 784,
+        "bounds": [
+          0,
+          1,
+          574,
+          783
+        ]
+      },
+      {
+        "id": "3-2-002",
+        "src": "collection/3-2-002.webp",
+        "thumb": "collection/3-2-002-thumb.webp",
+        "filename": "成王.png",
+        "label": "成王",
+        "group": "作品",
+        "sourcePath": "3产品设计/2大娃设计：未来奇遇/成王.png",
+        "width": 572,
+        "height": 825,
+        "bounds": [
+          0,
+          0,
+          572,
+          825
+        ]
+      },
+      {
+        "id": "3-2-003",
+        "src": "collection/3-2-003.webp",
+        "thumb": "collection/3-2-003-thumb.webp",
+        "filename": "接触.png",
+        "label": "接触",
+        "group": "作品",
+        "sourcePath": "3产品设计/2大娃设计：未来奇遇/接触.png",
+        "width": 742,
+        "height": 794,
+        "bounds": [
+          40,
+          0,
+          676,
+          794
+        ]
+      },
+      {
+        "id": "3-2-004",
+        "src": "collection/3-2-004.webp",
+        "thumb": "collection/3-2-004-thumb.webp",
+        "filename": "穿梭.png",
+        "label": "穿梭",
+        "group": "作品",
+        "sourcePath": "3产品设计/2大娃设计：未来奇遇/穿梭.png",
+        "width": 572,
+        "height": 790,
+        "bounds": [
+          0,
+          0,
+          572,
+          790
+        ]
+      },
+      {
+        "id": "3-2-005",
+        "src": "collection/3-2-005.webp",
+        "thumb": "collection/3-2-005-thumb.webp",
+        "filename": "维度.png",
+        "label": "维度",
+        "group": "作品",
+        "sourcePath": "3产品设计/2大娃设计：未来奇遇/维度.png",
+        "width": 603,
+        "height": 809,
+        "bounds": [
+          0,
+          0,
+          603,
+          809
+        ]
+      },
+      {
+        "id": "3-2-006",
+        "src": "collection/3-2-006.webp",
+        "thumb": "collection/3-2-006-thumb.webp",
+        "filename": "诞生.png",
+        "label": "诞生",
+        "group": "作品",
+        "sourcePath": "3产品设计/2大娃设计：未来奇遇/诞生.png",
+        "width": 726,
+        "height": 791,
+        "bounds": [
+          144,
+          0,
+          582,
+          791
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3-3",
+    "categoryId": "3",
+    "category": "产品设计",
+    "title": "美团合作玩偶",
+    "code": "3",
+    "folderName": "3美团合作玩偶",
+    "cover": "collection/3-3-001.webp",
+    "groups": [
+      "作品"
+    ],
+    "images": [
+      {
+        "id": "3-3-001",
+        "src": "collection/3-3-001.webp",
+        "thumb": "collection/3-3-001-thumb.webp",
+        "filename": "品牌色版.png",
+        "label": "品牌色版",
+        "group": "作品",
+        "sourcePath": "3产品设计/3美团合作玩偶/品牌色版.png",
+        "width": 986,
+        "height": 1665,
+        "bounds": [
+          0,
+          0,
+          986,
+          1665
+        ]
+      },
+      {
+        "id": "3-3-002",
+        "src": "collection/3-3-002.webp",
+        "thumb": "collection/3-3-002-thumb.webp",
+        "filename": "黑钻版.png",
+        "label": "黑钻版",
+        "group": "作品",
+        "sourcePath": "3产品设计/3美团合作玩偶/黑钻版.png",
+        "width": 2915,
+        "height": 2516,
+        "bounds": [
+          0,
+          0,
+          2892,
+          2516
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4-1",
+    "categoryId": "4",
+    "category": "原创 IP",
+    "title": "sugar运营视觉",
+    "code": null,
+    "folderName": "sugar运营视觉",
+    "cover": "collection/4-1-001.webp",
+    "groups": [
+      "作品"
+    ],
+    "images": [
+      {
+        "id": "4-1-001",
+        "src": "collection/4-1-001.webp",
+        "thumb": "collection/4-1-001-thumb.webp",
+        "filename": "5成稿.jpg",
+        "label": "SUGAR · 糖果乐园",
+        "group": "作品",
+        "sourcePath": "4原创ip/sugar运营视觉/5成稿.jpg",
+        "width": 1844,
+        "height": 1844
+      },
+      {
+        "id": "4-1-002",
+        "src": "collection/4-1-002.webp",
+        "thumb": "collection/4-1-002-thumb.webp",
+        "filename": "sugar糖果外壳.jpg",
+        "label": "SUGAR · 糖果猎人",
+        "group": "作品",
+        "sourcePath": "4原创ip/sugar运营视觉/sugar糖果外壳.jpg",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "4-1-003",
+        "src": "collection/4-1-003.webp",
+        "thumb": "collection/4-1-003-thumb.webp",
+        "filename": "化妆sugar.jpg",
+        "label": "SUGAR · 美妆时刻",
+        "group": "作品",
+        "sourcePath": "4原创ip/sugar运营视觉/化妆sugar.jpg",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "id": "4-1-004",
+        "src": "collection/4-1-004.webp",
+        "thumb": "collection/4-1-004-thumb.webp",
+        "filename": "成图.jpg",
+        "label": "SUGAR · 梦境星球",
+        "group": "作品",
+        "sourcePath": "4原创ip/sugar运营视觉/成图.jpg",
+        "width": 1066,
+        "height": 1425
+      },
+      {
+        "id": "4-1-005",
+        "src": "collection/4-1-005.webp",
+        "thumb": "collection/4-1-005-thumb.webp",
+        "filename": "文件夹.jpg",
+        "label": "SUGAR · 星光漂流",
+        "group": "作品",
+        "sourcePath": "4原创ip/sugar运营视觉/文件夹.jpg",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "4-1-006",
+        "src": "collection/4-1-006.webp",
+        "thumb": "collection/4-1-006-thumb.webp",
+        "filename": "明信片文件.jpg",
+        "label": "SUGAR · 海岛漫游",
+        "group": "作品",
+        "sourcePath": "4原创ip/sugar运营视觉/明信片文件.jpg",
+        "width": 897,
+        "height": 614
+      },
+      {
+        "id": "4-1-007",
+        "src": "collection/4-1-007.webp",
+        "thumb": "collection/4-1-007-thumb.webp",
+        "filename": "明星片2.jpg",
+        "label": "SUGAR · 云端海岛",
+        "group": "作品",
+        "sourcePath": "4原创ip/sugar运营视觉/明星片2.jpg",
+        "width": 1500,
+        "height": 1035
+      },
+      {
+        "id": "4-1-008",
+        "src": "collection/4-1-008.webp",
+        "thumb": "collection/4-1-008-thumb.webp",
+        "filename": "电子sugar.jpg",
+        "label": "SUGAR · 霓虹幻境",
+        "group": "作品",
+        "sourcePath": "4原创ip/sugar运营视觉/电子sugar.jpg",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "id": "4-1-009",
+        "src": "collection/4-1-009.webp",
+        "thumb": "collection/4-1-009-thumb.webp",
+        "filename": "胡同啊胡同.jpg",
+        "label": "SUGAR · 胡同探险",
+        "group": "作品",
+        "sourcePath": "4原创ip/sugar运营视觉/胡同啊胡同.jpg",
+        "width": 2850,
+        "height": 1900
+      },
+      {
+        "id": "4-1-010",
+        "src": "collection/4-1-010.webp",
+        "thumb": "collection/4-1-010-thumb.webp",
+        "filename": "长城.jpg",
+        "label": "SUGAR · 长城寻梦",
+        "group": "作品",
+        "sourcePath": "4原创ip/sugar运营视觉/长城.jpg",
+        "width": 1500,
+        "height": 2000
+      }
+    ]
+  },
+  {
+    "id": "4-2",
+    "categoryId": "4",
+    "category": "原创 IP",
+    "title": "桃打",
+    "code": null,
+    "folderName": "桃打",
+    "cover": "collection/4-2-001.webp",
+    "groups": [
+      "作品"
+    ],
+    "images": [
+      {
+        "id": "4-2-001",
+        "src": "collection/4-2-001.webp",
+        "thumb": "collection/4-2-001-thumb.webp",
+        "filename": "1告白.jpg",
+        "label": "桃打 · 玫瑰告白",
+        "group": "作品",
+        "sourcePath": "4原创ip/桃打/1告白.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "4-2-002",
+        "src": "collection/4-2-002.webp",
+        "thumb": "collection/4-2-002-thumb.webp",
+        "filename": "2教师.jpg",
+        "label": "桃打 · 小小老师",
+        "group": "作品",
+        "sourcePath": "4原创ip/桃打/2教师.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "4-2-003",
+        "src": "collection/4-2-003.webp",
+        "thumb": "collection/4-2-003-thumb.webp",
+        "filename": "内容生产2.jpg",
+        "label": "桃打 · 快乐加油",
+        "group": "作品",
+        "sourcePath": "4原创ip/桃打/内容生产2.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "4-2-004",
+        "src": "collection/4-2-004.webp",
+        "thumb": "collection/4-2-004-thumb.webp",
+        "filename": "内容生产.jpg",
+        "label": "桃打 · 抹茶时光",
+        "group": "作品",
+        "sourcePath": "4原创ip/桃打/内容生产.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "4-2-005",
+        "src": "collection/4-2-005.webp",
+        "thumb": "collection/4-2-005-thumb.webp",
+        "filename": "放屁.jpg",
+        "label": "桃打 · 俏皮日常",
+        "group": "作品",
+        "sourcePath": "4原创ip/桃打/放屁.jpg",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": "4-2-006",
+        "src": "collection/4-2-006.webp",
+        "thumb": "collection/4-2-006-thumb.webp",
+        "filename": "晴天娃娃.jpg",
+        "label": "桃打 · 晴天娃娃",
+        "group": "作品",
+        "sourcePath": "4原创ip/桃打/晴天娃娃.jpg",
+        "width": 1000,
+        "height": 1000
+      }
+    ]
+  },
+  {
+    "id": "4-3",
+    "categoryId": "4",
+    "category": "原创 IP",
+    "title": "设计手稿",
+    "code": null,
+    "folderName": "设计手稿",
+    "cover": "collection/4-3-001.webp",
+    "groups": [
+      "作品"
+    ],
+    "images": [
+      {
+        "id": "4-3-001",
+        "src": "collection/4-3-001.webp",
+        "thumb": "collection/4-3-001-thumb.webp",
+        "filename": "图层 347.png",
+        "label": "泡泡兔",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/图层 347.png",
+        "width": 656,
+        "height": 570
+      },
+      {
+        "id": "4-3-002",
+        "src": "collection/4-3-002.webp",
+        "thumb": "collection/4-3-002-thumb.webp",
+        "filename": "图层 348.png",
+        "label": "薄荷茶精灵",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/图层 348.png",
+        "width": 980,
+        "height": 814
+      },
+      {
+        "id": "4-3-003",
+        "src": "collection/4-3-003.webp",
+        "thumb": "collection/4-3-003-thumb.webp",
+        "filename": "图层 356.png",
+        "label": "玉米小绅士",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/图层 356.png",
+        "width": 339,
+        "height": 805
+      },
+      {
+        "id": "4-3-004",
+        "src": "collection/4-3-004.webp",
+        "thumb": "collection/4-3-004-thumb.webp",
+        "filename": "图层 364.png",
+        "label": "蘑菇小朋友",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/图层 364.png",
+        "width": 575,
+        "height": 685
+      },
+      {
+        "id": "4-3-005",
+        "src": "collection/4-3-005.webp",
+        "thumb": "collection/4-3-005-thumb.webp",
+        "filename": "图层 369.png",
+        "label": "苹果美妆师",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/图层 369.png",
+        "width": 525,
+        "height": 549
+      },
+      {
+        "id": "4-3-006",
+        "src": "collection/4-3-006.webp",
+        "thumb": "collection/4-3-006-thumb.webp",
+        "filename": "图层 817.png",
+        "label": "眼镜小乌龟",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/图层 817.png",
+        "width": 413,
+        "height": 608
+      },
+      {
+        "id": "4-3-007",
+        "src": "collection/4-3-007.webp",
+        "thumb": "collection/4-3-007-thumb.webp",
+        "filename": "图片1.png",
+        "label": "仙人掌小花盆",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/图片1.png",
+        "width": 463,
+        "height": 467
+      },
+      {
+        "id": "4-3-008",
+        "src": "collection/4-3-008.webp",
+        "thumb": "collection/4-3-008-thumb.webp",
+        "filename": "图片2.png",
+        "label": "仙人掌造型探索",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/图片2.png",
+        "width": 1171,
+        "height": 501
+      },
+      {
+        "id": "4-3-009",
+        "src": "collection/4-3-009.webp",
+        "thumb": "collection/4-3-009-thumb.webp",
+        "filename": "图片3.png",
+        "label": "绿芽造型探索",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/图片3.png",
+        "width": 266,
+        "height": 148
+      },
+      {
+        "id": "4-3-010",
+        "src": "collection/4-3-010.webp",
+        "thumb": "collection/4-3-010-thumb.webp",
+        "filename": "曲线 11.png",
+        "label": "小小机器人",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/曲线 11.png",
+        "width": 611,
+        "height": 875
+      },
+      {
+        "id": "4-3-011",
+        "src": "collection/4-3-011.webp",
+        "thumb": "collection/4-3-011-thumb.webp",
+        "filename": "朋友们细化_0001s_0000s_0001_图层-69.png",
+        "label": "墨镜南瓜",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/朋友们细化_0001s_0000s_0001_图层-69.png",
+        "width": 571,
+        "height": 711
+      },
+      {
+        "id": "4-3-012",
+        "src": "collection/4-3-012.webp",
+        "thumb": "collection/4-3-012-thumb.webp",
+        "filename": "朋友们细化_0001s_0000s_0002_图层-63.png",
+        "label": "果冻寻宝家",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/朋友们细化_0001s_0000s_0002_图层-63.png",
+        "width": 677,
+        "height": 630
+      },
+      {
+        "id": "4-3-013",
+        "src": "collection/4-3-013.webp",
+        "thumb": "collection/4-3-013-thumb.webp",
+        "filename": "朋友们细化_0001s_0000s_0005_图层-102-拷贝.png",
+        "label": "果冻滑板手",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/朋友们细化_0001s_0000s_0005_图层-102-拷贝.png",
+        "width": 634,
+        "height": 549
+      },
+      {
+        "id": "4-3-014",
+        "src": "collection/4-3-014.webp",
+        "thumb": "collection/4-3-014-thumb.webp",
+        "filename": "朋友们细化_0001s_0000s_0006_图层-52.png",
+        "label": "果冻小巴士",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/朋友们细化_0001s_0000s_0006_图层-52.png",
+        "width": 662,
+        "height": 472
+      },
+      {
+        "id": "4-3-015",
+        "src": "collection/4-3-015.webp",
+        "thumb": "collection/4-3-015-thumb.webp",
+        "filename": "朋友们细化_0001s_0000s_0007_图层-56.png",
+        "label": "果冻夏日特饮",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/朋友们细化_0001s_0000s_0007_图层-56.png",
+        "width": 530,
+        "height": 796
+      },
+      {
+        "id": "4-3-016",
+        "src": "collection/4-3-016.webp",
+        "thumb": "collection/4-3-016-thumb.webp",
+        "filename": "组 72.png",
+        "label": "绿芽小乌龟",
+        "group": "作品",
+        "sourcePath": "4原创ip/设计手稿/组 72.png",
+        "width": 565,
+        "height": 577
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+.category-tabs.folder-tabs{gap:26px;padding:19px 23px 18px;background:#fffdf9eF;border:2px solid var(--ink);border-radius:13px;box-shadow:4px 4px 0 #7d96f5;isolation:isolate;overflow:visible}
+.category-tabs.folder-tabs .folder-tab{--folder:#b6eaff;--folder-rear:#8bc9f9;position:relative;display:block;min-width:0;height:116px;padding:0;border:0;border-radius:9px;background:transparent!important;box-shadow:none!important;transform-origin:center 62%;color:var(--ink);font:inherit;touch-action:manipulation;transition:none;z-index:1}
+.category-tabs.folder-tabs .folder-2{--folder:#ffc1df;--folder-rear:#eda1c8}
+.category-tabs.folder-tabs .folder-3{--folder:#cee3ff;--folder-rear:#a1bbef}
+.category-tabs.folder-tabs .folder-4{--folder:#d6c4ff;--folder-rear:#b3a0e9}
+.folder-ear{position:absolute;left:0;top:0;height:25px;width:65px;border:1.8px solid var(--ink);border-bottom:0;border-radius:9px 10px 0 0;background:var(--folder-rear);color:var(--ink);font:700 12px/23px var(--ui-font);padding-left:14px;text-align:left;transition:background .25s,color .25s}
+.folder-paper{position:absolute;left:13px;right:13px;top:18px;bottom:7px;background:#fffdf9;border:1.5px solid var(--ink);border-radius:5px;transform:rotate(-2deg);transition:transform .3s}
+.folder-surface{position:absolute;left:0;right:0;bottom:0;top:25px;display:flex;align-items:center;gap:14px;padding:14px 22px;border:1.8px solid var(--ink);border-radius:0 10px 10px 10px;background:var(--folder);box-shadow:2px 3px 0 #2337781a;transition:background-color .25s,color .25s,box-shadow .25s}
+.folder-surface:before{content:'';position:absolute;left:13px;right:13px;top:6px;height:1px;background:#ffffff80}
+.folder-title{min-width:0;display:block;white-space:nowrap;font-size:16px;line-height:1.4;font-weight:750;text-align:left}
+.category-tabs.folder-tabs small{display:block;margin:4px 0 0;font-size:11px;font-weight:500;opacity:.7;line-height:1.4}
+.folder-dot{margin-left:auto;flex:none;width:7px;height:7px;border-radius:50%;background:var(--ink);opacity:.3;transition:opacity .2s,background-color .2s}
+.category-tabs.folder-tabs .folder-tab[data-active=true]{z-index:2;color:white;cursor:default}
+.folder-tab[data-active=true] .folder-surface{background:var(--blue);box-shadow:3px 4px 0 #ff94cd}
+.folder-tab[data-active=true] .folder-ear{background:var(--blue);color:white}
+.folder-tab[data-active=true] .folder-paper{transform:rotate(-3deg) translateY(-4px)}
+.folder-tab[data-active=true] .folder-dot{background:white;opacity:1}
+.category-tabs.folder-tabs .folder-tab:focus-visible{outline:3px dashed var(--pink);outline-offset:7px}
+@media(hover:hover){.folder-tab:not([data-active=true]):hover .folder-paper{transform:rotate(-3deg) translateY(-3px)}.folder-tab:not([data-active=true]):hover .folder-surface{background:color-mix(in srgb,var(--folder) 85%,white)}}
+#category-panel.category-panel-transition{animation:folder-panel-in .3s cubic-bezier(.22,1,.36,1) both}
+@keyframes folder-panel-in{from{opacity:.4;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.work .series-section{scroll-margin-top:180px}
+@media(max-width:1100px){.category-tabs.folder-tabs{gap:21px;padding:17px 20px}.folder-title{font-size:14px}.folder-surface{padding:12px 17px;gap:10px}.folder-dot{display:none}}
+@media(max-width:760px){.category-tabs.folder-tabs{gap:15px 19px;padding:16px 17px 17px;top:8px;border-radius:11px;box-shadow:3px 3px 0 #7d96f5}.category-tabs.folder-tabs .folder-tab{height:92px}.folder-ear{height:21px;width:52px;font-size:10px;line-height:19px;padding-left:10px;border-radius:7px 8px 0 0}.folder-surface{top:21px;padding:10px 12px;gap:7px;border-radius:0 8px 8px 8px}.folder-surface:before{top:4px;left:8px;right:8px}.folder-title{font-size:12px;letter-spacing:0}.category-tabs.folder-tabs small{font-size:9px;margin-top:3px}.folder-paper{left:8px;right:8px;top:17px}.folder-tab[data-active=true] .folder-surface{box-shadow:2px 3px 0 #ff94cd}.work .series-section{scroll-margin-top:280px}}
+@media(prefers-reduced-motion:reduce){#category-panel.category-panel-transition{animation:none}.folder-ear,.folder-paper,.folder-surface,.folder-dot{transition:none}}
