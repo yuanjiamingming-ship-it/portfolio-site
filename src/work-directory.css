@@ -1,0 +1,73 @@
+/* Make the four folders a visible work directory, while keeping artwork first. */
+.hero-categories{margin-top:22px;padding-top:17px;border-top:1px solid #23377829}
+.hero-directory-label{display:flex;justify-content:space-between;align-items:center;font-size:12px;font-weight:750;letter-spacing:.5px}
+.hero-directory-label small{font-size:10px;font-weight:500;color:#6275a2}
+.hero-categories>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:11px}
+.hero-categories a{display:flex;align-items:center;gap:8px;padding:10px 9px;border:1px solid #98b8ed;border-radius:6px;background:#e9f2ff;color:var(--ink);font-size:11px;font-weight:650;transition:background .2s,translate .2s}
+.hero-categories a:nth-child(2){background:#ffe8f3;border-color:#e6b4d1}
+.hero-categories a:nth-child(4){background:#f0eaff;border-color:#c2b5e8}
+.hero-category-arrow{margin-left:auto;color:var(--blue)}
+.mini-folder{position:relative;display:inline-block;flex:none;width:17px;height:12px;margin-top:3px;background:#aecbff;border:1px solid var(--ink);border-radius:0 2px 2px 2px}
+.mini-folder:before{content:'';position:absolute;left:-1px;top:-5px;width:8px;height:4px;background:#aecbff;border:1px solid var(--ink);border-bottom:0;border-radius:2px 2px 0 0}
+.hero-categories a:hover{background:#cddfff;translate:0 -2px}
+.work .collection-intro{margin-bottom:28px;font-weight:600;color:#546d9e}
+.directory-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:26px;position:relative;z-index:2}
+.directory-label{display:block;font-size:11px;letter-spacing:1.2px;font-weight:750;color:var(--blue)}
+.directory-heading h3{font-size:clamp(21px,1.9vw,30px);margin:10px 0 0;line-height:1.5;letter-spacing:-.5px}
+.directory-heading p{font-size:14px;line-height:1.8;text-align:right;font-weight:650;margin:0;color:var(--blue)}
+.directory-heading p span{font-size:12px;font-weight:500;color:#6275a2}
+.category-tabs.folder-tabs{gap:25px;padding:22px 25px 21px;background:linear-gradient(115deg,#edf4fffa,#fff3fafa);border-color:#6b89c4;box-shadow:5px 5px 0 #b4c7ff;border-radius:13px;backdrop-filter:blur(12px)}
+.category-tabs.folder-tabs .folder-tab{height:202px;transform-origin:center 65%}
+.category-tabs.folder-tabs .folder-ear{height:29px;width:84px;font-size:13px;line-height:27px;padding-left:17px}
+.category-tabs.folder-tabs .folder-paper{top:20px;left:13px;right:13px}
+.category-tabs.folder-tabs .folder-surface{top:29px;display:flex;flex-direction:column;align-items:stretch;justify-content:center;gap:0;padding:19px 22px 16px;background:linear-gradient(135deg,var(--folder),color-mix(in srgb,var(--folder) 72%,white));box-shadow:3px 4px 0 #23377820}
+.category-tabs.folder-tabs .folder-title{font-size:clamp(19px,1.6vw,26px);line-height:1.4;font-weight:800;letter-spacing:-.3px}
+.folder-preview{display:block;font-size:11px;line-height:1.7;margin-top:8px;opacity:.78;white-space:nowrap}
+.folder-inventory{display:flex;align-items:baseline;gap:4px;font-size:11px;margin-top:10px}
+.folder-inventory strong{font-size:25px;font-weight:800;line-height:1.2;margin-right:2px}
+.folder-inventory>span{opacity:.7;font-size:10px}
+.folder-action{display:flex;align-items:center;justify-content:space-between;font-size:12px;font-weight:700;padding-top:10px;margin-top:11px;border-top:1px solid #23377826}
+.folder-action>span{font:700 22px/1 var(--ui-font)}
+.category-tabs.folder-tabs .folder-tab[data-active=true] .folder-surface{background:linear-gradient(130deg,#315df4,#586df8);box-shadow:3px 4px 0 #ff94cd}
+.folder-tab[data-active=true] .folder-action{border-color:#ffffff45}
+.category-tabs.folder-tabs .folder-tab:not([data-active=true]):hover .folder-surface{box-shadow:3px 6px 0 #23377830}
+.work .series-section{scroll-margin-top:274px}
+.work .category-start{scroll-margin-top:24px}
+@media(min-width:761px) and (max-height:800px){.hero{min-height:820px;height:auto}.hero-copy{padding-top:24px;padding-bottom:24px}.hero-categories{margin-top:16px;padding-top:13px}}
+@media(max-width:1100px){.category-tabs.folder-tabs{gap:18px;padding:20px}.category-tabs.folder-tabs .folder-surface{padding:16px 14px}.category-tabs.folder-tabs .folder-title{font-size:18px}.folder-preview{font-size:9px}.folder-inventory{font-size:10px}.folder-inventory>span{font-size:9px}.hero-categories a{font-size:10px;padding:10px 7px;gap:6px}}
+@media(max-width:760px){.directory-heading{display:block;margin-bottom:23px}.directory-heading h3{font-size:22px}.directory-heading p{font-size:12px;text-align:left;margin-top:12px}.directory-heading p br{display:none}.directory-heading p span{display:block;font-size:11px}.directory-label{font-size:9px}.category-tabs.folder-tabs{position:relative;top:auto;gap:20px 16px;padding:21px 15px 16px;backdrop-filter:none}.category-tabs.folder-tabs .folder-tab{height:181px}.category-tabs.folder-tabs .folder-title{font-size:16px;white-space:normal}.category-tabs.folder-tabs .folder-ear{height:26px;width:62px;font-size:11px;line-height:24px;padding-left:12px}.category-tabs.folder-tabs .folder-surface{top:26px;padding:13px 11px}.folder-preview{white-space:normal;font-size:9px;line-height:1.6;min-height:29px;margin-top:7px}.folder-inventory{gap:3px;margin-top:6px;flex-wrap:wrap}.folder-inventory strong{font-size:22px}.folder-inventory>span{font-size:9px}.folder-action{font-size:11px;padding-top:8px;margin-top:8px}.folder-action>span{font-size:19px}.work .series-section{scroll-margin-top:24px}.hero-categories a{font-size:11px;padding:11px 9px}.hero-categories{margin-top:20px}.hero-directory-label{font-size:12px}.hero-directory-label small{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.hero-categories a{transition:none}.hero-categories a:hover{translate:none}}
+
+.next-folder{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:70px;margin-top:66px;padding:45px 50px;border:2px solid var(--ink);border-radius:14px;background:linear-gradient(115deg,#e4efff,#f8e7ff);box-shadow:5px 5px 0 #98b5ff}
+.next-folder-message h3{font-size:clamp(24px,2.4vw,38px);line-height:1.5;letter-spacing:-.6px;margin:14px 0 18px;color:var(--blue)}
+.next-folder-message p{font-size:13px;line-height:1.9;color:#6275a2;margin:0}
+.next-folder-button{position:relative;display:flex;flex-direction:column;align-items:stretch;text-align:left;gap:9px;min-width:0;margin-top:26px;padding:25px 28px 20px;border:2px solid var(--ink);border-radius:0 12px 12px 12px;background:linear-gradient(125deg,#315df4,#666ff8);color:white;box-shadow:4px 5px 0 #ffa5d5;transition:translate .25s,box-shadow .25s}
+.next-folder-tab{position:absolute;bottom:calc(100% - 1px);left:-2px;height:27px;padding:6px 17px;border:2px solid var(--ink);border-bottom:0;border-radius:8px 9px 0 0;background:#315df4;font-size:10px;font-weight:750;letter-spacing:.8px}
+.next-folder-name{font-size:clamp(23px,2vw,32px);font-weight:800;line-height:1.5}
+.next-folder-meta{font-size:12px;color:#ffffffbd}
+.next-folder-cta{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-top:12px;padding-top:14px;border-top:1px solid #ffffff45;font-size:15px;font-weight:750}
+.next-folder-cta>span{font-size:28px;line-height:1}
+.next-folder-button:hover{translate:0 -4px;box-shadow:4px 9px 0 #ffa5d5}
+@media(max-width:1100px){.next-folder{padding:34px;gap:35px}}
+@media(max-width:760px){.next-folder{grid-template-columns:1fr;gap:22px;margin-top:40px;padding:28px 21px;box-shadow:3px 3px 0 #98b5ff}.next-folder-message h3{font-size:25px;margin:12px 0}.next-folder-message p{font-size:12px}.next-folder-message p br{display:none}.next-folder-button{padding:20px;margin-top:16px}.next-folder-name{font-size:25px}.next-folder-meta{font-size:11px}.next-folder-cta{font-size:13px;padding-top:12px;margin-top:8px}}
+@media(prefers-reduced-motion:reduce){.next-folder-button{transition:none}.next-folder-button:hover{translate:none}}
+
+/* Keep the original space in the document so folding never moves the artwork. */
+.folder-dock-anchor{height:0;pointer-events:none}
+.folder-dock{position:sticky;top:12px;height:249px;z-index:3;pointer-events:none}
+.folder-dock .category-tabs.folder-tabs{position:relative;top:auto;pointer-events:auto;transition:padding .28s cubic-bezier(.22,1,.36,1)}
+.folder-dock .category-tabs.folder-tabs .folder-tab{transition:height .28s cubic-bezier(.22,1,.36,1)}
+.folder-dock .folder-tabs[data-compact=true]{gap:14px;padding:10px 14px;border-radius:10px;box-shadow:3px 3px 0 #b4c7ff}
+.folder-dock .folder-tabs[data-compact=true] .folder-tab{height:50px;transform-origin:center}
+.folder-dock .folder-tabs[data-compact=true] :is(.folder-ear,.folder-paper,.folder-preview,.folder-action){display:none}
+.folder-dock .folder-tabs[data-compact=true] .folder-surface{inset:0;flex-direction:row;align-items:center;justify-content:space-between;gap:10px;padding:10px 15px;border-radius:7px;box-shadow:none}
+.folder-dock .folder-tabs[data-compact=true] .folder-surface:before{display:none}
+.folder-dock .folder-tabs[data-compact=true] .folder-title{font-size:16px;line-height:1.4;white-space:nowrap;letter-spacing:0}
+.folder-dock .folder-tabs[data-compact=true] .folder-inventory{flex:none;gap:2px;margin:0;font-size:11px;white-space:nowrap}
+.folder-dock .folder-tabs[data-compact=true] .folder-inventory strong{font-size:13px;line-height:1.4;margin:0}
+.folder-dock .folder-tabs[data-compact=true] .folder-inventory>span{display:none}
+.folder-dock .folder-tabs[data-compact=true] .folder-tab[data-active=true] .folder-surface{box-shadow:0 3px 0 #ff94cd}
+.work .series-section{scroll-margin-top:105px}
+@media(max-width:1100px){.folder-dock{height:246px}.folder-dock .folder-tabs[data-compact=true]{gap:10px;padding:10px}.folder-dock .folder-tabs[data-compact=true] .folder-title{font-size:14px}.folder-dock .folder-tabs[data-compact=true] .folder-surface{padding:10px;gap:7px}.folder-dock .folder-tabs[data-compact=true] .folder-inventory{font-size:9px}}
+@media(max-width:760px){.folder-dock{top:8px;height:423px}.folder-dock .folder-tabs[data-compact=true]{gap:8px;padding:9px 10px}.folder-dock .folder-tabs[data-compact=true] .folder-tab{height:43px}.folder-dock .folder-tabs[data-compact=true] .folder-title{font-size:12px}.folder-dock .folder-tabs[data-compact=true] .folder-surface{padding:8px;gap:5px}.folder-dock .folder-tabs[data-compact=true] .folder-inventory{font-size:9px}.folder-dock .folder-tabs[data-compact=true] .folder-inventory strong{font-size:11px}.work .series-section{scroll-margin-top:138px}}
+@media(prefers-reduced-motion:reduce){.folder-dock .category-tabs.folder-tabs,.folder-dock .category-tabs.folder-tabs .folder-tab{transition:none}}

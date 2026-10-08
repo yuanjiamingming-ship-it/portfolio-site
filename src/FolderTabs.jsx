@@ -1,4 +1,4 @@
-import React, {forwardRef, useEffect, useLayoutEffect, useRef} from 'react';
+import React, {forwardRef, useEffect, useLayoutEffect, useRef, useState} from 'react';
 import {animate, motion, motionValue, useReducedMotion, useTransform} from 'motion/react';
 import './folder-tabs.css';
 
@@ -11,10 +11,12 @@ const Folder = forwardRef(function Folder({values, children, ...props}, ref) {
 
 export default function FolderTabs({items, value, onChange}) {
   const group = useRef(null), buttons = useRef([]), widths = useRef([]), values = useRef([]), animations = useRef([]);
+  const anchor = useRef(null);
+  const [compact, setCompact] = useState(false);
   const at = Math.max(0, items.findIndex(item=>item.id===value));
   const applied = useRef(at), config = useRef({});
   const reduce = useReducedMotion();
-  config.current = {reduce, count:items.length};
+  config.current = {reduce, compact, count:items.length};
   const key = items.map(item=>item.id).join('|');
   const valueFor = i => values.current[i] ||= {x:motionValue(0), sx:motionValue(1), sy:motionValue(1)};
 
@@ -24,7 +26,7 @@ export default function FolderTabs({items, value, onChange}) {
     const push=(widths.current[selected] || 0)*.035/2+2;
     for(let i=0;i<config.current.count;i++) {
       const mv=valueFor(i), chosen=i===selected, far=Math.abs(i-selected);
-      const targets={x:config.current.reduce?0:Math.sign(i-selected)*push, sx:chosen?1.035:.985, sy:chosen?1.055:.985};
+      const targets=config.current.compact ? {x:0,sx:1,sy:1} : {x:config.current.reduce?0:Math.sign(i-selected)*push, sx:chosen?1.035:.985, sy:chosen?1.055:.985};
       if(instant || config.current.reduce) {
         mv.x.jump(targets.x);mv.sx.jump(config.current.reduce?1:targets.sx);mv.sy.jump(config.current.reduce?1:targets.sy);
         continue;
@@ -47,7 +49,22 @@ export default function FolderTabs({items, value, onChange}) {
     return()=>{mounted=false;observer.disconnect();};
   },[key]);
   useEffect(()=>{if(applied.current===at)return;applied.current=at;apply(at);},[at]);
-  useEffect(()=>{apply(applied.current,true);},[reduce]);
+  useEffect(()=>{apply(applied.current,true);},[reduce,compact]);
+  useEffect(()=>{
+    let frame=0;
+    const check=()=>{
+      frame=0;
+      if(!anchor.current)return;
+      const top=anchor.current.getBoundingClientRect().top;
+      // The anchor stays in normal flow. Hysteresis prevents flicker at the sticky edge.
+      setCompact(previous => previous ? top<28 : top<-12);
+    };
+    const schedule=()=>{if(!frame)frame=requestAnimationFrame(check);};
+    check();
+    window.addEventListener('scroll',schedule,{passive:true});
+    window.addEventListener('resize',schedule);
+    return()=>{cancelAnimationFrame(frame);window.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);};
+  },[]);
   useEffect(()=>()=>{
     animations.current.forEach(animation=>animation.stop());
     values.current.forEach(mv=>{mv.x.destroy();mv.sx.destroy();mv.sy.destroy();});
@@ -65,15 +82,20 @@ export default function FolderTabs({items, value, onChange}) {
     else return;
     event.preventDefault();commit(next);buttons.current[next]?.focus({preventScroll:true});
   };
-  return <div ref={group} className="category-tabs folder-tabs" role="tablist" aria-label="作品分类">
+  return <><div ref={anchor} className="folder-dock-anchor" aria-hidden="true"/><div className="folder-dock"><div ref={group} className="category-tabs folder-tabs" data-compact={compact} role="tablist" aria-label="作品分类">
     {items.map((item,i)=><Folder key={item.id} values={valueFor(i)} ref={el=>buttons.current[i]=el}
       id={'category-tab-'+item.id} type="button" role="tab" aria-selected={i===at}
-      aria-controls="category-panel" aria-label={`0${item.id} ${item.title} ${item.count} 个系列`}
+      aria-controls="category-panel" aria-label={`0${item.id} ${item.title} ${item.count} 个系列 ${item.imageCount} 张作品`}
       tabIndex={i===at?0:-1} className={'folder-tab folder-'+item.id} data-active={i===at}
       onClick={()=>commit(i)} onKeyDown={event=>keyDown(event,i)}>
       <span className="folder-ear" aria-hidden="true">0{item.id}</span>
       <span className="folder-paper" aria-hidden="true"/>
-      <span className="folder-surface"><span className="folder-title">{item.title}<small>{item.count} 个系列</small></span><span className="folder-dot" aria-hidden="true"/></span>
+      <span className="folder-surface">
+        <span className="folder-title">{item.title}</span>
+        <span className="folder-preview">{item.preview}</span>
+        <span className="folder-inventory"><strong>{item.count}</strong> 个系列<span> / {item.imageCount} 张作品</span></span>
+        <span className="folder-action">{i===at?'正在浏览':'打开文件夹'}<span aria-hidden="true">{i===at?'↓':'↗'}</span></span>
+      </span>
     </Folder>)}
-  </div>;
+  </div></div></>;
 }

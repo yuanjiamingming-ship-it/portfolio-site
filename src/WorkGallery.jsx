@@ -1,33 +1,38 @@
 import React, {useEffect, useLayoutEffect, useRef, useState} from 'react';
 import works from './works.json';
 import FolderTabs from './FolderTabs.jsx';
+import {categories} from './work-categories.js';
 
-const categories = [
-  {id:'1',title:'风格图库',en:'STYLE LIBRARIES',description:'从一个主题出发，让角色、字体与纹样一起组成完整的世界。'},
-  {id:'2',title:'数字藏品头像',en:'DIGITAL AVATARS',description:'在不同的主题和画风里，寻找角色鲜明的个性与情绪。'},
-  {id:'3',title:'产品设计',en:'PRODUCT DESIGN',description:'让画面里的角色走进生活，成为可以收藏、触摸与陪伴的作品。'},
-  {id:'4',title:'原创 IP',en:'ORIGINAL CHARACTERS',description:'记录原创角色的诞生、故事与日常，以及它们走进生活的过程。'}
-];
 const groupTitles = {'主题视觉':'主题视觉','角色图案':'角色图案','元素设计':'元素设计','字体设计':'字体设计','pattern设计':'纹样设计','作品':'系列作品'};
-const folderItems=categories.map(category=>({...category,count:works.filter(series=>series.categoryId===category.id).length}));
 const linkedSeries=()=>works.find(series=>'#series-'+series.id===window.location.hash);
+const linkedCategory=()=>categories.find(category=>'#category-'+category.id===window.location.hash);
 
 export default function WorkGallery({asset}) {
-  const [categoryId,setCategoryId] = useState(()=>linkedSeries()?.categoryId || '1');
-  const [anchorId,setAnchorId] = useState(()=>linkedSeries()?.id || null);
+  const [categoryId,setCategoryId] = useState(()=>linkedSeries()?.categoryId || linkedCategory()?.id || '1');
+  const [anchorId,setAnchorId] = useState(()=>linkedSeries()?.id || (linkedCategory()?'category':null));
   const [opened,setOpened] = useState(null);
   const dialog = useRef(null), opener = useRef(null), categoryStart = useRef(null);
   const category = categories.find(c=>c.id===categoryId);
+  const nextCategory = categories[(categories.findIndex(c=>c.id===categoryId)+1)%categories.length];
   const series = works.filter(s=>s.categoryId===categoryId);
   const image = opened?.series.images[opened.index];
   const isOpen = Boolean(opened);
   useEffect(()=>{
-    const navigate=()=>{const target=linkedSeries();if(target){setCategoryId(target.categoryId);setAnchorId(target.id);}};
+    const navigate=()=>{
+      const target=linkedSeries(), folder=linkedCategory();
+      if(target){setCategoryId(target.categoryId);setAnchorId(target.id);}
+      else if(folder){setCategoryId(folder.id);setAnchorId('category');}
+      else setAnchorId(null);
+    };
     window.addEventListener('hashchange',navigate);
     return()=>window.removeEventListener('hashchange',navigate);
   },[]);
   useLayoutEffect(()=>{
     if(!anchorId)return;
+    if(anchorId==='category'){
+      const frame=requestAnimationFrame(()=>categoryStart.current?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'}));
+      return()=>cancelAnimationFrame(frame);
+    }
     const target=works.find(series=>series.id===anchorId);
     if(target?.categoryId!==categoryId)return;
     const frame=requestAnimationFrame(()=>document.getElementById('series-'+anchorId)?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'}));
@@ -42,10 +47,11 @@ export default function WorkGallery({asset}) {
   const open = (s,item,event)=>{opener.current=event.currentTarget;setOpened({series:s,index:s.images.findIndex(i=>i.id===item.id)});};
   const close = ()=>setOpened(null);
   const chooseCategory = (id)=>{
-    if(id===categoryId)return;
     const currentTop=categoryStart.current?.getBoundingClientRect().top;
     setAnchorId(null);
     setCategoryId(id);
+    // Keep reload/share destinations aligned with the folder currently on screen.
+    window.history.replaceState(window.history.state,'','#category-'+id);
     // Deep in a series, return smoothly to the folder row; otherwise keep the viewport still.
     if(currentTop<0) {
       const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -55,7 +61,8 @@ export default function WorkGallery({asset}) {
   return <>
     <div className="collection-intro"><span>{categories.length} 个创作方向</span><span>{works.length} 个系列</span><span>{works.reduce((sum,s)=>sum+s.images.length,0)} 张作品</span></div>
     <div className="category-start" ref={categoryStart}/>
-    <FolderTabs items={folderItems} value={categoryId} onChange={chooseCategory}/>
+    <div className="directory-heading"><div><span className="directory-label">作品目录 / EXPLORE THE FILES</span><h3>打开文件夹，发现更多作品。</h3></div><p>选择一个创作方向<br/><span>每个文件夹里，都有完整的系列作品 ↓</span></p></div>
+    <FolderTabs items={categories} value={categoryId} onChange={chooseCategory}/>
     <div key={categoryId} id="category-panel" className="category-panel-transition" role="tabpanel" aria-labelledby={'category-tab-'+categoryId}>
       <div className="category-overview"><div><span className="section-index">{category.en}</span><h3>{category.title}</h3><p>{category.description}</p></div><span className="category-total">{series.reduce((sum,s)=>sum+s.images.length,0)}<small> 张作品</small></span></div>
       <nav className="series-jumps" aria-label={category.title+'系列导航'}>{series.map(s=><a href={'#series-'+s.id} key={s.id}>{s.code && <span>{s.code}</span>}{s.title}</a>)}</nav>
@@ -74,6 +81,15 @@ export default function WorkGallery({asset}) {
           </div>;
         })}
       </article>)}
+      <aside className="next-folder" aria-label="继续浏览其他作品">
+        <div className="next-folder-message"><span className="directory-label">还有更多世界，等你打开</span><h3>这个文件夹看完啦，<br/>去下一个世界看看？</h3><p>风格图库、数字藏品头像、产品设计与原创 IP，<br/>不同的创作方向，同样认真地想象。</p></div>
+        <button type="button" className={'next-folder-button next-folder-'+nextCategory.id} onClick={()=>{chooseCategory(nextCategory.id);document.getElementById('category-tab-'+nextCategory.id)?.focus({preventScroll:true});}} aria-label={'浏览下个文件夹：'+nextCategory.title}>
+          <span className="next-folder-tab" aria-hidden="true">NEXT FILE / 0{nextCategory.id}</span>
+          <span className="next-folder-name">{nextCategory.title}</span>
+          <span className="next-folder-meta">{nextCategory.count} 个系列 · {nextCategory.imageCount} 张作品</span>
+          <span className="next-folder-cta">浏览下个文件夹<span aria-hidden="true">↗</span></span>
+        </button>
+      </aside>
     </div>
     <div className="work-note">✧ &nbsp; 每一张图，都是一个小世界的一部分。</div>
     <dialog ref={dialog} className="image-viewer" aria-labelledby="viewer-title" onCancel={e=>{e.preventDefault();close();}} onClick={e=>{if(e.target===e.currentTarget)close();}} onKeyDown={e=>{
