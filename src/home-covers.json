@@ -16,6 +16,47 @@
     "category": "风格图库"
   },
   {
+    "id": "3-4",
+    "title": "星巴克联名方案",
+    "category": "产品设计",
+    "src": "supplement/document-1-long-thumb.webp",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "2-2",
+    "title": "库洛米系列",
+    "category": "数字藏品头像",
+    "width": 3,
+    "height": 2,
+    "avatars": [
+      {
+        "src": "collection/2-2-001-thumb.webp",
+        "label": "女拿着香槟"
+      },
+      {
+        "src": "collection/2-2-002-thumb.webp",
+        "label": "女潮流"
+      },
+      {
+        "src": "collection/2-2-003-thumb.webp",
+        "label": "女红头发拿饮料"
+      },
+      {
+        "src": "collection/2-2-004-thumb.webp",
+        "label": "女耳机"
+      },
+      {
+        "src": "collection/2-2-005-thumb.webp",
+        "label": "女西瓜泳装"
+      },
+      {
+        "src": "collection/2-2-006-thumb.webp",
+        "label": "女隐藏"
+      }
+    ]
+  },
+  {
     "id": "1-3",
     "title": "山野奇遇",
     "src": "covers/series-1-3.webp",
@@ -69,39 +110,6 @@
       {
         "src": "collection/2-1-006-thumb.webp",
         "label": "毛线男"
-      }
-    ]
-  },
-  {
-    "id": "2-2",
-    "title": "库洛米系列",
-    "category": "数字藏品头像",
-    "width": 3,
-    "height": 2,
-    "avatars": [
-      {
-        "src": "collection/2-2-001-thumb.webp",
-        "label": "女拿着香槟"
-      },
-      {
-        "src": "collection/2-2-002-thumb.webp",
-        "label": "女潮流"
-      },
-      {
-        "src": "collection/2-2-003-thumb.webp",
-        "label": "女红头发拿饮料"
-      },
-      {
-        "src": "collection/2-2-004-thumb.webp",
-        "label": "女耳机"
-      },
-      {
-        "src": "collection/2-2-005-thumb.webp",
-        "label": "女西瓜泳装"
-      },
-      {
-        "src": "collection/2-2-006-thumb.webp",
-        "label": "女隐藏"
       }
     ]
   }

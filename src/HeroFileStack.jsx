@@ -66,7 +66,7 @@ export default function HeroFileStack({asset}) {
   useEffect(()=>{if(document.activeElement?.classList.contains('hero-file-grab'))stack.current?.querySelector('.is-front .hero-file-grab')?.focus({preventScroll:true});},[index]);
   const next=(direction=1)=>setIndex(previous=>(previous+(typeof direction==='number'?direction:1)+covers.length)%covers.length);
   return <div className="hero-art hero-file-art">
-    <motion.div ref={stack} className="hero-file-stack" aria-label="七个创作系列封面文件"
+    <motion.div ref={stack} className="hero-file-stack" aria-label={covers.length+' 个创作系列封面文件'}
       initial={false} animate={{height}} transition={reduce?{duration:0}:{duration:.4,ease:[.22,1,.36,1]}}>
       {covers.map((card,i)=><FileCard key={card.id} card={card} depth={(i-index+covers.length)%covers.length} asset={asset} next={next} reduce={reduce}/>)}
     </motion.div>
@@ -78,7 +78,7 @@ export default function HeroFileStack({asset}) {
         <button type="button" aria-label="下一份封面" onClick={()=>next(1)}><PixelArrow/></button>
       </div>
     </div>
-    <span className="hero-stack-current" role="status" aria-live="polite">{String(index+1).padStart(2,'0')} / 07 · {current.title}</span>
+    <span className="hero-stack-current" role="status" aria-live="polite">{String(index+1).padStart(2,'0')} / {String(covers.length).padStart(2,'0')} · {current.title}</span>
     <span className="stack-spark stack-spark-one" aria-hidden="true"><PixelStar/></span><span className="stack-spark stack-spark-two" aria-hidden="true"><PixelStar outline/></span>
   </div>;
 }
