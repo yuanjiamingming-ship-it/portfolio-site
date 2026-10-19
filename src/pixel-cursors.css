@@ -14,4 +14,6 @@
  .hero-file-grab .hero-file-open,.hero-file-grab .hero-file-open *{cursor:var(--pixel-cursor-pointer)!important}
  html[data-file-dragging="true"],html[data-file-dragging="true"] *{cursor:var(--pixel-cursor-grabbing)!important}
  dialog::backdrop{cursor:var(--pixel-cursor-default)}
+ .zoom-stage,.zoom-stage *{cursor:var(--pixel-cursor-grab)!important}
+ .zoom-stage[data-dragging="true"],.zoom-stage[data-dragging="true"] *{cursor:var(--pixel-cursor-grabbing)!important}
 }

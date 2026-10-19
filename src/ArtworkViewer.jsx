@@ -1,11 +1,10 @@
 import React, {useEffect, useLayoutEffect, useRef, useState} from 'react';
 import {AnimatePresence, motion, useReducedMotion} from 'motion/react';
-import './viewer.css';
 
 const clamp=(value,min,max)=>Math.max(min,Math.min(max,value));
 
 function ZoomCanvas({image, asset, title}) {
-  const stage=useRef(null), transform=useRef({scale:1,x:0,y:0}), geometry=useRef(null), pointer=useRef(null);
+  const stage=useRef(null), transform=useRef({scale:1,x:0,y:0}), geometry=useRef(null), pointer=useRef(null), renderFrame=useRef(0);
   const [view,setView]=useState(transform.current),[fit,setFit]=useState(null),[dragging,setDragging]=useState(false),[loaded,setLoaded]=useState(false),[failed,setFailed]=useState(false);
   const long=Boolean(image.longImage);
   const minimum=()=>long && geometry.current ? Math.min(1,(geometry.current.viewportHeight-46)/geometry.current.height) : 1;
@@ -16,8 +15,10 @@ function ZoomCanvas({image, asset, title}) {
       const maxY=Math.max(0,(g.height*next.scale-g.viewportHeight+32)/2);
       next={...next,x:clamp(next.x,-maxX,maxX),y:clamp(next.y,-maxY,maxY)};
     }
-    transform.current=next;setView(next);
+    transform.current=next;
+    if(!renderFrame.current)renderFrame.current=requestAnimationFrame(()=>{renderFrame.current=0;setView(transform.current);});
   };
+  useEffect(()=>()=>cancelAnimationFrame(renderFrame.current),[]);
   const zoom=(scale,point={x:0,y:0})=>{
     const old=transform.current, nextScale=clamp(scale,minimum(),6),ratio=nextScale/old.scale;
     update({scale:nextScale,x:point.x-(point.x-old.x)*ratio,y:point.y-(point.y-old.y)*ratio});
@@ -86,14 +87,18 @@ export default function ArtworkViewer({opened,asset,onMove,onClose,opener}) {
   const dialog=useRef(null),reduce=useReducedMotion();
   const image=opened?.series.images[opened.index],isOpen=Boolean(opened);
   useEffect(()=>{
-    if(isOpen){dialog.current.showModal();document.body.style.overflow='hidden';}
-    else {dialog.current?.close();document.body.style.overflow='';opener.current?.focus({preventScroll:true});}
-    return()=>{document.body.style.overflow='';};
+    if(isOpen){dialog.current.showModal();document.body.style.overflow='hidden';document.documentElement.dataset.viewerOpen='true';}
+    else {dialog.current?.close();document.body.style.overflow='';delete document.documentElement.dataset.viewerOpen;opener.current?.focus({preventScroll:true});}
+    document.dispatchEvent(new Event('portfolio:viewer-state'));
+    return()=>{document.body.style.overflow='';delete document.documentElement.dataset.viewerOpen;};
   },[isOpen,opener]);
   useEffect(()=>{
     if(!opened)return;
-    const neighbors=[opened.series.images[opened.index-1],opened.series.images[opened.index+1]].filter(Boolean);
-    const preloads=neighbors.map(item=>{const img=new Image();img.src=asset(item.src);return img;});
+    // Long documents can occupy hundreds of megapixels: never decode adjacent
+    // documents in the background just because their cover is next in the list.
+    if(navigator.connection?.saveData)return;
+    const neighbors=[opened.series.images[opened.index-1],opened.series.images[opened.index+1]].filter(item=>item && !item.longImage && item.width*item.height<=8_000_000);
+    const preloads=neighbors.map(item=>{const img=new Image();img.decoding='async';img.fetchPriority='low';img.src=asset(item.src);return img;});
     return()=>preloads.forEach(img=>{img.src='';});
   },[image?.id]);
   const withStory=Boolean(image?.description && !image?.supplement);

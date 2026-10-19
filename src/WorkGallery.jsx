@@ -1,4 +1,4 @@
-import React, {useEffect, useLayoutEffect, useRef, useState} from 'react';
+import React, {memo, useEffect, useLayoutEffect, useRef, useState} from 'react';
 import works from './works.json';
 import FolderTabs from './FolderTabs.jsx';
 import ArtworkViewer from './ArtworkViewer.jsx';
@@ -7,8 +7,39 @@ import {categories} from './work-categories.js';
 const groupTitles = {'主题视觉':'主题视觉','角色图案':'角色图案','元素设计':'元素设计','字体设计':'字体设计','pattern设计':'纹样设计','作品':'系列作品'};
 const linkedSeries=()=>works.find(series=>'#series-'+series.id===window.location.hash);
 const linkedCategory=()=>categories.find(category=>'#category-'+category.id===window.location.hash);
+const thumbnailSizes=(series,group)=>group==='主题视觉'
+  ? '(min-width: 1860px) 1700px, (min-width: 701px) 90vw, calc(100vw - 44px)'
+  : series.supplement ? '(min-width: 1860px) 550px, (min-width: 701px) 30vw, 45vw'
+  : '(min-width: 1860px) 410px, (min-width: 1201px) 22vw, (min-width: 701px) 29vw, 45vw';
 
-export default function WorkGallery({asset}) {
+const pendingThumbnails=new WeakMap();
+let thumbnailObserver;
+const ArtworkThumbnail=memo(function ArtworkThumbnail({item,asset,series,group}) {
+  const frame=useRef(null),[near,setNear]=useState(false);
+  const responsive=item.thumbSmall && item.thumbSmallWidth<item.previewWidth;
+  useEffect(()=>{
+    thumbnailObserver ||= new IntersectionObserver(entries=>{
+      for(const entry of entries) {
+        if(!entry.isIntersecting)continue;
+        pendingThumbnails.get(entry.target)?.();
+        pendingThumbnails.delete(entry.target);
+        thumbnailObserver.unobserve(entry.target);
+      }
+    },{rootMargin:'600px 0px',threshold:0});
+    const element=frame.current;
+    pendingThumbnails.set(element,()=>setNear(true));
+    thumbnailObserver.observe(element);
+    return()=>{pendingThumbnails.delete(element);thumbnailObserver.unobserve(element);};
+  },[]);
+  return <div ref={frame} className="artwork-image" style={group==='主题视觉'?{'--artwork-ratio':item.width+' / '+item.height}:undefined}>
+    <img src={near?asset(item.thumb):undefined}
+      srcSet={near&&responsive ? `${asset(item.thumbSmall)} ${item.thumbSmallWidth}w, ${asset(item.thumb)} ${item.previewWidth}w` : undefined}
+      sizes={responsive?thumbnailSizes(series,group):undefined} style={near?undefined:{visibility:'hidden'}}
+      width={item.previewWidth || item.width} height={item.previewHeight || item.height} alt={series.title+' · '+item.label} loading="lazy" decoding="async"/>
+  </div>;
+});
+
+function WorkGallery({asset}) {
   const [categoryId,setCategoryId] = useState(()=>linkedSeries()?.categoryId || linkedCategory()?.id || '1');
   const [anchorId,setAnchorId] = useState(()=>linkedSeries()?.id || (linkedCategory()?'category':null));
   const [opened,setOpened] = useState(null);
@@ -53,13 +84,13 @@ export default function WorkGallery({asset}) {
     }
   };
   return <>
-    <div className="collection-intro"><span>{categories.length} 个创作方向</span><span>{works.length} 个系列</span><span>{works.reduce((sum,s)=>sum+s.images.length,0)} 张作品</span></div>
+    <div className="collection-intro"><span><b>{categories.length}</b> 个创作方向</span><span><b>{works.length}</b> 个系列</span><span><b>{works.reduce((sum,s)=>sum+s.images.length,0)}</b> 张作品</span></div>
     <div className="category-start" ref={categoryStart}/>
-    <div className="directory-heading"><div><span className="directory-label">作品目录 / EXPLORE THE FILES</span><h3>打开文件夹，发现更多作品。</h3></div><p>选择一个创作方向<br/><span>每个文件夹里，都有完整的系列作品 ↓</span></p></div>
+    <div className="directory-heading"><span className="directory-label">作品目录 / EXPLORE THE FILES</span><p>五个方向，各有一个世界。<span aria-hidden="true"> ↓</span></p></div>
     <FolderTabs items={categories} value={categoryId} onChange={chooseCategory}/>
     <div key={categoryId} id="category-panel" className="category-panel-transition" role="tabpanel" aria-labelledby={'category-tab-'+categoryId}>
       <div className="category-overview"><div><span className="section-index">{category.en}</span><h3>{category.title}</h3><p>{category.description}</p></div><span className="category-total">{series.reduce((sum,s)=>sum+s.images.length,0)}<small> 张作品</small></span></div>
-      <nav className="series-jumps" aria-label={category.title+'系列导航'}>{series.map((s,si)=><a href={'#series-'+s.id} key={s.id}><span>{si+1}</span>{s.title}</a>)}</nav>
+      <nav className="series-jumps" aria-label={category.title+'系列导航'}>{series.map((s,si)=><a href={'#series-'+s.id} key={s.id}><span>{String(si+1).padStart(2,'0')}</span>{s.title}<span aria-hidden="true">↗</span></a>)}</nav>
       {series.map((s,si)=><article className={'series-section series-'+s.id} id={'series-'+s.id} key={s.id}>
         <div className="series-heading"><div><span className="section-index">{category.title} / 系列 {si+1}</span><h3>{s.title}</h3></div><span className="series-count">{String(si+1).padStart(2,'0')} <span>/ {String(series.length).padStart(2,'0')}</span><small>{s.images.length} 张作品</small></span></div>
         {s.summary && <p className="series-summary">{s.summary}</p>}
@@ -69,7 +100,7 @@ export default function WorkGallery({asset}) {
             <div className="image-group-heading"><h4>{groupTitles[group] || group}</h4><span>{String(images.length).padStart(2,'0')} WORKS</span></div>
             <div className={'artwork-grid '+(s.categoryId==='2'?'avatar-grid':'')+(s.categoryId==='3'?'product-art-grid':'')+(s.categoryId==='4'?'original-art-grid':'')+(s.supplement?' supplement-art-grid':'')+(images[0]?.kind?.startsWith('pdf-')?' document-grid':'')}>
               {images.map(item=><button type="button" className="artwork-card" key={item.id} onClick={e=>open(s,item,e)} aria-label={'查看大图：'+s.title+' / '+item.label}>
-                <div className="artwork-image" style={group==='主题视觉'?{'--artwork-ratio':item.width+' / '+item.height}:undefined}>{item.bounds ? <svg className="artwork-preview" viewBox={item.bounds.join(' ')} role="img" aria-label={s.title+' · '+item.label} preserveAspectRatio="xMidYMid meet"><image href={asset(item.thumb)} width={item.width} height={item.height}/></svg> : <img src={asset(item.thumb)} width={item.previewWidth || item.width} height={item.previewHeight || item.height} alt={s.title+' · '+item.label} loading="lazy" decoding="async"/>}</div>
+                <ArtworkThumbnail item={item} asset={asset} series={s} group={group}/>
                 <div className="artwork-caption"><span title={item.caption || item.label}>{item.caption || item.label}</span><small>{item.kind==='pdf-long' ? item.pageCount+' 页长图' : String(s.images.findIndex(im=>im.id===item.id)+1).padStart(2,'0')}</small></div>
               </button>)}
             </div>
@@ -90,3 +121,6 @@ export default function WorkGallery({asset}) {
     <ArtworkViewer opened={opened} asset={asset} onMove={move} onClose={close} opener={opener}/>
   </>;
 }
+
+// Updating the active page navigation must not render the whole artwork grid again.
+export default memo(WorkGallery);

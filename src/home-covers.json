@@ -5,7 +5,12 @@
     "src": "covers/series-1-1.webp",
     "width": 1800,
     "height": 1008,
-    "category": "风格图库"
+    "category": "风格图库",
+    "preview": "optimized/cover-1-1-1440.webp",
+    "previewWidth": 1440,
+    "previewHeight": 872,
+    "previewSmall": "optimized/cover-1-1-768.webp",
+    "previewSmallWidth": 768
   },
   {
     "id": "1-2",
@@ -13,7 +18,12 @@
     "src": "covers/series-1-2.webp",
     "width": 1800,
     "height": 1004,
-    "category": "风格图库"
+    "category": "风格图库",
+    "preview": "optimized/cover-1-2-1440.webp",
+    "previewWidth": 1440,
+    "previewHeight": 872,
+    "previewSmall": "optimized/cover-1-2-768.webp",
+    "previewSmallWidth": 768
   },
   {
     "id": "3-4",
@@ -21,7 +31,12 @@
     "category": "产品设计",
     "src": "supplement/document-1-long-thumb.webp",
     "width": 1600,
-    "height": 900
+    "height": 900,
+    "preview": "optimized/cover-3-4-1440.webp",
+    "previewWidth": 1440,
+    "previewHeight": 872,
+    "previewSmall": "optimized/cover-3-4-768.webp",
+    "previewSmallWidth": 768
   },
   {
     "id": "2-2",
@@ -54,7 +69,12 @@
         "src": "collection/2-2-006-thumb.webp",
         "label": "女隐藏"
       }
-    ]
+    ],
+    "preview": "optimized/cover-2-2-1440.webp",
+    "previewWidth": 1440,
+    "previewHeight": 872,
+    "previewSmall": "optimized/cover-2-2-768.webp",
+    "previewSmallWidth": 768
   },
   {
     "id": "1-3",
@@ -62,7 +82,12 @@
     "src": "covers/series-1-3.webp",
     "width": 1800,
     "height": 1282,
-    "category": "风格图库"
+    "category": "风格图库",
+    "preview": "optimized/cover-1-3-1440.webp",
+    "previewWidth": 1440,
+    "previewHeight": 872,
+    "previewSmall": "optimized/cover-1-3-768.webp",
+    "previewSmallWidth": 768
   },
   {
     "id": "1-4",
@@ -70,7 +95,12 @@
     "src": "covers/series-1-4.webp",
     "width": 1800,
     "height": 1273,
-    "category": "风格图库"
+    "category": "风格图库",
+    "preview": "optimized/cover-1-4-1440.webp",
+    "previewWidth": 1440,
+    "previewHeight": 872,
+    "previewSmall": "optimized/cover-1-4-768.webp",
+    "previewSmallWidth": 768
   },
   {
     "id": "1-5",
@@ -78,7 +108,12 @@
     "src": "covers/series-1-5.webp",
     "width": 1800,
     "height": 1295,
-    "category": "风格图库"
+    "category": "风格图库",
+    "preview": "optimized/cover-1-5-1440.webp",
+    "previewWidth": 1440,
+    "previewHeight": 872,
+    "previewSmall": "optimized/cover-1-5-768.webp",
+    "previewSmallWidth": 768
   },
   {
     "id": "2-1",
@@ -111,6 +146,11 @@
         "src": "collection/2-1-006-thumb.webp",
         "label": "毛线男"
       }
-    ]
+    ],
+    "preview": "optimized/cover-2-1-1440.webp",
+    "previewWidth": 1440,
+    "previewHeight": 872,
+    "previewSmall": "optimized/cover-2-1-768.webp",
+    "previewSmallWidth": 768
   }
 ]

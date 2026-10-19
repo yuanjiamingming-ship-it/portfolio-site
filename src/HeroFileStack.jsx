@@ -1,10 +1,12 @@
-import React, {useEffect, useLayoutEffect, useRef, useState} from 'react';
+import React, {memo, useEffect, useLayoutEffect, useRef, useState} from 'react';
 import {animate, motion, useMotionValue, useReducedMotion, useTransform} from 'motion/react';
 import covers from './home-covers.json';
 import {PixelStar,PixelArrow} from './PixelMarks.jsx';
 
 const settle={type:'spring',stiffness:300,damping:30,mass:.8};
 const turns=[0,-1.25,1.25];
+const coverSizes='(min-width: 1860px) 980px, (min-width: 701px) 55vw, 90vw';
+const coverSources=(card,asset)=>card.previewSmall ? `${asset(card.previewSmall)} ${card.previewSmallWidth}w, ${asset(card.preview)} ${card.previewWidth}w` : undefined;
 
 // Adapted from the supplied Stack: crossing the drag threshold turns the file
 // immediately. Only the explicit corner link opens the corresponding series.
@@ -15,7 +17,7 @@ function FileCard({card, depth, asset, next, reduce}) {
   useEffect(()=>()=>controls.current.forEach(control=>control.stop()),[]);
   function dragFile(_,info) {
     const threshold=Math.max(55,Math.min(95,(surface.current?.offsetWidth || 600)*.16));
-    if(!cycled.current && Math.abs(info.offset.x)>=threshold){cycled.current=true;next();}
+    if(!cycled.current && Math.abs(info.offset.x)>=threshold){cycled.current=true;next(info.offset.x<0?1:-1);}
   }
   function endDrag() {
     controls.current.forEach(control=>control.stop());
@@ -31,15 +33,16 @@ function FileCard({card, depth, asset, next, reduce}) {
       style={{x,y,rotate:reduce?0:tilt}} drag={front?'x':false}
       dragConstraints={{left:0,right:0}} dragElastic={.9} dragMomentum={false}
       onPointerDown={()=>{cycled.current=false;controls.current.forEach(control=>control.stop());}}
-      onDragStart={()=>{document.documentElement.dataset.fileDragging='true';}} onDrag={dragFile} onDragEnd={endDrag}
+      onDragStart={()=>{document.documentElement.dataset.fileDragging='true';document.dispatchEvent(new Event('portfolio:file-drag'));}} onDrag={dragFile} onDragEnd={endDrag}
       onKeyDown={event=>{if(event.key==='ArrowRight'||event.key==='ArrowLeft'){event.preventDefault();next(event.key==='ArrowLeft'?-1:1);}}}
       whileTap={reduce?undefined:{cursor:'grabbing'}}>
       <span className="hero-file-tab" aria-hidden="true">FILE {String(covers.indexOf(card)+1).padStart(2,'0')} <span>{card.category}</span></span>
       <div className="hero-file-face">
         <div className="hero-file-top"><span>JIAMING’S LITTLE WORLDS</span><span aria-hidden="true"><PixelStar outline/></span></div>
-        <div className={'hero-file-picture'+(card.avatars?' hero-avatar-cover':'')}>
-          {card.avatars?card.avatars.map(avatar=><img key={avatar.src} src={asset(avatar.src)} alt={card.title+' · '+avatar.label} draggable="false"/>):
-            <img src={asset(card.src)} width={card.width} height={card.height} alt={card.title+' · 系列封面'} draggable="false" fetchPriority={card.id==='1-1'?'high':'auto'}/>}
+        <div className={'hero-file-picture'+(card.avatars&&!card.preview?' hero-avatar-cover':'')}>
+          {front && (card.avatars&&!card.preview?card.avatars.map(avatar=><img key={avatar.src} src={asset(avatar.src)} alt={card.title+' · '+avatar.label} draggable="false" decoding="async"/>):
+            <img src={asset(card.preview || card.src)} srcSet={coverSources(card,asset)} sizes={card.previewSmall?coverSizes:undefined}
+              width={card.previewWidth || card.width} height={card.previewHeight || card.height} alt={card.title+' · 系列封面'} draggable="false" decoding="async" fetchPriority={card.id==='1-1'?'high':'auto'}/>)}
         </div>
         <div className="hero-file-bottom"><strong>{card.title}</strong>
           <a className="hero-file-open" href={'#series-'+card.id} tabIndex={front?0:-1} aria-label={'打开这个世界：'+card.title}
@@ -50,14 +53,27 @@ function FileCard({card, depth, asset, next, reduce}) {
   </motion.div>;
 }
 
-export default function HeroFileStack({asset}) {
+function HeroFileStack({asset}) {
   const [index,setIndex]=useState(0), [height,setHeight]=useState(420), reduce=useReducedMotion();
   const stack=useRef(null), current=covers[index];
   useEffect(()=>{
-    const release=()=>{delete document.documentElement.dataset.fileDragging;};
+    const release=()=>{if(!document.documentElement.dataset.fileDragging)return;delete document.documentElement.dataset.fileDragging;document.dispatchEvent(new Event('portfolio:file-drag'));};
     window.addEventListener('pointerup',release);window.addEventListener('pointercancel',release);window.addEventListener('blur',release);
     return()=>{window.removeEventListener('pointerup',release);window.removeEventListener('pointercancel',release);window.removeEventListener('blur',release);release();};
   },[]);
+  useEffect(()=>{
+    // Warm only the neighboring covers after the visible cover has priority.
+    // Avatar folders use one prepared six-portrait collage instead of six decodes.
+    const timer=setTimeout(()=>{
+      for(const offset of [-1,1]) {
+        const card=covers[(index+offset+covers.length)%covers.length];
+        const image=new Image();image.decoding='async';image.fetchPriority='low';
+        image.sizes=coverSizes;image.srcset=coverSources(card,asset) || '';
+        image.src=asset(card.preview || card.src);
+      }
+    },450);
+    return()=>clearTimeout(timer);
+  },[index,asset]);
   useLayoutEffect(()=>{
     const face=stack.current?.querySelector('.is-front .hero-file-face');if(!face)return;
     const measure=()=>setHeight(Math.ceil(face.offsetHeight));measure();
@@ -71,7 +87,7 @@ export default function HeroFileStack({asset}) {
       {covers.map((card,i)=><FileCard key={card.id} card={card} depth={(i-index+covers.length)%covers.length} asset={asset} next={next} reduce={reduce}/>)}
     </motion.div>
     <div className="hero-stack-controls">
-      <p id="file-stack-help">左右拖动翻阅 · 右下角打开世界</p>
+      <p id="file-stack-help"><span aria-hidden="true">↔</span> 左右拖动，翻开下一份想象</p>
       <div className="hero-stack-pagination"><button type="button" aria-label="上一份封面" onClick={()=>next(-1)}><PixelArrow direction="left"/></button>
         <div className="hero-stack-dots" aria-label="选择封面">{covers.map((card,i)=><button type="button" key={card.id}
           className={i===index?'active':''} aria-label={'切换封面：'+card.title} aria-pressed={i===index} onClick={()=>setIndex(i)}><span/></button>)}</div>
@@ -82,3 +98,5 @@ export default function HeroFileStack({asset}) {
     <span className="stack-spark stack-spark-one" aria-hidden="true"><PixelStar/></span><span className="stack-spark stack-spark-two" aria-hidden="true"><PixelStar outline/></span>
   </div>;
 }
+
+export default memo(HeroFileStack);

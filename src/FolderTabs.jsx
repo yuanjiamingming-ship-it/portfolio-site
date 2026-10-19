@@ -1,6 +1,5 @@
 import React, {forwardRef, useEffect, useLayoutEffect, useRef, useState} from 'react';
 import {animate, motion, motionValue, useReducedMotion, useTransform} from 'motion/react';
-import './folder-tabs.css';
 
 // JellyRadio's spring and separate X/Y scaling, adapted to accessible folder tabs.
 const spring = (stiffness, mass, bounce) => ({type:'spring', stiffness, damping:2*Math.sqrt(stiffness*mass)*(1-bounce), mass});
@@ -51,19 +50,27 @@ export default function FolderTabs({items, value, onChange}) {
   useEffect(()=>{if(applied.current===at)return;applied.current=at;apply(at);},[at]);
   useEffect(()=>{apply(applied.current,true);},[reduce,compact]);
   useEffect(()=>{
-    let frame=0;
+    let frame=0,anchorY=0;
     const check=()=>{
       frame=0;
+      const edge=window.innerWidth<=700?74:82;
+      const top=anchorY-window.scrollY;
+      setCompact(previous=>previous?top<edge+20:top<edge-8);
+    };
+    const measure=()=>{
       if(!anchor.current)return;
-      const top=anchor.current.getBoundingClientRect().top;
-      // The anchor stays in normal flow. Hysteresis prevents flicker at the sticky edge.
-      setCompact(previous => previous ? top<28 : top<-12);
+      anchorY=anchor.current.getBoundingClientRect().top+window.scrollY;
+      check();
     };
     const schedule=()=>{if(!frame)frame=requestAnimationFrame(check);};
-    check();
+    // Cache the flow position when layout changes, not on every scroll frame.
+    // A scroll offset also handles jumps that skip past a tiny IO sentinel.
+    const observer=new ResizeObserver(measure);
+    observer.observe(document.querySelector('main'));
+    measure();
     window.addEventListener('scroll',schedule,{passive:true});
-    window.addEventListener('resize',schedule);
-    return()=>{cancelAnimationFrame(frame);window.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);};
+    window.addEventListener('resize',measure);
+    return()=>{cancelAnimationFrame(frame);observer.disconnect();window.removeEventListener('scroll',schedule);window.removeEventListener('resize',measure);};
   },[]);
   useEffect(()=>()=>{
     animations.current.forEach(animation=>animation.stop());

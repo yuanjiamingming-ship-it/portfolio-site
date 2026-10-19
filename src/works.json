@@ -17,18 +17,22 @@
       {
         "id": "1-1-017",
         "src": "collection/1-1-017.webp",
-        "thumb": "collection/1-1-017-theme-thumb.webp",
+        "thumb": "optimized/1-1-017-1800.webp",
         "filename": "封面.png",
         "label": "咩咩幻想曲 · 主题插画",
         "group": "主题视觉",
         "sourcePath": "1风格图库/1咩咩幻想曲/封面.png",
         "width": 3867,
-        "height": 2165
+        "height": 2165,
+        "previewWidth": 1800,
+        "previewHeight": 1008,
+        "thumbSmall": "optimized/1-1-017-960.webp",
+        "thumbSmallWidth": 960
       },
       {
         "id": "1-1-019",
         "src": "collection/1-1-019.webp",
-        "thumb": "collection/1-1-019-thumb.webp",
+        "thumb": "optimized/1-1-019-crop.webp",
         "filename": "羊年做梦(1).png",
         "label": "星月绵羊梦环",
         "group": "角色图案",
@@ -40,12 +44,16 @@
           48,
           889,
           935
-        ]
+        ],
+        "previewWidth": 685,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-1-019-crop-small.webp",
+        "thumbSmallWidth": 380
       },
       {
         "id": "1-1-020",
         "src": "collection/1-1-020.webp",
-        "thumb": "collection/1-1-020-thumb.webp",
+        "thumb": "optimized/1-1-020-crop.webp",
         "filename": "资源 16@4x.png",
         "label": "云端抱抱",
         "group": "角色图案",
@@ -57,12 +65,16 @@
           153,
           1460,
           1133
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 559,
+        "thumbSmall": "optimized/1-1-020-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-1-021",
         "src": "collection/1-1-021.webp",
-        "thumb": "collection/1-1-021-thumb.webp",
+        "thumb": "optimized/1-1-021-crop.webp",
         "filename": "资源 17@4x.png",
         "label": "绵羊的小疑问",
         "group": "角色图案",
@@ -74,12 +86,16 @@
           217,
           1459,
           1169
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 577,
+        "thumbSmall": "optimized/1-1-021-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-1-022",
         "src": "collection/1-1-022.webp",
-        "thumb": "collection/1-1-022-thumb.webp",
+        "thumb": "optimized/1-1-022-crop.webp",
         "filename": "资源 18@4x.png",
         "label": "围巾与绵羊",
         "group": "角色图案",
@@ -91,12 +107,16 @@
           204,
           1270,
           1175
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 666,
+        "thumbSmall": "optimized/1-1-022-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-1-023",
         "src": "collection/1-1-023.webp",
-        "thumb": "collection/1-1-023-thumb.webp",
+        "thumb": "optimized/1-1-023-crop.webp",
         "filename": "资源 19@4x.png",
         "label": "奶油云朵罐",
         "group": "角色图案",
@@ -108,12 +128,16 @@
           33,
           1166,
           1274
-        ]
+        ],
+        "previewWidth": 659,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-1-023-crop-small.webp",
+        "thumbSmallWidth": 366
       },
       {
         "id": "1-1-024",
         "src": "collection/1-1-024.webp",
-        "thumb": "collection/1-1-024-thumb.webp",
+        "thumb": "optimized/1-1-024-crop.webp",
         "filename": "资源 20@4x.png",
         "label": "草莓漂流瓶",
         "group": "角色图案",
@@ -125,12 +149,16 @@
           24,
           1281,
           1438
-        ]
+        ],
+        "previewWidth": 641,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-1-024-crop-small.webp",
+        "thumbSmallWidth": 356
       },
       {
         "id": "1-1-013",
         "src": "collection/1-1-013.webp",
-        "thumb": "collection/1-1-013-thumb.webp",
+        "thumb": "optimized/1-1-013-crop.webp",
         "filename": "资源 4@4x.png",
         "label": "星月泡泡字标",
         "group": "字体设计",
@@ -142,12 +170,16 @@
           0,
           1173,
           735
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 451,
+        "thumbSmall": "optimized/1-1-013-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-1-014",
         "src": "collection/1-1-014.webp",
-        "thumb": "collection/1-1-014-thumb.webp",
+        "thumb": "optimized/1-1-014-crop.webp",
         "filename": "资源 5@4x.png",
         "label": "草莓绵羊字标",
         "group": "字体设计",
@@ -159,12 +191,16 @@
           271,
           1111,
           553
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 358,
+        "thumbSmall": "optimized/1-1-014-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-1-015",
         "src": "collection/1-1-015.webp",
-        "thumb": "collection/1-1-015-thumb.webp",
+        "thumb": "optimized/1-1-015-crop.webp",
         "filename": "资源 6@4x.png",
         "label": "奶油云朵字标",
         "group": "字体设计",
@@ -176,12 +212,16 @@
           8,
           1127,
           730
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 466,
+        "thumbSmall": "optimized/1-1-015-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-1-016",
         "src": "collection/1-1-016.webp",
-        "thumb": "collection/1-1-016-thumb.webp",
+        "thumb": "optimized/1-1-016-crop.webp",
         "filename": "资源 7@4x.png",
         "label": "星光花体字标",
         "group": "字体设计",
@@ -193,7 +233,11 @@
           160,
           1302,
           636
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 352,
+        "thumbSmall": "optimized/1-1-016-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-1-001",
@@ -259,18 +303,22 @@
       {
         "id": "1-2-034",
         "src": "collection/1-2-034.webp",
-        "thumb": "collection/1-2-034-theme-thumb.webp",
+        "thumb": "optimized/1-2-034-1800.webp",
         "filename": "封面.png",
         "label": "幽夜派对 · 主题插画",
         "group": "主题视觉",
         "sourcePath": "1风格图库/2幽夜派对/封面.png",
         "width": 5377,
-        "height": 3000
+        "height": 3000,
+        "previewWidth": 1800,
+        "previewHeight": 1004,
+        "thumbSmall": "optimized/1-2-034-960.webp",
+        "thumbSmallWidth": 960
       },
       {
         "id": "1-2-036",
         "src": "collection/1-2-036.webp",
-        "thumb": "collection/1-2-036-thumb.webp",
+        "thumb": "optimized/1-2-036-crop.webp",
         "filename": "资源 37@4x.png",
         "label": "南瓜小魔法师",
         "group": "角色图案",
@@ -282,12 +330,16 @@
           43,
           1858,
           1865
-        ]
+        ],
+        "previewWidth": 717,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-2-036-crop-small.webp",
+        "thumbSmallWidth": 398
       },
       {
         "id": "1-2-037",
         "src": "collection/1-2-037.webp",
-        "thumb": "collection/1-2-037-thumb.webp",
+        "thumb": "optimized/1-2-037-crop.webp",
         "filename": "资源 38@4x.png",
         "label": "古堡吸血王子",
         "group": "角色图案",
@@ -299,12 +351,16 @@
           240,
           1767,
           1650
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 672,
+        "thumbSmall": "optimized/1-2-037-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-2-038",
         "src": "collection/1-2-038.webp",
-        "thumb": "collection/1-2-038-thumb.webp",
+        "thumb": "optimized/1-2-038-crop.webp",
         "filename": "资源 39@4x.png",
         "label": "月夜绷带少年",
         "group": "角色图案",
@@ -316,12 +372,16 @@
           0,
           1870,
           1840
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 708,
+        "thumbSmall": "optimized/1-2-038-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-2-039",
         "src": "collection/1-2-039.webp",
-        "thumb": "collection/1-2-039-thumb.webp",
+        "thumb": "optimized/1-2-039-crop.webp",
         "filename": "资源 40@4x.png",
         "label": "幽焰红帽法师",
         "group": "角色图案",
@@ -333,12 +393,16 @@
           118,
           1983,
           1722
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 625,
+        "thumbSmall": "optimized/1-2-039-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-2-029",
         "src": "collection/1-2-029.webp",
-        "thumb": "collection/1-2-029-thumb.webp",
+        "thumb": "optimized/1-2-029-crop.webp",
         "filename": "资源 1@4x.png",
         "label": "月夜藤蔓字标",
         "group": "字体设计",
@@ -350,12 +414,16 @@
           42,
           1718,
           736
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 308,
+        "thumbSmall": "optimized/1-2-029-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-2-030",
         "src": "collection/1-2-030.webp",
-        "thumb": "collection/1-2-030-thumb.webp",
+        "thumb": "optimized/1-2-030-crop.webp",
         "filename": "资源 2@4x.png",
         "label": "蛛网涂鸦字标",
         "group": "字体设计",
@@ -367,12 +435,16 @@
           7,
           1334,
           1165
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 629,
+        "thumbSmall": "optimized/1-2-030-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-2-031",
         "src": "collection/1-2-031.webp",
-        "thumb": "collection/1-2-031-thumb.webp",
+        "thumb": "optimized/1-2-031-crop.webp",
         "filename": "资源 3@4x.png",
         "label": "荧光派对字标",
         "group": "字体设计",
@@ -384,12 +456,16 @@
           0,
           785,
           332
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 305,
+        "thumbSmall": "optimized/1-2-031-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-2-032",
         "src": "collection/1-2-032.webp",
-        "thumb": "collection/1-2-032-thumb.webp",
+        "thumb": "optimized/1-2-032-crop.webp",
         "filename": "资源 4@4x.png",
         "label": "蝙蝠满月字标",
         "group": "字体设计",
@@ -401,12 +477,16 @@
           0,
           1113,
           817
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 529,
+        "thumbSmall": "optimized/1-2-032-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-2-033",
         "src": "collection/1-2-033.webp",
-        "thumb": "collection/1-2-033-thumb.webp",
+        "thumb": "optimized/1-2-033-crop.webp",
         "filename": "资源 5@4x.png",
         "label": "幽夜中文花体",
         "group": "字体设计",
@@ -418,7 +498,11 @@
           10,
           1517,
           705
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 335,
+        "thumbSmall": "optimized/1-2-033-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-2-001",
@@ -484,18 +568,22 @@
       {
         "id": "1-3-033",
         "src": "collection/1-3-033.webp",
-        "thumb": "collection/1-3-033-theme-thumb.webp",
+        "thumb": "optimized/1-3-033-1800.webp",
         "filename": "封面.png",
         "label": "山野奇遇 · 主题插画",
         "group": "主题视觉",
         "sourcePath": "1风格图库/3山野奇遇/封面.png",
         "width": 3367,
-        "height": 2398
+        "height": 2398,
+        "previewWidth": 1800,
+        "previewHeight": 1282,
+        "thumbSmall": "optimized/1-3-033-960.webp",
+        "thumbSmallWidth": 960
       },
       {
         "id": "1-3-035",
         "src": "collection/1-3-035.webp",
-        "thumb": "collection/1-3-035-thumb.webp",
+        "thumb": "optimized/1-3-035-crop.webp",
         "filename": "资源 25@4x.png",
         "label": "野营小憩",
         "group": "角色图案",
@@ -507,12 +595,16 @@
           89,
           747,
           767
-        ]
+        ],
+        "previewWidth": 701,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-3-035-crop-small.webp",
+        "thumbSmallWidth": 390
       },
       {
         "id": "1-3-036",
         "src": "collection/1-3-036.webp",
-        "thumb": "collection/1-3-036-thumb.webp",
+        "thumb": "optimized/1-3-036-crop.webp",
         "filename": "资源 26@4x.png",
         "label": "林间垂钓",
         "group": "角色图案",
@@ -524,12 +616,16 @@
           87,
           698,
           963
-        ]
+        ],
+        "previewWidth": 522,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-3-036-crop-small.webp",
+        "thumbSmallWidth": 290
       },
       {
         "id": "1-3-037",
         "src": "collection/1-3-037.webp",
-        "thumb": "collection/1-3-037-thumb.webp",
+        "thumb": "optimized/1-3-037-crop.webp",
         "filename": "资源 27@4x.png",
         "label": "兔兔与花环",
         "group": "角色图案",
@@ -541,12 +637,16 @@
           175,
           1134,
           1035
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 657,
+        "thumbSmall": "optimized/1-3-037-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-3-038",
         "src": "collection/1-3-038.webp",
-        "thumb": "collection/1-3-038-thumb.webp",
+        "thumb": "optimized/1-3-038-crop.webp",
         "filename": "资源 28@4x.png",
         "label": "林间帽子戏法",
         "group": "角色图案",
@@ -558,12 +658,16 @@
           74,
           1087,
           1069
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 708,
+        "thumbSmall": "optimized/1-3-038-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-3-039",
         "src": "collection/1-3-039.webp",
-        "thumb": "collection/1-3-039-thumb.webp",
+        "thumb": "optimized/1-3-039-crop.webp",
         "filename": "资源 43@4x.png",
         "label": "森林露营",
         "group": "角色图案",
@@ -575,12 +679,16 @@
           0,
           1199,
           1091
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 655,
+        "thumbSmall": "optimized/1-3-039-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-3-040",
         "src": "collection/1-3-040.webp",
-        "thumb": "collection/1-3-040-thumb.webp",
+        "thumb": "optimized/1-3-040-crop.webp",
         "filename": "资源 44@4x.png",
         "label": "花束与兔兔",
         "group": "角色图案",
@@ -592,12 +700,16 @@
           324,
           1147,
           1011
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 635,
+        "thumbSmall": "optimized/1-3-040-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-3-041",
         "src": "collection/1-3-041.webp",
-        "thumb": "collection/1-3-041-thumb.webp",
+        "thumb": "optimized/1-3-041-crop.webp",
         "filename": "资源 45@4x.png",
         "label": "自然观察日记",
         "group": "角色图案",
@@ -609,12 +721,16 @@
           32,
           1400,
           1288
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 662,
+        "thumbSmall": "optimized/1-3-041-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-3-042",
         "src": "collection/1-3-042.webp",
-        "thumb": "collection/1-3-042-thumb.webp",
+        "thumb": "optimized/1-3-042-crop.webp",
         "filename": "资源 46@4x.png",
         "label": "山野旅行相框",
         "group": "角色图案",
@@ -626,12 +742,16 @@
           46,
           1153,
           1150
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 718,
+        "thumbSmall": "optimized/1-3-042-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-3-043",
         "src": "collection/1-3-043.webp",
-        "thumb": "collection/1-3-043-thumb.webp",
+        "thumb": "optimized/1-3-043-crop.webp",
         "filename": "资源 47@4x.png",
         "label": "路牌下的冒险",
         "group": "角色图案",
@@ -643,12 +763,16 @@
           22,
           1506,
           1225
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 586,
+        "thumbSmall": "optimized/1-3-043-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-3-044",
         "src": "collection/1-3-044.webp",
-        "thumb": "collection/1-3-044-thumb.webp",
+        "thumb": "optimized/1-3-044-crop.webp",
         "filename": "资源 48@4x.png",
         "label": "帐篷里的好时光",
         "group": "角色图案",
@@ -660,12 +784,16 @@
           0,
           1314,
           1108
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 607,
+        "thumbSmall": "optimized/1-3-044-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-3-029",
         "src": "collection/1-3-029.webp",
-        "thumb": "collection/1-3-029-thumb.webp",
+        "thumb": "optimized/1-3-029-crop.webp",
         "filename": "资源 2@4x.png",
         "label": "山野贴纸字标",
         "group": "字体设计",
@@ -677,12 +805,16 @@
           0,
           951,
           359
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 272,
+        "thumbSmall": "optimized/1-3-029-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-3-030",
         "src": "collection/1-3-030.webp",
-        "thumb": "collection/1-3-030-thumb.webp",
+        "thumb": "optimized/1-3-030-crop.webp",
         "filename": "资源 3@4x.png",
         "label": "山野手绘字标",
         "group": "字体设计",
@@ -694,12 +826,16 @@
           0,
           744,
           550
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 532,
+        "thumbSmall": "optimized/1-3-030-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-3-031",
         "src": "collection/1-3-031.webp",
-        "thumb": "collection/1-3-031-thumb.webp",
+        "thumb": "optimized/1-3-031-crop.webp",
         "filename": "资源 4@4x.png",
         "label": "露营花体字标",
         "group": "字体设计",
@@ -711,12 +847,16 @@
           0,
           1251,
           287
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 165,
+        "thumbSmall": "optimized/1-3-031-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-3-032",
         "src": "collection/1-3-032.webp",
-        "thumb": "collection/1-3-032-thumb.webp",
+        "thumb": "optimized/1-3-032-crop.webp",
         "filename": "资源 5@4x.png",
         "label": "森林拼贴字标",
         "group": "字体设计",
@@ -728,7 +868,11 @@
           0,
           1027,
           460
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 322,
+        "thumbSmall": "optimized/1-3-032-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-3-001",
@@ -793,18 +937,22 @@
       {
         "id": "1-4-006",
         "src": "collection/1-4-006.webp",
-        "thumb": "collection/1-4-006-theme-thumb.webp",
+        "thumb": "optimized/1-4-006-1800.webp",
         "filename": "封面.png",
         "label": "粉色漫游 · 主题插画",
         "group": "主题视觉",
         "sourcePath": "1风格图库/4粉色漫游/封面.png",
         "width": 3368,
-        "height": 2382
+        "height": 2382,
+        "previewWidth": 1800,
+        "previewHeight": 1273,
+        "thumbSmall": "optimized/1-4-006-960.webp",
+        "thumbSmallWidth": 960
       },
       {
         "id": "1-4-008",
         "src": "collection/1-4-008.webp",
-        "thumb": "collection/1-4-008-thumb.webp",
+        "thumb": "optimized/1-4-008-crop.webp",
         "filename": "资源 9@4x.png",
         "label": "粉色招呼手势",
         "group": "角色图案",
@@ -816,12 +964,16 @@
           0,
           714,
           900
-        ]
+        ],
+        "previewWidth": 571,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-4-008-crop-small.webp",
+        "thumbSmallWidth": 317
       },
       {
         "id": "1-4-009",
         "src": "collection/1-4-009.webp",
-        "thumb": "collection/1-4-009-thumb.webp",
+        "thumb": "optimized/1-4-009-crop.webp",
         "filename": "资源 10@4x.png",
         "label": "粉色闪耀手势",
         "group": "角色图案",
@@ -833,12 +985,16 @@
           0,
           789,
           681
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 621,
+        "thumbSmall": "optimized/1-4-009-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-010",
         "src": "collection/1-4-010.webp",
-        "thumb": "collection/1-4-010-thumb.webp",
+        "thumb": "optimized/1-4-010-crop.webp",
         "filename": "资源 11@4x.png",
         "label": "薄荷挑眉",
         "group": "角色图案",
@@ -850,12 +1006,16 @@
           0,
           528,
           506
-        ]
+        ],
+        "previewWidth": 528,
+        "previewHeight": 506,
+        "thumbSmall": "optimized/1-4-010-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-011",
         "src": "collection/1-4-011.webp",
-        "thumb": "collection/1-4-011-thumb.webp",
+        "thumb": "optimized/1-4-011-crop.webp",
         "filename": "资源 12@4x.png",
         "label": "俏皮眨眼",
         "group": "角色图案",
@@ -867,12 +1027,16 @@
           0,
           525,
           509
-        ]
+        ],
+        "previewWidth": 525,
+        "previewHeight": 509,
+        "thumbSmall": "optimized/1-4-011-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-012",
         "src": "collection/1-4-012.webp",
-        "thumb": "collection/1-4-012-thumb.webp",
+        "thumb": "optimized/1-4-012-crop.webp",
         "filename": "资源 13@4x.png",
         "label": "微醺脸颊",
         "group": "角色图案",
@@ -884,12 +1048,16 @@
           0,
           525,
           509
-        ]
+        ],
+        "previewWidth": 525,
+        "previewHeight": 509,
+        "thumbSmall": "optimized/1-4-012-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-013",
         "src": "collection/1-4-013.webp",
-        "thumb": "collection/1-4-013-thumb.webp",
+        "thumb": "optimized/1-4-013-crop.webp",
         "filename": "资源 14@4x.png",
         "label": "咖啡时刻",
         "group": "角色图案",
@@ -901,12 +1069,16 @@
           0,
           530,
           601
-        ]
+        ],
+        "previewWidth": 530,
+        "previewHeight": 601,
+        "thumbSmall": "optimized/1-4-013-crop-small.webp",
+        "thumbSmallWidth": 353
       },
       {
         "id": "1-4-014",
         "src": "collection/1-4-014.webp",
-        "thumb": "collection/1-4-014-thumb.webp",
+        "thumb": "optimized/1-4-014-crop.webp",
         "filename": "资源 15@4x.png",
         "label": "粉色绅士",
         "group": "角色图案",
@@ -918,12 +1090,16 @@
           0,
           829,
           1510
-        ]
+        ],
+        "previewWidth": 395,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-4-014-crop-small.webp",
+        "thumbSmallWidth": 220
       },
       {
         "id": "1-4-015",
         "src": "collection/1-4-015.webp",
-        "thumb": "collection/1-4-015-thumb.webp",
+        "thumb": "optimized/1-4-015-crop.webp",
         "filename": "资源 16@4x.png",
         "label": "经典粉色西装",
         "group": "角色图案",
@@ -935,12 +1111,16 @@
           0,
           839,
           1491
-        ]
+        ],
+        "previewWidth": 405,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-4-015-crop-small.webp",
+        "thumbSmallWidth": 225
       },
       {
         "id": "1-4-016",
         "src": "collection/1-4-016.webp",
-        "thumb": "collection/1-4-016-thumb.webp",
+        "thumb": "optimized/1-4-016-crop.webp",
         "filename": "资源 17@4x.png",
         "label": "奔跑的风",
         "group": "角色图案",
@@ -952,12 +1132,16 @@
           0,
           828,
           1464
-        ]
+        ],
+        "previewWidth": 407,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-4-016-crop-small.webp",
+        "thumbSmallWidth": 226
       },
       {
         "id": "1-4-017",
         "src": "collection/1-4-017.webp",
-        "thumb": "collection/1-4-017-thumb.webp",
+        "thumb": "optimized/1-4-017-crop.webp",
         "filename": "资源 18@4x.png",
         "label": "玫瑰与心意",
         "group": "角色图案",
@@ -969,12 +1153,16 @@
           0,
           854,
           1384
-        ]
+        ],
+        "previewWidth": 444,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-4-017-crop-small.webp",
+        "thumbSmallWidth": 247
       },
       {
         "id": "1-4-018",
         "src": "collection/1-4-018.webp",
-        "thumb": "collection/1-4-018-thumb.webp",
+        "thumb": "optimized/1-4-018-crop.webp",
         "filename": "资源 19@4x.png",
         "label": "西装问候",
         "group": "角色图案",
@@ -986,12 +1174,16 @@
           0,
           846,
           1424
-        ]
+        ],
+        "previewWidth": 428,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-4-018-crop-small.webp",
+        "thumbSmallWidth": 238
       },
       {
         "id": "1-4-019",
         "src": "collection/1-4-019.webp",
-        "thumb": "collection/1-4-019-thumb.webp",
+        "thumb": "optimized/1-4-019-crop.webp",
         "filename": "资源 20@4x.png",
         "label": "口袋里的玫瑰",
         "group": "角色图案",
@@ -1003,12 +1195,16 @@
           0,
           853,
           1461
-        ]
+        ],
+        "previewWidth": 420,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-4-019-crop-small.webp",
+        "thumbSmallWidth": 234
       },
       {
         "id": "1-4-020",
         "src": "collection/1-4-020.webp",
-        "thumb": "collection/1-4-020-thumb.webp",
+        "thumb": "optimized/1-4-020-crop.webp",
         "filename": "资源 21@4x.png",
         "label": "粉色出发日",
         "group": "角色图案",
@@ -1020,12 +1216,16 @@
           0,
           851,
           1325
-        ]
+        ],
+        "previewWidth": 462,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-4-020-crop-small.webp",
+        "thumbSmallWidth": 257
       },
       {
         "id": "1-4-021",
         "src": "collection/1-4-021.webp",
-        "thumb": "collection/1-4-021-thumb.webp",
+        "thumb": "optimized/1-4-021-crop.webp",
         "filename": "资源 22@4x.png",
         "label": "薄荷格纹小卡",
         "group": "角色图案",
@@ -1037,12 +1237,16 @@
           0,
           941,
           1255
-        ]
+        ],
+        "previewWidth": 540,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-4-021-crop-small.webp",
+        "thumbSmallWidth": 300
       },
       {
         "id": "1-4-022",
         "src": "collection/1-4-022.webp",
-        "thumb": "collection/1-4-022-thumb.webp",
+        "thumb": "optimized/1-4-022-crop.webp",
         "filename": "资源 23@4x.png",
         "label": "玫瑰时光小卡",
         "group": "角色图案",
@@ -1054,12 +1258,16 @@
           0,
           942,
           1255
-        ]
+        ],
+        "previewWidth": 540,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-4-022-crop-small.webp",
+        "thumbSmallWidth": 300
       },
       {
         "id": "1-4-023",
         "src": "collection/1-4-023.webp",
-        "thumb": "collection/1-4-023-thumb.webp",
+        "thumb": "optimized/1-4-023-crop.webp",
         "filename": "资源 24@4x.png",
         "label": "粉色绅士小卡",
         "group": "角色图案",
@@ -1071,12 +1279,16 @@
           0,
           942,
           1255
-        ]
+        ],
+        "previewWidth": 540,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-4-023-crop-small.webp",
+        "thumbSmallWidth": 300
       },
       {
         "id": "1-4-024",
         "src": "collection/1-4-024.webp",
-        "thumb": "collection/1-4-024-thumb.webp",
+        "thumb": "optimized/1-4-024-crop.webp",
         "filename": "资源 25@4x.png",
         "label": "心动时刻小卡",
         "group": "角色图案",
@@ -1088,12 +1300,16 @@
           0,
           941,
           1255
-        ]
+        ],
+        "previewWidth": 540,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-4-024-crop-small.webp",
+        "thumbSmallWidth": 300
       },
       {
         "id": "1-4-025",
         "src": "collection/1-4-025.webp",
-        "thumb": "collection/1-4-025-thumb.webp",
+        "thumb": "optimized/1-4-025-crop.webp",
         "filename": "资源 26@4x.png",
         "label": "圆形玫瑰徽章",
         "group": "角色图案",
@@ -1105,12 +1321,16 @@
           0,
           502,
           502
-        ]
+        ],
+        "previewWidth": 502,
+        "previewHeight": 502,
+        "thumbSmall": "optimized/1-4-025-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-026",
         "src": "collection/1-4-026.webp",
-        "thumb": "collection/1-4-026-thumb.webp",
+        "thumb": "optimized/1-4-026-crop.webp",
         "filename": "资源 28@4x.png",
         "label": "巧克力格纹徽章",
         "group": "角色图案",
@@ -1122,12 +1342,16 @@
           0,
           492,
           491
-        ]
+        ],
+        "previewWidth": 492,
+        "previewHeight": 491,
+        "thumbSmall": "optimized/1-4-026-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-027",
         "src": "collection/1-4-027.webp",
-        "thumb": "collection/1-4-027-thumb.webp",
+        "thumb": "optimized/1-4-027-crop.webp",
         "filename": "资源 29@4x.png",
         "label": "奶油玫瑰徽章",
         "group": "角色图案",
@@ -1139,12 +1363,16 @@
           0,
           497,
           497
-        ]
+        ],
+        "previewWidth": 497,
+        "previewHeight": 497,
+        "thumbSmall": "optimized/1-4-027-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-028",
         "src": "collection/1-4-028.webp",
-        "thumb": "collection/1-4-028-thumb.webp",
+        "thumb": "optimized/1-4-028-crop.webp",
         "filename": "资源 30@4x.png",
         "label": "薄荷条纹徽章",
         "group": "角色图案",
@@ -1156,12 +1384,16 @@
           0,
           491,
           491
-        ]
+        ],
+        "previewWidth": 491,
+        "previewHeight": 491,
+        "thumbSmall": "optimized/1-4-028-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-029",
         "src": "collection/1-4-029.webp",
-        "thumb": "collection/1-4-029-thumb.webp",
+        "thumb": "optimized/1-4-029-crop.webp",
         "filename": "资源 31@4x.png",
         "label": "粉色爱心徽章",
         "group": "角色图案",
@@ -1173,12 +1405,16 @@
           0,
           492,
           491
-        ]
+        ],
+        "previewWidth": 492,
+        "previewHeight": 491,
+        "thumbSmall": "optimized/1-4-029-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-030",
         "src": "collection/1-4-030.webp",
-        "thumb": "collection/1-4-030-thumb.webp",
+        "thumb": "optimized/1-4-030-crop.webp",
         "filename": "资源 32@4x.png",
         "label": "奶油咖啡徽章",
         "group": "角色图案",
@@ -1190,12 +1426,16 @@
           0,
           497,
           497
-        ]
+        ],
+        "previewWidth": 497,
+        "previewHeight": 497,
+        "thumbSmall": "optimized/1-4-030-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-031",
         "src": "collection/1-4-031.webp",
-        "thumb": "collection/1-4-031-thumb.webp",
+        "thumb": "optimized/1-4-031-crop.webp",
         "filename": "资源 33@4x.png",
         "label": "夜色西装徽章",
         "group": "角色图案",
@@ -1207,12 +1447,16 @@
           0,
           498,
           497
-        ]
+        ],
+        "previewWidth": 498,
+        "previewHeight": 497,
+        "thumbSmall": "optimized/1-4-031-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-032",
         "src": "collection/1-4-032.webp",
-        "thumb": "collection/1-4-032-thumb.webp",
+        "thumb": "optimized/1-4-032-crop.webp",
         "filename": "资源 34@4x.png",
         "label": "粉色玫瑰徽章",
         "group": "角色图案",
@@ -1224,12 +1468,16 @@
           0,
           497,
           497
-        ]
+        ],
+        "previewWidth": 497,
+        "previewHeight": 497,
+        "thumbSmall": "optimized/1-4-032-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-001",
         "src": "collection/1-4-001.webp",
-        "thumb": "collection/1-4-001-thumb.webp",
+        "thumb": "optimized/1-4-001-crop.webp",
         "filename": "资源 4@4x.png",
         "label": "奶油描边中文字标",
         "group": "字体设计",
@@ -1241,12 +1489,16 @@
           0,
           812,
           401
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 356,
+        "thumbSmall": "optimized/1-4-001-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-002",
         "src": "collection/1-4-002.webp",
-        "thumb": "collection/1-4-002-thumb.webp",
+        "thumb": "optimized/1-4-002-crop.webp",
         "filename": "资源 5@4x.png",
         "label": "巧克力立体中文字标",
         "group": "字体设计",
@@ -1258,12 +1510,16 @@
           0,
           809,
           419
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 373,
+        "thumbSmall": "optimized/1-4-002-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-003",
         "src": "collection/1-4-003.webp",
-        "thumb": "collection/1-4-003-thumb.webp",
+        "thumb": "optimized/1-4-003-crop.webp",
         "filename": "资源 6@4x.png",
         "label": "粉色手写花体",
         "group": "字体设计",
@@ -1275,12 +1531,16 @@
           0,
           1177,
           635
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 388,
+        "thumbSmall": "optimized/1-4-003-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-004",
         "src": "collection/1-4-004.webp",
-        "thumb": "collection/1-4-004-thumb.webp",
+        "thumb": "optimized/1-4-004-crop.webp",
         "filename": "资源 7@4x.png",
         "label": "经典横排字标",
         "group": "字体设计",
@@ -1292,12 +1552,16 @@
           0,
           1254,
           206
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 118,
+        "thumbSmall": "optimized/1-4-004-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-4-005",
         "src": "collection/1-4-005.webp",
-        "thumb": "collection/1-4-005-thumb.webp",
+        "thumb": "optimized/1-4-005-crop.webp",
         "filename": "资源 8@4x.png",
         "label": "经典双行字标",
         "group": "字体设计",
@@ -1309,7 +1573,11 @@
           0,
           594,
           415
-        ]
+        ],
+        "previewWidth": 594,
+        "previewHeight": 415,
+        "thumbSmall": "optimized/1-4-005-crop-small.webp",
+        "thumbSmallWidth": 400
       }
     ]
   },
@@ -1330,18 +1598,22 @@
       {
         "id": "1-5-017",
         "src": "collection/1-5-017.webp",
-        "thumb": "collection/1-5-017-theme-thumb.webp",
+        "thumb": "optimized/1-5-017-1800.webp",
         "filename": "封面.png",
         "label": "星辰汇 · 主题插画",
         "group": "主题视觉",
         "sourcePath": "1风格图库/5星辰汇/封面.png",
         "width": 3387,
-        "height": 2437
+        "height": 2437,
+        "previewWidth": 1800,
+        "previewHeight": 1295,
+        "thumbSmall": "optimized/1-5-017-960.webp",
+        "thumbSmallWidth": 960
       },
       {
         "id": "1-5-019",
         "src": "collection/1-5-019.webp",
-        "thumb": "collection/1-5-019-thumb.webp",
+        "thumb": "optimized/1-5-019-crop.webp",
         "filename": "资源 4@4x.png",
         "label": "复古摄影师",
         "group": "角色图案",
@@ -1353,12 +1625,16 @@
           232,
           957,
           1446
-        ]
+        ],
+        "previewWidth": 477,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-5-019-crop-small.webp",
+        "thumbSmallWidth": 265
       },
       {
         "id": "1-5-020",
         "src": "collection/1-5-020.webp",
-        "thumb": "collection/1-5-020-thumb.webp",
+        "thumb": "optimized/1-5-020-crop.webp",
         "filename": "资源 5@4x.png",
         "label": "鹦鹉海盗",
         "group": "角色图案",
@@ -1370,12 +1646,16 @@
           103,
           1025,
           1311
-        ]
+        ],
+        "previewWidth": 563,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-5-020-crop-small.webp",
+        "thumbSmallWidth": 313
       },
       {
         "id": "1-5-021",
         "src": "collection/1-5-021.webp",
-        "thumb": "collection/1-5-021-thumb.webp",
+        "thumb": "optimized/1-5-021-crop.webp",
         "filename": "资源 6@4x.png",
         "label": "森林猎手",
         "group": "角色图案",
@@ -1387,12 +1667,16 @@
           159,
           1189,
           1151
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 697,
+        "thumbSmall": "optimized/1-5-021-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "1-5-022",
         "src": "collection/1-5-022.webp",
-        "thumb": "collection/1-5-022-thumb.webp",
+        "thumb": "optimized/1-5-022-crop.webp",
         "filename": "资源 7@4x.png",
         "label": "咖啡侦探",
         "group": "角色图案",
@@ -1404,12 +1688,16 @@
           109,
           962,
           1282
-        ]
+        ],
+        "previewWidth": 540,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-5-022-crop-small.webp",
+        "thumbSmallWidth": 300
       },
       {
         "id": "1-5-023",
         "src": "collection/1-5-023.webp",
-        "thumb": "collection/1-5-023-thumb.webp",
+        "thumb": "optimized/1-5-023-crop.webp",
         "filename": "资源 8@4x.png",
         "label": "月夜占星师",
         "group": "角色图案",
@@ -1421,12 +1709,16 @@
           9,
           1279,
           1393
-        ]
+        ],
+        "previewWidth": 661,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-5-023-crop-small.webp",
+        "thumbSmallWidth": 367
       },
       {
         "id": "1-5-024",
         "src": "collection/1-5-024.webp",
-        "thumb": "collection/1-5-024-thumb.webp",
+        "thumb": "optimized/1-5-024-crop.webp",
         "filename": "资源 9@4x.png",
         "label": "窗边的玫瑰少年",
         "group": "角色图案",
@@ -1438,7 +1730,11 @@
           67,
           1057,
           1275
-        ]
+        ],
+        "previewWidth": 597,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/1-5-024-crop-small.webp",
+        "thumbSmallWidth": 332
       },
       {
         "id": "1-5-001",
@@ -2582,7 +2878,7 @@
       {
         "id": "3-1-001",
         "src": "collection/3-1-001.webp",
-        "thumb": "collection/3-1-001-thumb.webp",
+        "thumb": "optimized/3-1-001-crop.webp",
         "filename": "占星师.png",
         "label": "占星师",
         "group": "作品",
@@ -2596,12 +2892,16 @@
           1043
         ],
         "description": "抬头观星，低头将世界的规律落在纸上",
-        "descriptionSource": "provided"
+        "descriptionSource": "provided",
+        "previewWidth": 420,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-1-001-crop-small.webp",
+        "thumbSmallWidth": 233
       },
       {
         "id": "3-1-002",
         "src": "collection/3-1-002.webp",
-        "thumb": "collection/3-1-002-thumb.webp",
+        "thumb": "optimized/3-1-002-crop.webp",
         "filename": "发明家.png",
         "label": "发明家",
         "group": "作品",
@@ -2615,12 +2915,16 @@
           916
         ],
         "description": "上好发条，试试这双翅膀能抵达何处",
-        "descriptionSource": "provided"
+        "descriptionSource": "provided",
+        "previewWidth": 497,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-1-002-crop-small.webp",
+        "thumbSmallWidth": 276
       },
       {
         "id": "3-1-003",
         "src": "collection/3-1-003.webp",
-        "thumb": "collection/3-1-003-thumb.webp",
+        "thumb": "optimized/3-1-003-crop.webp",
         "filename": "帽匠.png",
         "label": "帽匠",
         "group": "作品",
@@ -2634,12 +2938,16 @@
           954
         ],
         "description": "手执金剪，为来客定制合意的礼帽。",
-        "descriptionSource": "provided"
+        "descriptionSource": "provided",
+        "previewWidth": 592,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-1-003-crop-small.webp",
+        "thumbSmallWidth": 329
       },
       {
         "id": "3-1-004",
         "src": "collection/3-1-004.webp",
-        "thumb": "collection/3-1-004-thumb.webp",
+        "thumb": "optimized/3-1-004-crop.webp",
         "filename": "摄影师.png",
         "label": "摄影师",
         "group": "作品",
@@ -2653,12 +2961,16 @@
           1017
         ],
         "description": "按下快门，把擦肩而过的光影留在这一刻。",
-        "descriptionSource": "authored"
+        "descriptionSource": "authored",
+        "previewWidth": 487,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-1-004-crop-small.webp",
+        "thumbSmallWidth": 271
       },
       {
         "id": "3-1-005",
         "src": "collection/3-1-005.webp",
-        "thumb": "collection/3-1-005-thumb.webp",
+        "thumb": "optimized/3-1-005-crop.webp",
         "filename": "斗牛士.png",
         "label": "斗牛士",
         "group": "作品",
@@ -2672,12 +2984,16 @@
           877
         ],
         "description": "红布扬起，脚步站稳，迎接一场漂亮的谢幕。",
-        "descriptionSource": "provided"
+        "descriptionSource": "provided",
+        "previewWidth": 553,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-1-005-crop-small.webp",
+        "thumbSmallWidth": 307
       },
       {
         "id": "3-1-006",
         "src": "collection/3-1-006.webp",
-        "thumb": "collection/3-1-006-thumb.webp",
+        "thumb": "optimized/3-1-006-crop.webp",
         "filename": "海盗.png",
         "label": "海盗",
         "group": "作品",
@@ -2691,12 +3007,16 @@
           923
         ],
         "description": "扬起船帆，循着旧海图去寻找海风藏起的宝藏。",
-        "descriptionSource": "authored"
+        "descriptionSource": "authored",
+        "previewWidth": 641,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-1-006-crop-small.webp",
+        "thumbSmallWidth": 356
       },
       {
         "id": "3-1-007",
         "src": "collection/3-1-007.webp",
-        "thumb": "collection/3-1-007-thumb.webp",
+        "thumb": "optimized/3-1-007-crop.webp",
         "filename": "猎人.png",
         "label": "猎人",
         "group": "作品",
@@ -2710,12 +3030,16 @@
           1045
         ],
         "description": "猎枪靠在肩后，仍听见密林深处的脚步声",
-        "descriptionSource": "provided"
+        "descriptionSource": "provided",
+        "previewWidth": 442,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-1-007-crop-small.webp",
+        "thumbSmallWidth": 246
       },
       {
         "id": "3-1-008",
         "src": "collection/3-1-008.webp",
-        "thumb": "collection/3-1-008-thumb.webp",
+        "thumb": "optimized/3-1-008-crop.webp",
         "filename": "私家侦探.png",
         "label": "私家侦探",
         "group": "作品",
@@ -2729,12 +3053,16 @@
           1008
         ],
         "description": "举起放大镜，从酒渍中问出被藏起的真相。",
-        "descriptionSource": "provided"
+        "descriptionSource": "provided",
+        "previewWidth": 537,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-1-008-crop-small.webp",
+        "thumbSmallWidth": 298
       },
       {
         "id": "3-1-009",
         "src": "collection/3-1-009.webp",
-        "thumb": "collection/3-1-009-thumb.webp",
+        "thumb": "optimized/3-1-009-crop.webp",
         "filename": "管家.png",
         "label": "管家",
         "group": "作品",
@@ -2748,12 +3076,16 @@
           1006
         ],
         "description": "整理好领结，将每一份妥帖藏进从容的日常。",
-        "descriptionSource": "authored"
+        "descriptionSource": "authored",
+        "previewWidth": 425,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-1-009-crop-small.webp",
+        "thumbSmallWidth": 236
       },
       {
         "id": "3-1-010",
         "src": "collection/3-1-010.webp",
-        "thumb": "collection/3-1-010-thumb.webp",
+        "thumb": "optimized/3-1-010-crop.webp",
         "filename": "邮差.png",
         "label": "邮差",
         "group": "作品",
@@ -2767,12 +3099,16 @@
           964
         ],
         "description": "穿过街巷，把远方的问候送到等候的人手上。",
-        "descriptionSource": "authored"
+        "descriptionSource": "authored",
+        "previewWidth": 577,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-1-010-crop-small.webp",
+        "thumbSmallWidth": 321
       },
       {
         "id": "3-1-011",
         "src": "collection/3-1-011.webp",
-        "thumb": "collection/3-1-011-thumb.webp",
+        "thumb": "optimized/3-1-011-crop.webp",
         "filename": "铁匠.png",
         "label": "铁匠",
         "group": "作品",
@@ -2786,12 +3122,16 @@
           1007
         ],
         "description": "举起铁锤，让炉火中的灵感慢慢有了形状。",
-        "descriptionSource": "authored"
+        "descriptionSource": "authored",
+        "previewWidth": 395,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-1-011-crop-small.webp",
+        "thumbSmallWidth": 220
       },
       {
         "id": "3-1-012",
         "src": "collection/3-1-012.webp",
-        "thumb": "collection/3-1-012-thumb.webp",
+        "thumb": "optimized/3-1-012-crop.webp",
         "filename": "雾都探长.png",
         "label": "雾都探长",
         "group": "作品",
@@ -2805,12 +3145,16 @@
           1059
         ],
         "description": "拨开街头的薄雾，让沉默的线索指向答案。",
-        "descriptionSource": "authored"
+        "descriptionSource": "authored",
+        "previewWidth": 439,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-1-012-crop-small.webp",
+        "thumbSmallWidth": 244
       },
       {
         "id": "3-1-013",
         "src": "collection/3-1-013.webp",
-        "thumb": "collection/3-1-013-thumb.webp",
+        "thumb": "optimized/3-1-013-crop.webp",
         "filename": "音乐魔术师.png",
         "label": "音乐魔术师",
         "group": "作品",
@@ -2824,12 +3168,16 @@
           978
         ],
         "description": "轻敲鼓点，让一段旋律变成出人意料的魔法。",
-        "descriptionSource": "authored"
+        "descriptionSource": "authored",
+        "previewWidth": 660,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-1-013-crop-small.webp",
+        "thumbSmallWidth": 367
       },
       {
         "id": "3-1-014",
         "src": "collection/3-1-014.webp",
-        "thumb": "collection/3-1-014-thumb.webp",
+        "thumb": "optimized/3-1-014-crop.webp",
         "filename": "鸟嘴医生.png",
         "label": "鸟嘴医生",
         "group": "作品",
@@ -2843,7 +3191,11 @@
           994
         ],
         "description": "鸟嘴遮住表情，也隔开冰冷的疫雾",
-        "descriptionSource": "provided"
+        "descriptionSource": "provided",
+        "previewWidth": 551,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-1-014-crop-small.webp",
+        "thumbSmallWidth": 306
       }
     ]
   },
@@ -2862,7 +3214,7 @@
       {
         "id": "3-2-001",
         "src": "collection/3-2-001.webp",
-        "thumb": "collection/3-2-001-thumb.webp",
+        "thumb": "optimized/3-2-001-crop.webp",
         "filename": "冒险.png",
         "label": "冒险",
         "group": "作品",
@@ -2874,12 +3226,16 @@
           1,
           574,
           783
-        ]
+        ],
+        "previewWidth": 528,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-2-001-crop-small.webp",
+        "thumbSmallWidth": 293
       },
       {
         "id": "3-2-002",
         "src": "collection/3-2-002.webp",
-        "thumb": "collection/3-2-002-thumb.webp",
+        "thumb": "optimized/3-2-002-crop.webp",
         "filename": "成王.png",
         "label": "成王",
         "group": "作品",
@@ -2891,12 +3247,16 @@
           0,
           572,
           825
-        ]
+        ],
+        "previewWidth": 499,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-2-002-crop-small.webp",
+        "thumbSmallWidth": 277
       },
       {
         "id": "3-2-003",
         "src": "collection/3-2-003.webp",
-        "thumb": "collection/3-2-003-thumb.webp",
+        "thumb": "optimized/3-2-003-crop.webp",
         "filename": "接触.png",
         "label": "接触",
         "group": "作品",
@@ -2908,12 +3268,16 @@
           0,
           676,
           794
-        ]
+        ],
+        "previewWidth": 613,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-2-003-crop-small.webp",
+        "thumbSmallWidth": 341
       },
       {
         "id": "3-2-004",
         "src": "collection/3-2-004.webp",
-        "thumb": "collection/3-2-004-thumb.webp",
+        "thumb": "optimized/3-2-004-crop.webp",
         "filename": "穿梭.png",
         "label": "穿梭",
         "group": "作品",
@@ -2925,12 +3289,16 @@
           0,
           572,
           790
-        ]
+        ],
+        "previewWidth": 521,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-2-004-crop-small.webp",
+        "thumbSmallWidth": 290
       },
       {
         "id": "3-2-005",
         "src": "collection/3-2-005.webp",
-        "thumb": "collection/3-2-005-thumb.webp",
+        "thumb": "optimized/3-2-005-crop.webp",
         "filename": "维度.png",
         "label": "维度",
         "group": "作品",
@@ -2942,12 +3310,16 @@
           0,
           603,
           809
-        ]
+        ],
+        "previewWidth": 537,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-2-005-crop-small.webp",
+        "thumbSmallWidth": 298
       },
       {
         "id": "3-2-006",
         "src": "collection/3-2-006.webp",
-        "thumb": "collection/3-2-006-thumb.webp",
+        "thumb": "optimized/3-2-006-crop.webp",
         "filename": "诞生.png",
         "label": "诞生",
         "group": "作品",
@@ -2959,7 +3331,11 @@
           0,
           582,
           791
-        ]
+        ],
+        "previewWidth": 530,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-2-006-crop-small.webp",
+        "thumbSmallWidth": 294
       }
     ]
   },
@@ -2978,7 +3354,7 @@
       {
         "id": "3-3-001",
         "src": "collection/3-3-001.webp",
-        "thumb": "collection/3-3-001-thumb.webp",
+        "thumb": "optimized/3-3-001-crop.webp",
         "filename": "品牌色版.png",
         "label": "品牌色版",
         "group": "作品",
@@ -2990,12 +3366,16 @@
           0,
           986,
           1665
-        ]
+        ],
+        "previewWidth": 426,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/3-3-001-crop-small.webp",
+        "thumbSmallWidth": 237
       },
       {
         "id": "3-3-002",
         "src": "collection/3-3-002.webp",
-        "thumb": "collection/3-3-002-thumb.webp",
+        "thumb": "optimized/3-3-002-crop.webp",
         "filename": "黑钻版.png",
         "label": "黑钻版",
         "group": "作品",
@@ -3007,7 +3387,11 @@
           0,
           2892,
           2516
-        ]
+        ],
+        "previewWidth": 720,
+        "previewHeight": 626,
+        "thumbSmall": "optimized/3-3-002-crop-small.webp",
+        "thumbSmallWidth": 400
       }
     ]
   },
@@ -3026,7 +3410,7 @@
       {
         "id": "3-5-001",
         "src": "supplement/3-5-001.webp",
-        "thumb": "supplement/3-5-001-thumb.webp",
+        "thumb": "optimized/3-5-001-crop.webp",
         "width": 2560,
         "height": 1440,
         "displayWidth": 2560,
@@ -3043,12 +3427,16 @@
         "label": "小舞 · 角色草图与造型",
         "group": "作品",
         "kind": "image",
-        "caption": "小舞 · 角色草图与造型"
+        "caption": "小舞 · 角色草图与造型",
+        "previewWidth": 720,
+        "previewHeight": 405,
+        "thumbSmall": "optimized/3-5-001-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "3-5-002",
         "src": "supplement/3-5-002.webp",
-        "thumb": "supplement/3-5-002-thumb.webp",
+        "thumb": "optimized/3-5-002-crop.webp",
         "width": 2560,
         "height": 1440,
         "displayWidth": 2560,
@@ -3065,12 +3453,16 @@
         "label": "宁荣荣 · 三视图与细节",
         "group": "作品",
         "kind": "image",
-        "caption": "宁荣荣 · 三视图与细节"
+        "caption": "宁荣荣 · 三视图与细节",
+        "previewWidth": 720,
+        "previewHeight": 405,
+        "thumbSmall": "optimized/3-5-002-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "3-5-003",
         "src": "supplement/3-5-003.webp",
-        "thumb": "supplement/3-5-003-thumb.webp",
+        "thumb": "optimized/3-5-003-crop.webp",
         "width": 2560,
         "height": 1440,
         "displayWidth": 2560,
@@ -3087,12 +3479,16 @@
         "label": "小舞 · Q 版动作与产品呈现",
         "group": "作品",
         "kind": "image",
-        "caption": "小舞 · Q 版动作与产品呈现"
+        "caption": "小舞 · Q 版动作与产品呈现",
+        "previewWidth": 720,
+        "previewHeight": 405,
+        "thumbSmall": "optimized/3-5-003-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "3-5-004",
         "src": "supplement/3-5-004.webp",
-        "thumb": "supplement/3-5-004-thumb.webp",
+        "thumb": "optimized/3-5-004-crop.webp",
         "width": 2560,
         "height": 1440,
         "displayWidth": 2560,
@@ -3109,12 +3505,16 @@
         "label": "元素角色 · 水、火与光",
         "group": "作品",
         "kind": "image",
-        "caption": "元素角色 · 水、火与光"
+        "caption": "元素角色 · 水、火与光",
+        "previewWidth": 720,
+        "previewHeight": 405,
+        "thumbSmall": "optimized/3-5-004-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "3-5-005",
         "src": "supplement/3-5-005.webp",
-        "thumb": "supplement/3-5-005-thumb.webp",
+        "thumb": "optimized/3-5-005-crop.webp",
         "width": 2560,
         "height": 1440,
         "displayWidth": 2560,
@@ -3131,7 +3531,11 @@
         "label": "小舞 · 动作草图与造型迭代",
         "group": "作品",
         "kind": "image",
-        "caption": "小舞 · 动作草图与造型迭代"
+        "caption": "小舞 · 动作草图与造型迭代",
+        "previewWidth": 720,
+        "previewHeight": 405,
+        "thumbSmall": "optimized/3-5-005-crop-small.webp",
+        "thumbSmallWidth": 400
       }
     ],
     "supplement": true
@@ -3215,7 +3619,7 @@
       {
         "id": "3-6-005",
         "src": "supplement/3-6-005.webp",
-        "thumb": "supplement/3-6-005-thumb.webp",
+        "thumb": "optimized/3-6-005-crop.webp",
         "width": 2560,
         "height": 1440,
         "displayWidth": 2560,
@@ -3232,7 +3636,11 @@
         "label": "角色潮玩 · 动态与底座探索",
         "group": "作品",
         "kind": "image",
-        "caption": "角色潮玩 · 动态与底座探索"
+        "caption": "角色潮玩 · 动态与底座探索",
+        "previewWidth": 720,
+        "previewHeight": 405,
+        "thumbSmall": "optimized/3-6-005-crop-small.webp",
+        "thumbSmallWidth": 400
       }
     ],
     "supplement": true
@@ -3362,7 +3770,7 @@
       {
         "id": "4-1-101",
         "src": "supplement/4-1-101.webp",
-        "thumb": "supplement/4-1-101-thumb.webp",
+        "thumb": "optimized/4-1-101-crop.webp",
         "width": 1502,
         "height": 1501,
         "displayWidth": 1502,
@@ -3379,12 +3787,16 @@
         "label": "SUGAR · 甜心贴纸乐园",
         "group": "作品",
         "kind": "image",
-        "caption": "SUGAR · 甜心贴纸乐园"
+        "caption": "SUGAR · 甜心贴纸乐园",
+        "previewWidth": 720,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-1-101-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "4-1-102",
         "src": "supplement/4-1-102.webp",
-        "thumb": "supplement/4-1-102-thumb.webp",
+        "thumb": "optimized/4-1-102-crop.webp",
         "width": 1497,
         "height": 1501,
         "displayWidth": 1497,
@@ -3401,12 +3813,16 @@
         "label": "SUGAR · 野餐日",
         "group": "作品",
         "kind": "image",
-        "caption": "SUGAR · 野餐日"
+        "caption": "SUGAR · 野餐日",
+        "previewWidth": 718,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-1-102-crop-small.webp",
+        "thumbSmallWidth": 399
       },
       {
         "id": "4-1-103",
         "src": "supplement/4-1-103.webp",
-        "thumb": "supplement/4-1-103-thumb.webp",
+        "thumb": "optimized/4-1-103-crop.webp",
         "width": 640,
         "height": 853,
         "displayWidth": 640,
@@ -3423,7 +3839,11 @@
         "label": "SUGAR · 气球甜心",
         "group": "作品",
         "kind": "image",
-        "caption": "SUGAR · 气球甜心"
+        "caption": "SUGAR · 气球甜心",
+        "previewWidth": 540,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-1-103-crop-small.webp",
+        "thumbSmallWidth": 300
       }
     ]
   },
@@ -3713,7 +4133,7 @@
       {
         "id": "4-4-001",
         "src": "supplement/4-4-001.webp",
-        "thumb": "supplement/4-4-001-thumb.webp",
+        "thumb": "optimized/4-4-001-crop.webp",
         "width": 5716,
         "height": 3392,
         "displayWidth": 3000,
@@ -3730,12 +4150,16 @@
         "label": "上海站 · 城市漫游",
         "group": "作品",
         "kind": "image",
-        "caption": "上海站 · 城市漫游"
+        "caption": "上海站 · 城市漫游",
+        "previewWidth": 720,
+        "previewHeight": 427,
+        "thumbSmall": "optimized/4-4-001-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "4-4-002",
         "src": "supplement/4-4-002.webp",
-        "thumb": "supplement/4-4-002-thumb.webp",
+        "thumb": "optimized/4-4-002-crop.webp",
         "width": 1386,
         "height": 1171,
         "displayWidth": 1386,
@@ -3752,12 +4176,16 @@
         "label": "拍下好心情",
         "group": "作品",
         "kind": "image",
-        "caption": "拍下好心情"
+        "caption": "拍下好心情",
+        "previewWidth": 720,
+        "previewHeight": 608,
+        "thumbSmall": "optimized/4-4-002-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "4-4-003",
         "src": "supplement/4-4-003.webp",
-        "thumb": "supplement/4-4-003-thumb.webp",
+        "thumb": "optimized/4-4-003-crop.webp",
         "width": 1808,
         "height": 1380,
         "displayWidth": 1808,
@@ -3774,12 +4202,16 @@
         "label": "纸飞机出发",
         "group": "作品",
         "kind": "image",
-        "caption": "纸飞机出发"
+        "caption": "纸飞机出发",
+        "previewWidth": 720,
+        "previewHeight": 550,
+        "thumbSmall": "optimized/4-4-003-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "4-4-004",
         "src": "supplement/4-4-004.webp",
-        "thumb": "supplement/4-4-004-thumb.webp",
+        "thumb": "optimized/4-4-004-crop.webp",
         "width": 1941,
         "height": 2024,
         "displayWidth": 1941,
@@ -3796,12 +4228,16 @@
         "label": "旅行明信片",
         "group": "作品",
         "kind": "image",
-        "caption": "旅行明信片"
+        "caption": "旅行明信片",
+        "previewWidth": 690,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-4-004-crop-small.webp",
+        "thumbSmallWidth": 384
       },
       {
         "id": "4-4-005",
         "src": "supplement/4-4-005.webp",
-        "thumb": "supplement/4-4-005-thumb.webp",
+        "thumb": "optimized/4-4-005-crop.webp",
         "width": 2319,
         "height": 2318,
         "displayWidth": 2319,
@@ -3818,12 +4254,16 @@
         "label": "咖啡与书 · 主题纹样",
         "group": "作品",
         "kind": "image",
-        "caption": "咖啡与书 · 主题纹样"
+        "caption": "咖啡与书 · 主题纹样",
+        "previewWidth": 720,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-4-005-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "4-4-006",
         "src": "supplement/4-4-006.webp",
-        "thumb": "supplement/4-4-006-thumb.webp",
+        "thumb": "optimized/4-4-006-crop.webp",
         "width": 2340,
         "height": 2340,
         "displayWidth": 2340,
@@ -3840,12 +4280,16 @@
         "label": "星小闹 · 横幅视觉",
         "group": "作品",
         "kind": "image",
-        "caption": "星小闹 · 横幅视觉"
+        "caption": "星小闹 · 横幅视觉",
+        "previewWidth": 720,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-4-006-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "4-4-007",
         "src": "supplement/4-4-007.webp",
-        "thumb": "supplement/4-4-007-thumb.webp",
+        "thumb": "optimized/4-4-007-crop.webp",
         "width": 2061,
         "height": 2232,
         "displayWidth": 2061,
@@ -3862,12 +4306,16 @@
         "label": "COFFEE · 咖啡时光",
         "group": "作品",
         "kind": "image",
-        "caption": "COFFEE · 咖啡时光"
+        "caption": "COFFEE · 咖啡时光",
+        "previewWidth": 665,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-4-007-crop-small.webp",
+        "thumbSmallWidth": 369
       },
       {
         "id": "4-4-008",
         "src": "supplement/4-4-008.webp",
-        "thumb": "supplement/4-4-008-thumb.webp",
+        "thumb": "optimized/4-4-008-crop.webp",
         "width": 1951,
         "height": 2057,
         "displayWidth": 1951,
@@ -3884,12 +4332,16 @@
         "label": "BOOK · 翻开新故事",
         "group": "作品",
         "kind": "image",
-        "caption": "BOOK · 翻开新故事"
+        "caption": "BOOK · 翻开新故事",
+        "previewWidth": 683,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-4-008-crop-small.webp",
+        "thumbSmallWidth": 379
       },
       {
         "id": "4-4-009",
         "src": "supplement/4-4-009.webp",
-        "thumb": "supplement/4-4-009-thumb.webp",
+        "thumb": "optimized/4-4-009-crop.webp",
         "width": 1449,
         "height": 859,
         "displayWidth": 1449,
@@ -3906,12 +4358,16 @@
         "label": "地铁里的小旅行",
         "group": "作品",
         "kind": "image",
-        "caption": "地铁里的小旅行"
+        "caption": "地铁里的小旅行",
+        "previewWidth": 720,
+        "previewHeight": 451,
+        "thumbSmall": "optimized/4-4-009-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "4-4-010",
         "src": "supplement/4-4-010.webp",
-        "thumb": "supplement/4-4-010-thumb.webp",
+        "thumb": "optimized/4-4-010-crop.webp",
         "width": 1175,
         "height": 1494,
         "displayWidth": 1175,
@@ -3928,12 +4384,16 @@
         "label": "星小闹 · 灵动亮相",
         "group": "作品",
         "kind": "image",
-        "caption": "星小闹 · 灵动亮相"
+        "caption": "星小闹 · 灵动亮相",
+        "previewWidth": 566,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-4-010-crop-small.webp",
+        "thumbSmallWidth": 315
       },
       {
         "id": "4-4-011",
         "src": "supplement/4-4-011.webp",
-        "thumb": "supplement/4-4-011-thumb.webp",
+        "thumb": "optimized/4-4-011-crop.webp",
         "width": 1121,
         "height": 1310,
         "displayWidth": 1121,
@@ -3950,12 +4410,16 @@
         "label": "听见好天气",
         "group": "作品",
         "kind": "image",
-        "caption": "听见好天气"
+        "caption": "听见好天气",
+        "previewWidth": 616,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-4-011-crop-small.webp",
+        "thumbSmallWidth": 342
       },
       {
         "id": "4-4-012",
         "src": "supplement/4-4-012.webp",
-        "thumb": "supplement/4-4-012-thumb.webp",
+        "thumb": "optimized/4-4-012-crop.webp",
         "width": 2420,
         "height": 2660,
         "displayWidth": 2420,
@@ -3972,12 +4436,16 @@
         "label": "东方明珠 · 城市打卡",
         "group": "作品",
         "kind": "image",
-        "caption": "东方明珠 · 城市打卡"
+        "caption": "东方明珠 · 城市打卡",
+        "previewWidth": 655,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-4-012-crop-small.webp",
+        "thumbSmallWidth": 364
       },
       {
         "id": "4-4-013",
         "src": "supplement/4-4-013.webp",
-        "thumb": "supplement/4-4-013-thumb.webp",
+        "thumb": "optimized/4-4-013-crop.webp",
         "width": 1439,
         "height": 1225,
         "displayWidth": 1439,
@@ -3994,12 +4462,16 @@
         "label": "带上行李出发",
         "group": "作品",
         "kind": "image",
-        "caption": "带上行李出发"
+        "caption": "带上行李出发",
+        "previewWidth": 720,
+        "previewHeight": 613,
+        "thumbSmall": "optimized/4-4-013-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "4-4-014",
         "src": "supplement/4-4-014.webp",
-        "thumb": "supplement/4-4-014-thumb.webp",
+        "thumb": "optimized/4-4-014-crop.webp",
         "width": 1327,
         "height": 1372,
         "displayWidth": 1327,
@@ -4016,12 +4488,16 @@
         "label": "星小闹 · 活力动作",
         "group": "作品",
         "kind": "image",
-        "caption": "星小闹 · 活力动作"
+        "caption": "星小闹 · 活力动作",
+        "previewWidth": 696,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-4-014-crop-small.webp",
+        "thumbSmallWidth": 387
       },
       {
         "id": "4-4-015",
         "src": "supplement/4-4-015.webp",
-        "thumb": "supplement/4-4-015-thumb.webp",
+        "thumb": "optimized/4-4-015-crop.webp",
         "width": 1691,
         "height": 3369,
         "displayWidth": 1506,
@@ -4038,12 +4514,16 @@
         "label": "问号盒子 · 惊喜旅程",
         "group": "作品",
         "kind": "image",
-        "caption": "问号盒子 · 惊喜旅程"
+        "caption": "问号盒子 · 惊喜旅程",
+        "previewWidth": 361,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-4-015-crop-small.webp",
+        "thumbSmallWidth": 201
       },
       {
         "id": "4-4-016",
         "src": "supplement/4-4-016.webp",
-        "thumb": "supplement/4-4-016-thumb.webp",
+        "thumb": "optimized/4-4-016-crop.webp",
         "width": 2619,
         "height": 1584,
         "displayWidth": 2619,
@@ -4060,12 +4540,16 @@
         "label": "音乐随行",
         "group": "作品",
         "kind": "image",
-        "caption": "音乐随行"
+        "caption": "音乐随行",
+        "previewWidth": 720,
+        "previewHeight": 435,
+        "thumbSmall": "optimized/4-4-016-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "4-4-017",
         "src": "supplement/4-4-017.webp",
-        "thumb": "supplement/4-4-017-thumb.webp",
+        "thumb": "optimized/4-4-017-crop.webp",
         "width": 2114,
         "height": 3112,
         "displayWidth": 2038,
@@ -4082,7 +4566,11 @@
         "label": "菠萝汽水 · 热带假日",
         "group": "作品",
         "kind": "image",
-        "caption": "菠萝汽水 · 热带假日"
+        "caption": "菠萝汽水 · 热带假日",
+        "previewWidth": 489,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-4-017-crop-small.webp",
+        "thumbSmallWidth": 272
       }
     ],
     "supplement": true
@@ -4134,7 +4622,7 @@
       {
         "id": "4-5-003",
         "src": "supplement/4-5-003.webp",
-        "thumb": "supplement/4-5-003-thumb.webp",
+        "thumb": "optimized/4-5-003-crop.webp",
         "width": 3000,
         "height": 3000,
         "displayWidth": 3000,
@@ -4151,7 +4639,11 @@
         "label": "吉祥主题 · 原创形象探索",
         "group": "作品",
         "kind": "image",
-        "caption": "吉祥主题 · 原创形象探索"
+        "caption": "吉祥主题 · 原创形象探索",
+        "previewWidth": 720,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-5-003-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "4-5-004",
@@ -4188,7 +4680,7 @@
       {
         "id": "4-5-006",
         "src": "supplement/4-5-006.webp",
-        "thumb": "supplement/4-5-006-thumb.webp",
+        "thumb": "optimized/4-5-006-crop.webp",
         "width": 3000,
         "height": 3000,
         "displayWidth": 3000,
@@ -4205,7 +4697,11 @@
         "label": "青铜猫头鹰 · 造型研究",
         "group": "作品",
         "kind": "image",
-        "caption": "青铜猫头鹰 · 造型研究"
+        "caption": "青铜猫头鹰 · 造型研究",
+        "previewWidth": 720,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/4-5-006-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "4-5-007",
@@ -4333,7 +4829,7 @@
       {
         "id": "5-2-003",
         "src": "supplement/5-2-003.webp",
-        "thumb": "supplement/5-2-003-thumb.webp",
+        "thumb": "optimized/5-2-003-crop.webp",
         "width": 2001,
         "height": 1122,
         "displayWidth": 2001,
@@ -4350,7 +4846,11 @@
         "label": "角色绘画 · 服装与轮廓练习",
         "group": "作品",
         "kind": "image",
-        "caption": "角色绘画 · 服装与轮廓练习"
+        "caption": "角色绘画 · 服装与轮廓练习",
+        "previewWidth": 720,
+        "previewHeight": 404,
+        "thumbSmall": "optimized/5-2-003-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "5-2-004",
@@ -4371,7 +4871,7 @@
       {
         "id": "5-2-005",
         "src": "supplement/5-2-005.webp",
-        "thumb": "supplement/5-2-005-thumb.webp",
+        "thumb": "optimized/5-2-005-crop.webp",
         "width": 1994,
         "height": 1118,
         "displayWidth": 1994,
@@ -4388,12 +4888,16 @@
         "label": "生命探测员 · 角色与装备",
         "group": "作品",
         "kind": "image",
-        "caption": "生命探测员 · 角色与装备"
+        "caption": "生命探测员 · 角色与装备",
+        "previewWidth": 720,
+        "previewHeight": 404,
+        "thumbSmall": "optimized/5-2-005-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "5-2-006",
         "src": "supplement/5-2-006.webp",
-        "thumb": "supplement/5-2-006-thumb.webp",
+        "thumb": "optimized/5-2-006-crop.webp",
         "width": 1994,
         "height": 1118,
         "displayWidth": 1994,
@@ -4410,12 +4914,16 @@
         "label": "森之风铃 · 角色设定",
         "group": "作品",
         "kind": "image",
-        "caption": "森之风铃 · 角色设定"
+        "caption": "森之风铃 · 角色设定",
+        "previewWidth": 720,
+        "previewHeight": 404,
+        "thumbSmall": "optimized/5-2-006-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "5-2-007",
         "src": "supplement/5-2-007.webp",
-        "thumb": "supplement/5-2-007-thumb.webp",
+        "thumb": "optimized/5-2-007-crop.webp",
         "width": 640,
         "height": 853,
         "displayWidth": 640,
@@ -4432,12 +4940,16 @@
         "label": "SUGAR · 气球甜心插画",
         "group": "作品",
         "kind": "image",
-        "caption": "SUGAR · 气球甜心插画"
+        "caption": "SUGAR · 气球甜心插画",
+        "previewWidth": 540,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/5-2-007-crop-small.webp",
+        "thumbSmallWidth": 300
       },
       {
         "id": "5-2-008",
         "src": "supplement/5-2-008.webp",
-        "thumb": "supplement/5-2-008-thumb.webp",
+        "thumb": "optimized/5-2-008-crop.webp",
         "width": 2000,
         "height": 3000,
         "displayWidth": 2000,
@@ -4454,7 +4966,11 @@
         "label": "夏安安 · IP 商品插画",
         "group": "作品",
         "kind": "image",
-        "caption": "夏安安 · IP 商品插画"
+        "caption": "夏安安 · IP 商品插画",
+        "previewWidth": 480,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/5-2-008-crop-small.webp",
+        "thumbSmallWidth": 267
       },
       {
         "id": "5-2-009",
@@ -4475,7 +4991,7 @@
       {
         "id": "5-2-010",
         "src": "supplement/5-2-010.webp",
-        "thumb": "supplement/5-2-010-thumb.webp",
+        "thumb": "optimized/5-2-010-crop.webp",
         "width": 4785,
         "height": 4000,
         "displayWidth": 3000,
@@ -4492,12 +5008,16 @@
         "label": "赤影战士 · 角色设定与三视图",
         "group": "作品",
         "kind": "image",
-        "caption": "赤影战士 · 角色设定与三视图"
+        "caption": "赤影战士 · 角色设定与三视图",
+        "previewWidth": 720,
+        "previewHeight": 602,
+        "thumbSmall": "optimized/5-2-010-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "5-2-011",
         "src": "supplement/5-2-011.webp",
-        "thumb": "supplement/5-2-011-thumb.webp",
+        "thumb": "optimized/5-2-011-crop.webp",
         "width": 3072,
         "height": 2048,
         "displayWidth": 3000,
@@ -4514,7 +5034,11 @@
         "label": "夏日水岸 · 人物插画",
         "group": "作品",
         "kind": "image",
-        "caption": "夏日水岸 · 人物插画"
+        "caption": "夏日水岸 · 人物插画",
+        "previewWidth": 720,
+        "previewHeight": 480,
+        "thumbSmall": "optimized/5-2-011-crop-small.webp",
+        "thumbSmallWidth": 400
       }
     ],
     "supplement": true
@@ -4662,7 +5186,7 @@
       {
         "id": "5-3-009",
         "src": "supplement/5-3-009.webp",
-        "thumb": "supplement/5-3-009-thumb.webp",
+        "thumb": "optimized/5-3-009-crop.webp",
         "width": 750,
         "height": 1125,
         "displayWidth": 750,
@@ -4679,12 +5203,16 @@
         "label": "花间少年 · 东方衣饰",
         "group": "作品",
         "kind": "image",
-        "caption": "花间少年 · 东方衣饰"
+        "caption": "花间少年 · 东方衣饰",
+        "previewWidth": 480,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/5-3-009-crop-small.webp",
+        "thumbSmallWidth": 267
       },
       {
         "id": "5-3-010",
         "src": "supplement/5-3-010.webp",
-        "thumb": "supplement/5-3-010-thumb.webp",
+        "thumb": "optimized/5-3-010-crop.webp",
         "width": 1125,
         "height": 1125,
         "displayWidth": 1125,
@@ -4701,7 +5229,11 @@
         "label": "橘发少女 · 森林茶会",
         "group": "作品",
         "kind": "image",
-        "caption": "橘发少女 · 森林茶会"
+        "caption": "橘发少女 · 森林茶会",
+        "previewWidth": 720,
+        "previewHeight": 720,
+        "thumbSmall": "optimized/5-3-010-crop-small.webp",
+        "thumbSmallWidth": 400
       },
       {
         "id": "5-3-011",
