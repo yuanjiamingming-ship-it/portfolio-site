@@ -5,7 +5,7 @@ import {animate, motion, motionValue, useReducedMotion, useTransform} from 'moti
 const spring = (stiffness, mass, bounce) => ({type:'spring', stiffness, damping:2*Math.sqrt(stiffness*mass)*(1-bounce), mass});
 const Folder = forwardRef(function Folder({values, children, ...props}, ref) {
   const transform = useTransform(()=>`translateX(${values.x.get()}px) scale(${values.sx.get()}, ${values.sy.get()})`);
-  return <motion.button ref={ref} style={{transform}} {...props}>{children}</motion.button>;
+  return <motion.a ref={ref} style={{transform}} {...props}>{children}</motion.a>;
 });
 
 export default function FolderTabs({items, value, onChange}) {
@@ -77,8 +77,8 @@ export default function FolderTabs({items, value, onChange}) {
     values.current.forEach(mv=>{mv.x.destroy();mv.sx.destroy();mv.sy.destroy();});
   },[]);
   const commit=i=>{
-    if(i===at)return;
-    applied.current=i;apply(i);onChange(items[i].id);
+    if(i!==at){applied.current=i;apply(i);}
+    onChange(items[i].id);
   };
   const keyDown=(event,i)=>{
     let next;
@@ -89,20 +89,20 @@ export default function FolderTabs({items, value, onChange}) {
     else return;
     event.preventDefault();commit(next);buttons.current[next]?.focus({preventScroll:true});
   };
-  return <><div ref={anchor} className="folder-dock-anchor" aria-hidden="true"/><div className="folder-dock"><div ref={group} className="category-tabs folder-tabs" data-compact={compact} role="tablist" aria-label="作品分类">
+  return <><div ref={anchor} className="folder-dock-anchor" aria-hidden="true"/><nav className="folder-dock" aria-label="作品分类"><div ref={group} className="category-tabs folder-tabs" data-compact={compact}>
     {items.map((item,i)=><Folder key={item.id} values={valueFor(i)} ref={el=>buttons.current[i]=el}
-      id={'category-tab-'+item.id} type="button" role="tab" aria-selected={i===at}
-      aria-controls="category-panel" aria-label={`0${item.id} ${item.title} ${item.count} 个系列 ${item.imageCount} 张作品`}
-      tabIndex={i===at?0:-1} className={'folder-tab folder-'+item.id} data-active={i===at}
-      onClick={()=>commit(i)} onKeyDown={event=>keyDown(event,i)}>
+      id={'category-tab-'+item.id} href={'#category-'+item.id} aria-current={i===at?'location':undefined}
+      aria-label={`跳转到${item.title}，${item.count} 个系列，${item.imageCount} 张作品`}
+      className={'folder-tab folder-'+item.id} data-active={i===at}
+      onClick={event=>{if(event.button!==0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey)return;event.preventDefault();commit(i);}} onKeyDown={event=>keyDown(event,i)}>
       <span className="folder-ear" aria-hidden="true">0{item.id}</span>
       <span className="folder-paper" aria-hidden="true"/>
       <span className="folder-surface">
         <span className="folder-title">{item.title}</span>
         <span className="folder-preview">{item.preview}</span>
         <span className="folder-inventory"><strong>{item.count}</strong> 个系列<span> / {item.imageCount} 张作品</span></span>
-        <span className="folder-action">{i===at?'正在浏览':'打开文件夹'}<span aria-hidden="true">{i===at?'↓':'↗'}</span></span>
+        <span className="folder-action">{i===at?'正在浏览':'跳到这里'}<span aria-hidden="true">{i===at?'↓':'↗'}</span></span>
       </span>
     </Folder>)}
-  </div></div></>;
+  </div></nav></>;
 }

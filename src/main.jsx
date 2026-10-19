@@ -126,7 +126,7 @@ function App() {
       </section>
       <div className="ribbon" aria-hidden="true"><div>{[0,1].map(index => <div className="ribbon-content" key={index}><span>COLORFUL IDEAS</span><PixelStar/><span>可爱是认真创造的</span><PixelStar/><span>LITTLE CHARACTERS, BIG DREAMS</span><PixelStar/><span>把灵感画成故事</span><PixelStar/></div>)}</div></div>
       <About/>
-      <section id="work" className="section work" tabIndex={-1}><div className="section-heading"><div><span className="section-index">02 / AN ARCHIVE OF LITTLE WORLDS</span><h2>一些，喜欢的世界<span className="pink-star"><PixelStar/></span></h2></div><p>选择一个文件夹，<br/>看看想象力的不同形状。</p></div><WorkGallery asset={asset}/></section>
+      <section id="work" className="section work" tabIndex={-1}><div className="section-heading"><div><span className="section-index">02 / AN ARCHIVE OF LITTLE WORLDS</span><h2>一些，喜欢的世界<span className="pink-star"><PixelStar/></span></h2></div><p>向下浏览全部作品，<br/>或用文件夹快速抵达喜欢的世界。</p></div><WorkGallery asset={asset}/></section>
       <section id="skills" className="section skills"><div className="section-heading"><div><span className="section-index">03 / HOW I MAKE THINGS HAPPEN</span><h2>可爱的背后，<br/>有认真打磨的能力</h2></div><span className="section-aside">从第一笔灵感，<br/>到最后一处细节。</span></div>
         <div className="skills-grid">{strengths.map(([symbol, number, title, tags, description]) => <article className="skill-card" key={number}><div className="skill-top"><span aria-hidden="true">{symbol}</span><small>{number} / 04</small></div><h3>{title}</h3><span className="skill-tags">{tags}</span><p>{description}</p></article>)}</div>
         <div className="tool-line"><span className="section-index">ON MY DESK</span><div>{['Photoshop', 'Illustrator', 'Procreate', 'SAI', 'ComfyUI'].map(tool => <span key={tool}>{tool}</span>)}</div></div>
@@ -138,4 +138,8 @@ function App() {
   </>;
 }
 
+// Every fresh visit starts at Home; in-page navigation remains available.
+window.history.scrollRestoration = 'manual';
+window.history.replaceState(window.history.state, '', window.location.pathname + window.location.search + '#home');
+window.scrollTo({top:0, left:0, behavior:'instant'});
 createRoot(document.getElementById('root')).render(<App/>);

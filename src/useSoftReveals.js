@@ -5,7 +5,7 @@ export default function useSoftReveals() {
     const root = document.querySelector('main');
     const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
     const seen = new WeakSet();
-    const selectors = '.section-heading,.portrait-card,.bio,.journey-title,.job,.collection-intro,.directory-heading,.next-folder,.series-heading,.artwork-card,.skill-card,.highlight-card,.profile-highlights-heading,.tool-line,.contact-sheet';
+    const selectors = '.section-heading,.portrait-card,.bio,.journey-title,.job,.collection-intro,.directory-heading,.category-overview,.series-heading,.artwork-card,.skill-card,.highlight-card,.profile-highlights-heading,.tool-line,.contact-sheet';
     const observer = new IntersectionObserver(entries => {
       for (const entry of entries) {
         if (!entry.isIntersecting) continue;
